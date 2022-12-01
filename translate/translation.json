@@ -1,0 +1,2615 @@
+{
+  "common": {
+    "ok": ["ตกลง", "OK"],
+    "add_to_cart": ["เพิ่มในตะกร้า", "Added to cart."],
+    "add_to_cart2": ["เรียบร้อยแล้ว", "."],
+    "additional_promotion": [
+      "เงื่อนโปรโมชั่นเพิ่มเติม",
+      "Additional promotion terms and conditions"
+    ],
+    "click": ["คลิกที่นี่", "click"],
+    "data_not_load": ["ไม่สามารถโหลดข้อมูลได้", "Unable to load data."],
+    "try_again": ["ลองอีกครั้ง", "Try again"],
+    "product_not_found": ["ไม่พบข้อมูลสินค้า", "Product not found."],
+    "sorry": ["ขออภัยค่ะ", "Sorry!"],
+    "system_recording": ["ระบบกำลังบันทึกข้อมูล", "The system is recording data"]
+  },
+  "store_changeing": [
+    "ระบบกำลังดำเนินการเปลี่ยนสถานที่จัดส่ง.",
+    "Please wait we are in progress to change your location."
+  ],
+  "view_all": ["ดูทั้งหมด", "View All"],
+  "homepage_link": ["หน้าหลัก TOPS", "Tops Homepage"],
+  "homepage_text": ["หน้าหลัก", "Homepage"],
+  "help_page_text": ["ช่วยเหลือ", "Help"],
+  "contact_us_text": ["ติดต่อเรา", "Contact Us"],
+  "wishlistpage_text": ["ลิสต์ของฉัน", "My List"],
+  "new_year_hamper": ["กระเช้าปีใหม่", "New Year Hamper"],
+  "wishlist": {
+    "buy_button": ["ซื้อสินค้าในลิสต์ทั้งหมด", "Add to cart"],
+    "add_my_list": ["เพิ่มในลิสต์ของฉัน", "Add to My List"]
+  },
+  "nyb": {
+    "breadcrumb_tab1": ["โปรโมชั่นกระเช้าปีใหม่", "Hamper Promotion"],
+    "breadcrumb_tab2": [
+      "โปรโมชั่นบัตรเครดิตกระเช้าปีใหม่",
+      "Hamper Promotion Credit Card"
+    ],
+    "breadcrumb_tab3": [
+      "เงื่อนไขโปรโมชั่นกระเช้าปีใหม่",
+      "Condition Hamper Promotion"
+    ],
+    "tabs": {
+      "tab_1": ["คำนวณโปรโมชั่น", "Calculation"],
+      "tab_2": ["โปรโมชั่น", "Promotion"],
+      "tab_3": ["วิธีสั่งซื้อ", "How to order"]
+    },
+    "header": [
+      "คำนวณส่วนลดเงินสดและบัตรของขวัญ",
+      "Cash Discount and Gift Voucher Calculator"
+    ],
+    "header2": ["มูลค่าที่คุณจะได้รับ", "You will get"],
+    "header_step_2": ["คุณจะได้รับ", "You will get"],
+    "select_credit": ["เลือกบัตรเครดิต", "Select Credit Card"],
+    "form": {
+      "number_1": [
+        "กระเช้าของขวัญที่ร่วมรายการลดสูงสุด 35%",
+        "Participating New Year Hamper(s) with up to 35% off"
+      ],
+      "number_2": [
+        "กระเช้าดอยตุง/M&S ลดสูงสุด 13%",
+        "Doi Tung / M&S New year Hamper(s) with up to 13% off"
+      ],
+      "placeholder_num_1": ["กรอกมูลค่ารวมกระเช้า", "Fill in a total amount"],
+      "placeholder_num_2": ["กรอกมูลค่ารวมกระเช้า", "Fill in a total amount"],
+      "typeof_payment": ["เลือกประเภทการชำระเงิน", "Select payment method"],
+      "payment_money": ["ชำระด้วยเงินสด", "Cash"],
+      "payment_credit": ["ชำระด้วยบัตรเครดิต", "Credit Card"],
+      "placeholder_dropdown_credit": [
+        "กรุณาเลือกบัตรเครดิต",
+        "Select credit card"
+      ],
+      "typeof_discount": ["เลือกรับอย่างใดอย่างหนึ่ง", "Select either"],
+      "gift_voucher": ["รับบัตรของขวัญ", "Gift Voucher"],
+      "gift_coupon": ["รับส่วนลดเงินสด", "Cash Discount"],
+      "gift_voucher_hint": ["(บัตรกำนัลไว้ใช้ครั้งถัดไป)", "."],
+      "gift_coupon_hint": ["(ใช้ส่วนลดในการซื้อครั้งนี้)", "."],
+      "t1_card_desc": [
+        "รับบัตรของขวัญเพิ่มสูงสุด 12% สำหรับกระเช้าที่ร่วมรายการ",
+        "Get additional Gift Voucher(s) worth up to 12% for participating New Year Hampers"
+      ],
+      "credit_etc": ["บัตรเครดิตอื่นๆ", "Other credit card"],
+      "error_btn": [
+        "เลือกส่วนลดเงินสดหรือบัตรของขวัญ",
+        "Select Cash Discount or Gift Voucher"
+      ]
+    },
+    "result": {
+      "label_1": ["มูลค่าบัตรของขวัญ (บาท) :", "Gift Voucher value (Baht) :"],
+      "label_2": ["มูลค่าส่วนลดเงินสด (บาท) :", "Discount value (Baht) :"],
+      "label_3": ["ยอดสุทธิที่ต้องชำระ (บาท) :", "Net payment amount (Baht) :"]
+    },
+    "helper_1": [
+      "* มูลค่าส่วนลดหรือบัตรของขวัญ คำนวณจากยอดรวมของกระเช้าที่มีมูลค่า 5,000 บาทขึ้นไป และอาจมีการเปลี่ยนแปลงตามรายการสั่งซื้อ",
+      "* Discount or Gift Voucher value is calculated based on the total payment amount 5,000 Baht or more. Changes may occur due to your order."
+    ],
+    "helper_2": [
+      "* ส่วนลดที่ได้รับจะแสดงในหน้าชำระเงิน",
+      "* Discount for New Year Hamper will be applied at payment."
+    ],
+    "submit": ["คำนวณ", "Calculate"],
+    "error": [
+      "ไม่สามารถคำนวณได้กรุณาลองใหม่อีกครั้ง",
+      "Can not calculate, please try again."
+    ],
+    "error_validation": [
+      "กรุณากรอกมูลค่ากระเช้า",
+      "Please fill in the values of New Year Hamper"
+    ],
+    "modal": {
+      "normal": {
+        "header_1": [".", "Sorry, this item can't be added to your cart."],
+        "header_2": [
+          "กรุณาชำระเงินก่อนเลือกซื้อสินค้านี้",
+          "Please check out your current cart first!"
+        ],
+        "description": [
+          "สินค้าปกติไม่สามารถจัดส่งพร้อมกระเช้าปีใหม่ที่คุณเลือกไว้ก่อนหน้านี้ได้ เนื่องด้วยกระเช้าปีใหม่ต้องใช้เวลาอย่างน้อย 4 วันในการจัดส่ง",
+          "Normal items can't be delivered together with New Year Hamper(s) previously added to your cart as New Year Hamper needs minimum 4 days of delivery lead time."
+        ]
+      },
+      "nyb": {
+        "header_1": [".", "Sorry, this item can't be added to your cart."],
+        "header_2": [
+          "กรุณาชำระเงิน ก่อนเลือกซื้อกระเช้าปีใหม่",
+          "Please check out this current cart first!"
+        ],
+        "description": [
+          "กระเช้าปีใหม่ไม่สามารถจัดส่งพร้อมสินค้าปกติที่คุณเลือกไว้ก่อนหน้านี้ได้ เนื่องด้วยต้องใช้เวลาอย่างน้อย 4 วันในการจัดส่ง",
+          "New Year Hamper can't be delivered together with the normal item(s) previously added to your cart as it needs minimum 4 days of delivery lead time."
+        ]
+      }
+    },
+    "notification": {
+      "title": ["เพิ่มกระเช้าปีใหม่\nเรียบร้อยแล้ว!", "New Year hamper added!"]
+    }
+  },
+  "notification": {
+    "cart": {
+      "normal": ["เพิ่มสินค้า\nเรียบร้อยแล้ว", "Added to Basket"],
+      "nyb": ["เพิ่มกระเช้าปีใหม่\nเรียบร้อยแล้ว!", "New Year hamper added!"],
+      "cny": [
+        "เพิ่มสินค้าจำกัด\nวันส่งเรียบร้อยแล้ว",
+        "Limited delivery date item added"
+      ]
+    },
+    "only": ["เท่านั้น", "Only"],
+    "button": {
+      "cancel": ["ยกเลิก", "Cancel"],
+      "confirm": ["ใส่่รถเข็น", "Add to cart"]
+    }
+
+  },
+  "tabbar": {
+    "all_product": ["สินค้าทั้งหมด", "Groceries"],
+    "my_list": ["ลิสต์ของฉัน", "My List"],
+    "deal": ["ดีลพิเศษ", "Offers"],
+    "special_offer": ["สิทธิพิเศษอื่นๆ", "Privileges"],
+    "offer": ["บริจาคสิ่งของ", "Offer"],
+    "top_pick": ["Topspicks", "Topspicks"],
+    "shipping_method": ["เลือกวิธีและเวลาจัดส่ง", "Select Shipping Methods"],
+    "shipping_status": ["การตรวจสอบสถานะการจัดส่ง", "Shipping Status Checking"],
+    "livechat_online": ["แชทกับทีมงาน", "Chat with our staff"],
+    "livechat_offline": ["ให้ทีมงานติดต่อกลับ", "Leave a message"],
+    "helps": ["การช่วยเหลือ", "Help"],
+    "seasonal_cny": ["สินค้าเทศกาลตรุษจีน", "Chinese New Year"]
+  },
+  "search": {
+    "placeholder": [
+      "ค้นหาจากชื่อสินค้าหรือแบรนด์",
+      "Search product name or brand"
+    ],
+    "placeholder_by": ["ค้นหาโดย", "By"],
+    "category": ["หมวดหมู่", "Category"],
+    "search_results_for": ["ผลลัพธ์การค้นหา", "Search results for"],
+    "count_search_results_for": ["ผลลัพธ์สำหรับ", "results for"],
+    "multiple_search_results": [
+      "ผลลัพธ์การค้นหาหลายรายการ",
+      "Multiple search results"
+    ],
+    "sorry_no_results_matched": [
+      "ขออภัย ไม่พบสินค้าที่ตรงกับ",
+      "Oops! No products were found matching"
+    ],
+    "please_check_is_correct": [
+      "<span>โปรดตรวจสอบตัวสะกดว่าถูกต้องหรือไม่ หรือค้นหาโดยใช้คำที่ใกล้เคียง <br /> กรุณาลองค้นหาใหม่อีกครั้ง</span>",
+      "Please check your spelling or search again with similar key words."
+    ],
+    "all": ["ทั้งหมด", "All"],
+    "filters": ["ฟิลเตอร์", "Filters"],
+    "sorting": ["การเรียงลำดับ", "Sorting"],
+    "categories": ["หมวดหมู่", "Categories"]
+  },
+  "location_selector": {
+    "province": ["จังหวัด", "Province"],
+    "district": ["เขต / อำเภอ", "District"],
+    "sub_district": ["แขวง / ตำบล", "Subdistrict"],
+    "err_msg": [
+      "ขออภัยค่ะ พื้นที่นี้ไม่อยู่ในเขตที่ให้บริการ",
+      "Sorry, Your location is not support."
+    ],
+    "confirm_button": ["ยืนยันพื้นที่จัดส่ง", "Confirm"],
+    "select_location_msg": [
+      "เลือกพื้นที่จัดส่งด้วยตัวเอง",
+      "Customise your delivery area"
+    ]
+  },
+  "location_finder": {
+    "finder_title": ["กรุณาเลือกพื้นที่จัดส่ง", "Select your delivery area."],
+    "finder_sub_title": [
+      "เลือกพื้นที่จัดส่งอัตโนมัติ",
+      "Select your delivery area automatically."
+    ],
+    "finder_desc": [
+      "ระบบจะค้นหาพื้นที่ของคุณเพื่อให้ การ shopping รวดเร็วและสะดวกสบาย",
+      "The system will detect your location to make your online shopping fast and convenient."
+    ],
+    "finder_button": ["ค้นหาที่อยู่จากโลเคชั่น", "Find my location"],
+    "finder_mobile_title": ["พื้นที่จัดส่งของคุณ", "Your address"],
+    "location_not_support": [
+      "บราวเซอร์ของคุณไม่สามารถหาพื้นที่ปัจจุบันได้",
+      "Your browser not support location finder."
+    ],
+    "location_message_err": [
+      "ระบบไม่พบที่อยู่คุณ โปรดเลือกที่อยู่ด้วยตัวเอง.",
+      "Location not found. Please select your location manually."
+    ],
+    "location_message_success": [
+      "พบที่อยู่คุณแล้ว โปรดกดยืนยันเพื่อไปหน้าเลือกสินค้า",
+      "We found your location. Please click location confirm."
+    ],
+    "error_find_not_store": {
+      "title": ["ขออภัยค่ะ...", "Sorry…"],
+      "message": [
+        "พื้นที่จัดส่งที่คุณเลือกอยู่นอกพื้นที่ให้บริการการจัดส่งสินค้าของ Tops Online",
+        "Our delivery service is currently not available in your area."
+      ],
+      "find_tops_market": [
+        "ค้นหา Tops market ใกล้บ้านคุณ",
+        "Find Tops market near me"
+      ],
+      "change_area": ["เปลี่ยนพื้นที่จัดส่ง", "Change delivery area"]
+    }
+  },
+  "homepage": {
+    "flash_sale": ["Flash Sale", "Flash Sale"],
+    "recommended": ["สินค้าแนะนำสำหรับคุณ", "Recommended for you"],
+    "promotion": ["สินค้าโปรโมชั่นประจำสัปดาห์", "Promotion this week"],
+    "show_all": ["ดูทั้งหมด", "Show All"],
+    "about_banner": {
+      "title": {
+        "send_same_day": ["ส่งวันเดียวกัน", "Same day delivery"],
+        "get_1st_member_card_points": ["รับคะแนน The 1", "Earn The 1 points"],
+        "freshness_guarantee": ["รับประกันความสด", "Freshness guarantee"]
+      },
+      "description": {
+        "send_same_day": ["เมื่อสั่งก่อน 13:00", "When order before 13:00"],
+        "get_1st_member_card_points": ["ทุกครั้งที่ซื้อ", "On every purchase"],
+        "freshness_guarantee": ["ไม่พอใจยินดีคืนเงิน", "Or full refund"]
+      }
+    }
+  },
+  "footer": {
+    "need_help": ["ต้องการความช่วยเหลือ?", "Need help?"],
+    "leave_message": ["ฝากข้อความ", "Leave a message"],
+    "or_email": ["หรือ อีเมล", "or email - "],
+    "leave_email": ["Topsonlinecs@tops.co.th", "Topsonlinecs@tops.co.th"],
+    "follow_us": ["ติดตามเราได้ที่", "Follow us"],
+    "subscribe": {
+      "header": ["รับข่าวสารจากท็อปส์ออนไลน์", "Subscription"],
+      "placeholder": ["กรอกอีเมลของคุณ", "Enter your email"],
+      "button": ["รับข่าวสารจากท็อปส์", "Submit"],
+      "successfully_subscribed": [
+        "สมัครรับข่าวสารสำเร็จ",
+        "Successfully subscribed"
+      ]
+    },
+    "copyright": [
+      "© สงวนลิขสิทธิ์ โดย บริษัท เซ็นทรัล ฟู้ด รีเทล จำกัด 2017",
+      "© Copyright. All right reserved by Central Food Retail Co Ltd. 2017"
+    ]
+  },
+  "right_menu": {
+    "cart": {
+      "name": ["ตะกร้าสินค้า", "My cart"],
+      "short_name": ["ตะกร้า", "Cart"],
+      "quantity_in_cart": ["จำนวนสินค้าในตะกร้า", "Items in cart"],
+      "baht_symbol": ["บ.", "฿"],
+      "limited_day_shipping_item": [
+        "สินค้าจำกัดวันส่ง/รับสินค้า: ${date}",
+        "Delivery/pick up durring: ${date} only."
+      ],
+      "normal_shipping_item": ["สินค้าปกติ", "Normal items"],
+      "delivery_date": ["จัดส่งวันที่", "Deliver during"],
+      "only": ["เท่านั้น", "Only"]
+    },
+    "shipping_options": {
+      "name": ["รายละเอียดการรับสินค้า", "Delivery Details"],
+      "select_address": ["เลือกที่อยู่จัดส่ง", "Delivery Details"],
+      "edit": ["โปรดแก้ไขที่อยู่", "Add a new address"],
+      "back": ["ย้อนกลับ", "Back"],
+      "verify_address": ["ยืนยันที่อยู่", "Confirm"],
+      "delivery": [
+        "คุณต้องการรับสินค้าด้วยวิธีใด?",
+        "How would you like to receive your order?"
+      ],
+      "select": ["เลือกที่อยู่", "Select address"],
+      "method": ["วิธีจัดส่ง", "Delivery method"],
+      "select_methods": ["บริการจัดส่ง", "Delivery services:​"],
+      "choose_delivery_method": ["เลือกวิธีจัดส่ง", "Choose delivery method"],
+      "please_select_delivery_method": [
+        "กรุณาเลือกวิธีจัดส่งค่ะ",
+        "Please select delivery method"
+      ],
+      "add_shipping_address": ["เพิ่มที่อยู่ใหม่", "Add new delivery address"],
+      "add_shipping_address_note1": [
+        "รับสินค้าเร็วขึ้นด้วยบริการจัดส่งแบบด่วน​ ",
+        "Receive faster with Express delivery ​or"
+      ],
+      "add_shipping_address_note2": [
+        "หรือจัดส่งวันเดียวกันเมื่อสั่งก่อนบ่ายโมง​",
+        "Same day delivery (order before 13:00)​"
+      ],
+      "confirm_shipping": ["ยืนยันวิธีการรับสินค้า", "Confirm shipping"],
+      "confirm_shipping_pickup": [
+        "ยืนยันวิธีการรับสินค้า",
+        "Confirm pick up method"
+      ],
+      "confirm_address_deletion": [
+        "แน่ใจหรือว่าต้องการลบที่อยู่นี้",
+        "Are you sure you want to delete this address"
+      ],
+      "change_address": ["เปลี่ยนที่อยู่ในการจัดส่ง​", "Change address"],
+      "change_method": ["เปลี่ยนวิธีและเวลาจัดส่ง", "Change method"],
+      "standard_delivery": ["ที่อยู่/ วิธีจัดส่ง", "Address/ Delivery Method"],
+      "standard_mds": ["จัดส่งแบบปกติ", "Standard delivery"],
+      "standard_local": ["จัดส่งแบบปกติ", "Standard delivery"],
+      "tops_express": ["จัดส่งด่วน", "Express delivery"],
+      "undefined": ["จัดส่งแบบปกติ", "Standard Delivery"],
+      "null": ["จัดส่งแบบปกติ", "Standard Delivery"],
+      "delivered_to_home": ["จัดส่งถึงบ้าน", "Delivered to home"],
+      "next_round": ["เร็วที่สุดที่สามารถเลือกได้", "Best available "],
+      "next_round_datetime": ["${date}, ${time} ", "${date}, ${time}"],
+      "round_cost": [
+        "ค่าจัดส่ง ${deliveryFee} บาท",
+        "Delivery fee ${deliveryFee} Baht"
+      ],
+      "method_triangle_new": ["ใหม่", "NEW"],
+      "time_info": [
+        "เพื่อให้เราสามารถจัดส่งได้ในเวลาที่คุณเลือก กรุณาชำระเงินให้เสร็จสิ้นก่อนเวลา 06:00am",
+        "So we can ship at the time you choose. Please make payment before 06:00 am."
+      ],
+      "home_delivery": ["จัดส่งถึงบ้าน", "HOME DELIVERY​"],
+      "delivered_to": ["สถานที่จัดส่ง:", "Deliver to:"],
+      "pickup_at_store": ["รับสินค้าที่สาขา​", "Pick up at store​"],
+      "pickup_at": ["รับสินค้าที่", "Pick up at"],
+      "collector": ["ผู้มารับสินค้า", "Collector"],
+      "free_delivery": ["ไม่มีค่าบริการ", "Free Delivery"],
+      "free_service": ["ไม่มีค่าบริการ​", "Free service​"],
+      "fast_round": ["จัดส่งเร็วที่สุด", "Best available"],
+      "today": ["วันนี้", "Today"],
+      "select_method": ["วิธีจัดส่ง", "Method"],
+      "sent_at": ["จัดส่งที่", "Deliver to"],
+      "delivery_address": ["เลือกที่อยู่จัดส่ง", "Delivery address"],
+      "select_slot_next_step": [
+        "เลือกเวลาจัดส่งในหน้าถัดไป",
+        "Select delivery time/slot on the next page​"
+      ],
+      "header": {
+        "warning": [
+          "หากเปลี่ยนแปลงอาจมีผลต่อสินค้าบางรายการ",
+          "Any changes may affect your order.​"
+        ],
+        "choose_address": [
+          "ราคา และสินค้าอาจเปลี่ยนแปลงตามที่อยู่จัดส่งของคุณ",
+          "Prices and products might change according to your delivery address."
+        ],
+        "enter_new": [
+          "กรุณาแก้ไขรายละเอียดที่อยู่จัดส่งใหม่ค่ะ",
+          "Please enter details of a new address"
+        ]
+      },
+      "form": {
+        "first_name": ["ชื่อจริง", "First name"],
+        "last_name": ["นามสกุล", "Last name"],
+        "contact_number": ["เบอร์ติดต่อ", "Contact number"],
+        "search_by_location": ["ค้นหาจากโลเคชั่น", "Search by location"],
+        "address_name": ["ตั้งชื่อที่อยู่", "Name your address"],
+        "house_no": ["บ้านเลขที่", "Number"],
+        "building_type": ["ลักษณะอาคาร", "Building type"],
+        "soi": ["ซอย", "Soi"],
+        "moo": ["หมู่", "Moo"],
+        "village": ["หมู่บ้าน", "Village"],
+        "road": ["ถนน", "Road"],
+        "province": ["จังหวัด", "Province"],
+        "area_district": ["เขต/อำเภอ", "District"],
+        "district_subdivision": ["แขวง/ตำบล", "Subdistrict"],
+        "zip_code": ["รหัสไปรษณีย์", "Postcode"],
+        "notice_point": ["จุดสังเกต", "Landmark"],
+        "recipient_first_name": ["ชื่อผู้รับ", "Recipient first name"],
+        "recipient_last_name": ["ผู้รับนามสกุล", "Recipient last name"],
+        "default_shipping": [
+          "ตั้งเป็นที่อยู่เริ่มต้น",
+          "Set as default shipping address"
+        ],
+        "building_types": {
+          "detached_house": ["บ้านเดี่ยว", "Detached house"],
+          "townhouse": ["ทาวน์เฮาส์", "Townhouse"],
+          "condominium": ["คอนโดมิเนียม", "Condominium"],
+          "office_builing": ["อาคารสำนักงาน", "Office building"]
+        }
+      },
+      "change_address_modal": {
+        "note": ["หมายเหตุ : ", "Kindly note:"],
+        "cancel": ["ไม่เปลี่ยนที่อยู่", "Don't change"],
+        "confirm": ["ยืนยันการใช้ที่อยู่นี้", "Confirm change"]
+      },
+      "error_method": {
+        "label": [
+          "*โปรดเลือกวิธีการรับสินค้า",
+          "*Please select your pick up method"
+        ]
+      },
+      "powered_by": ["ร่วมกับ", "Powered by"],
+      "pickup_free_service": ["ฟรีค่าบริการ!", "Free service!"]
+    },
+    "profile": {
+      "profile": ["โปรไฟล์", "Profile"],
+      "name": ["เข้าสู่ระบบ/สมัครสมาชิก", "Log in / Register"],
+      "billing": {
+        "billing_address": ["ข้อมูลใบกำกับภาษี", "Invoice information"],
+        "header_add_new": [
+          "เพิ่มข้อมูลใบกำกับภาษี",
+          "New Tax invoice information"
+        ],
+        "header_edit": [
+          "แก้ไขที่อยู่สำหรับเรียกเก็บเงิน",
+          "Edit Tax invoice information"
+        ],
+        "fill_new": [
+          "กรุณากรอกข้อมูลใบกำกับภาษีที่ท่านต้องการค่ะ",
+          "Please enter your details"
+        ],
+        "invoice_information": ["ข้อมูลใบกำกับภาษี", "Tax invoice information"],
+        "select_billing": [
+          "เลือกข้อมูลใบกำกับภาษีที่ท่านต้องการค่ะ",
+          "Please select your information"
+        ],
+        "tax_information": ["ข้อมูลใบ", "Tax information"],
+        "tax_invoice": ["ใบกำกับภาษี", "Tax invoice"],
+        "edit": ["แก้ไข", "Edit"],
+        "delete": ["ลบ", "Delete"],
+        "back": ["ย้อนกลับ", "Back"],
+        "confirm_tax_invoice": ["ยืนยันใบกำกับภาษี", "Confirm"],
+        "add_new": ["เพิ่มข้อมูล", "Add tax invoice information"],
+        "confirm_address_deletion": [
+          "แน่ใจหริอว่าต้องการลบทิอยู่นิ",
+          "Are you sure you want to delete this billing information"
+        ],
+        "verify_invoice": ["ยืนยันข้อมูลใบกำกับ", "Confirm"],
+        "form": {
+          "personal": ["ส่วนบุคคล", "Personal"],
+          "company": ["บริษัท", "Company"],
+          "company_name": ["ชื่อ บริษัท", "Company name"],
+          "id_card": ["หมายเลขบัตรประจำตัวประชาชน", "Tax ID / ID no."],
+          "tax_id": ["หมายเลขประจำตัวผู้เสียภาษี", "Tax ID"],
+          "address_no": ["เลขที่", "Number"],
+          "default_billing": [
+            "ใช้ข้อมูลใบกำกับนี้้ในครั้งต่อไป",
+            "Save this information for next purchase"
+          ],
+          "building_name_village": [
+            "ชื่ออาคาร / หมู่บ้าน",
+            "Building / Village"
+          ],
+          "first_name": ["ชื่อจริง", "First Name"],
+          "last_name": ["นามสกุล", "Last Name"],
+          "soi": ["ซอย", "Soi"],
+          "moo": ["หมู่", "Moo"],
+          "road": ["ถนน", "Road"],
+          "province": ["จังหวัด", "Province"],
+          "area_district": ["เขต/อำเภอ", "District"],
+          "district_subdivision": ["แขวง/ตำบล", "Subdistrict"],
+          "zip_code": ["รหัสไปรษณีย์", "Postcode"],
+          "moi_soi_road": "Moo / Soi / Road"
+        }
+      },
+      "personal": {
+        "title": ["Personal Information", "Profile"],
+        "name": ["ชื่อ-นามสกุล", "Full name"],
+        "t1c_no": ["หมายเลข The1 ", "The1 member"],
+        "phone": ["เบอร์ติดต่อ", "Phone no."],
+        "email": ["อีเมล", "Email"],
+        "edit": ["แก้ไข", "Edit"]
+      }
+    },
+    "notification": ["การแจ้งเตือน", "Notification"],
+    "shipping": ["จัดส่งแบบปกติ", "Shipping Options"],
+    "order_tracking": ["ตรวจสอบสถานะการจัดส่ง", "Order Tracking"],
+    "help": ["ช่วยเหลือ", "Help"]
+  },
+  "filter": {
+    "label": ["ตัวกรอง", "Filters"],
+    "category": ["หมวดหมู่", "Categories"],
+    "reset": ["ล้างข้อมูล", "Reset All"],
+    "done": ["ยืนยัน", "Done"],
+    "empty": ["ไม่มีข้อมูล", "Done"]
+  },
+  "sp_sidebar": {
+    "login": ["เข้าสู่ระบบ", "Login"],
+    "register": ["สมัครสมาชิก", "Register"]
+  },
+  "sorting": {
+    "label": ["เรียงลำดับจาก", "Sort by"],
+    "position.desc": ["ความนิยม", "Popularity"],
+    "position.asc": ["ความนิยม", "Popularity"],
+    "price.desc": ["ราคา สูง-ต่ำ", "Price high to low"],
+    "price.asc": ["ราคา ต่ำ-สูง", "Price low to high"],
+    "name.desc": ["ชื่อสินค้า ฮ-ก", "Name Z to A"],
+    "name.asc": ["ชื่อสินค้า ก-ฮ", "Name A to Z"],
+    "relevance.desc": ["ความนิยม สูง-ต่ำ", "Popularity high to low"],
+    "relevance.asc": ["ความนิยม ต่ำ-สูง", "Popularity low to high"]
+  },
+  "product_list": {
+    "add_to_cart": ["ใส่รถเข็น", "Add to cart"],
+    "out_of_stock": ["ขออภัยสินค้าหมด", "Out of Stock"],
+    "price_label": ["ชิ้น", "/ item"]
+  },
+  "product": {
+    "sku": ["รหัสสินค้า", "SKU"],
+    "add_to_cart": ["ใส่รถเข็น", "Add to cart"],
+    "out_of_stock": ["ขออภัยสินค้าหมด", "Out of Stock"],
+    "price_label": ["/ ชิ้น", "/ item"],
+    "recommended": ["สินค้าที่คุณอาจจะสนใจ", "You may also like"],
+    "related": ["สินค้าใกล้เคียง", "Similar products"],
+    "description": ["รายละเอียดเพิ่มเติม", "Description"],
+    "specification": ["รายละเอียดสินค้า", "Product details"],
+    "product_property": ["คุณสมบัติ", "Properties"],
+    "product_ingredient": ["ส่วนประกอบ", "Ingredients"],
+    "product_usage": ["วิธีใช้", "Direction"],
+    "promotion_end_start": ["วันนี้ - ", "Today - "],
+    "save": ["ลด", "save"],
+    "mix_and_match": ["Mix & Match", "Mix & Match"],
+    "default_consumer_unit": ["ชิ้น", "pcs."],
+    "meta": {
+      "tops_online": ["Tops online", "Tops online"],
+      "shop_online": ["ช็อป ออนไลน์", "shop online"],
+      "from": ["จาก", "from"]
+    },
+    "notification": {
+      "out_of_stock": ["จำนวนสินค้าไม่เพียงพอ", "Not enough stock"],
+      "max_qty": [
+        "ลิมิต ${ qty } ชิ้น/ใบเสร็จ",
+        "Limit ${ qty } units/receipt."
+      ],
+      "limit_qty": ["ไม่สามารถเพิ่มสินค้าได้", "Can't add product"],
+      "limit_qty_200": ["ไม่สามารถเพิ่มสินค้าได้ เนื่องจากสินค้าถึงจำนวนที่จำกัดต่อคำสั่งซื้อ", "Cart item limit exceeded"],
+      "reorder_limit_qty_200": ["ไม่สามารถเพิ่มสินค้าได้ เนื่องจากสินค้าถึงจำนวนที่จำกัดต่อคำสั่งซื้อ กรุณาเลือกสินค้าบางรายการ", "Can't reorder due to cart item limit exceeded. Please select some item(s) and try again."]
+    },
+    "share": ["แชร์:", "Share on:"]
+  },
+  "payment": {
+    "methods": {
+      "title": ["วิธีการชำระเงิน", "Payment Method"],
+      "fullpayment": ["บัตรเครดิตออนไลน์", "Credit / Debit Card Online"],
+      "cashondelivery": ["บริการเก็บเงินปลายทาง", "Cash On Delivery"],
+      "creditcardondelivery": [
+        "บริการเก็บเงินปลายทางด้วยบัตรเครดิต",
+        "Credit Card On Delivery"
+      ],
+      "credit_card_type": [
+        "เลือกบัตรที่จะใช้ชำระเงิน",
+        "เลือกบัตรที่จะใช้ชำระเงิน"
+      ]
+    },
+    "credit_card": {
+      "card_title": ["เพิ่มบัตรเครดิต", "Add Credit Cards"],
+      "accepted_card": ["รองรับบัตร", "Accepted Card"],
+      "tooltip": {
+        "cvv": {
+          "title": ["นี่คืออะไร?", "What is this?"],
+          "detail": ["หมายเลข CVV คือ รหัส 3 หลัก ที่อยู่ด้านหลังบัตรเครดิต  สำหรับบัตรอเมริกันเอ็กซ์เพรส CVV จะเป็นรหัส 4 หลักพิมพ์อยู่บนด้านหน้าของบัตรของคุณ", "CVV number is the 3-digital number at the back of the card. With American Express the CVV appears as a separate 4-digit code printed on the front of your card."]
+        }
+      },
+      "card_list_default": ["[ค่าเริ่มต้น]", "[Default]"],
+      "other_card": ["ธนาคารอื่นๆ", "Other Bank"],
+      "add-new-card": ["เพิ่มบัตรเครดิต", "Add New Credit Card"],
+      "form": {
+        "card_name": ["ชื่อที่ปรากฏบนบัตร", "Card Holder Name"],
+        "card_name_placeholder": ["กรอกชื่อตามที่ปรากฏบนบัตรเครดิต/เดบิต", "Enter name as it appear on your card"],
+        "card_number": ["หมายเลขบัตร", "Card Number"],
+        "card_number_placeholder": ["กรอกหมายเลขบัตร", "Debit/Credit card number"],
+        "card_expired_date": ["วันหมดอายุ", "Expiry Date"],
+        "card_expired_date_placeholder": ["ดด/ปป", "MM/YY"],
+        "card_CVV": ["CVV", "CVV"],
+        "card_cvv_placeholder": ["CVV / CVV2", "CVV / CVV2"],
+        "installment_plan_id": ["Select payment period", "Select payment period"],
+        "installment_plan_id_placeholder": ["Select payment period", "Select payment period"],
+        "default_card": ["บันทึกบัตร", "Save this card"],
+        "cancel_button": ["ยกเลิก","Cancel"],
+        "errors": {
+          "card_name_required": ["กรุณากรอกชื่อผู้ถือบัตร", "Cardholder name is required."],
+          "card_number_required": ["กรุณากรอกหมายเลขบัตรที่ถูกต้อง", "Please enter valid card number."],
+          "card_number_invalid": ["กรุณากรอกหมายเลขบัตรเครดิตของคุณที่ถูกต้อง", "Please enter your credit card no. correctly."],
+          "card_number_invalid_bank": ["หมายเลขบัตรไม่ตรงกับธนาคารทีคุณเลือก", "Card Number don't match with this bank"],
+          "card_expired_date_required": ["กรุณาระบุวันหมดอายุ", "Expiry date is required."],
+          "card_expired_date_invalid": ["กรุณากรอกวันหมดอายุของบัตรที่ถูกต้อง", "Please enter correct card expiration date."],
+          "card_CVV_required": ["กรุณาระบุรหัส CVV", "Card CVV is required."],
+          "card_CVV_invalid": ["กรุณากรอก CVV ของคุณที่ถูกต้อง", "Please enter your CVV correctly."],
+          "installment_plan_id_required": ["โปรดระบุ", "Payment period is required"]
+        }
+      },
+      "confirmed_modal": {
+        "btn_cancel": ["ยกเลิก", "Cancel"],
+        "btn_ok": ["ตกลง", "Ok"],
+        "title": ["ต้องการออกจากหน้านี้โดยไม่บันทึกข้อมูลใช่หรือไม่", "Discard information in this page?"]
+
+      },
+      "select_card_modal": {
+        "btn_ok": ["ตกลง", "Ok"],
+        "title": ["กรุณาเลือกบัตรที่ท่านต้องการชำระเงิน", "Please select your card."]
+
+      }
+    },
+    "form": {
+      "howtopay": ["วิธีการชำระเงิน", "How to Pay"],
+      "creditCard": {
+        "title": ["ข้อมูลบัตรเครดิต", "Credit / Debit Card"],
+        "cardNo": ["หมายเลขบัตรเครดิต", "Card NO."],
+        "cardName": ["ชื่อผู้ถือบัตร", "Card Holder Name"],
+        "expiryDate": ["ดด / ปป", "MM / YY"],
+        "cvv": ["CVV/CVC", "CVV/CVC"],
+        "remember": [
+          "บันทึกบัตรเครดิตไว้ใช้ในครั้งต่อไป",
+          "Remember Credit Card"
+        ],
+        "addNew": ["เพิ่มบัตรเครดิต", "Add New Credit Card"],
+        "card_cvv_help": [
+          "รหัส CVV/CVC ของคุณคือรหัส 3 หลักบนหลังบัตรเครดิต/เดบิตของคุณ",
+          "Your CVV/CVC number is a 3 digit verification number located on the back of your card."
+        ],
+        "delete": ["ลบ", "Delete"]
+      }
+    }
+  },
+  "shipping_address": {
+    "title": ["สรุปรายการจัดส่ง", "Delivery Summary"],
+    "title_pickup": ["สรุปรายการรับสินค้า", "Pickup Summary"],
+    "address": ["ส่งที่", "Delivery to"],
+    "recipient_address": ["รับสินค้าที่", "Pick up at"],
+    "landmark": ["จุดสังเกต", "Landmark"],
+    "delivery_date": ["วันที่จัดส่ง", "Date"],
+    "delivery_time": ["เวลาจัดส่ง", "Time"],
+    "recipient_name": ["ชื่อผู้รับ", "Name"],
+    "recipient_tel": ["เบอร์ผู้รับ", "Tel."],
+    "prefix_moo": ["หมู่", "Moo"],
+    "prefix_soi": ["ซอย", "Soi"],
+    "delivery_date_time": ["วันที่จัดส่ง", "Delivery Date"],
+    "delivery_method": ["วิธีการจัดส่ง", "Delivery method"],
+    "recipient_date": ["วันรับสินค้า", "Date"],
+    "recipient_time": ["เวลารับสินค้า", "Time"],
+    "method": { "express": ["จัดส่งด่วน", "Express delivery"] }
+  },
+  "billing_address": {
+    "title": ["ข้อมูลใบกำกับภาษี", "Tax Invoice Information"],
+    "add_fulltax": ["เพิ่มข้อมูลผู้เสียภาษี", "Create full tax invoice"],
+    "need_fulltax": ["ต้องการใบกำกับภาษีเต็มรูปแบบ", "Need a full tax invoice"],
+    "customer": ["ส่วนบุคคล", "Customer"],
+    "company": ["บริษัท", "Company"],
+    "fullname": ["ชื่อผู้เสียภาษี", "Full Name"],
+    "id_card": ["เลขประจำตัวผู้เสียภาษี", "ID Card"],
+    "same_shipping": ["ใช้ที่อยู่จัดส่ง", "Same Address"],
+    "address": ["เลขที่", "Address"],
+    "street": ["ถนน", "Street"],
+    "sub_district": ["ตำบล/แขวง", "Sub District"],
+    "district": ["อำเภอ/เขต", "District"],
+    "province": ["จังหวัด", "Province"],
+    "postcode": ["รหัสไปรษณีย์", "Postcode"],
+    "first_name": ["ชื่อผู้เสียภาษี", "First name"],
+    "last_name": ["นามสกุลผู้เสียภาษี", "Last name"],
+    "moo": ["หมู่", "Moo"],
+    "village_name": ["ชื่ออาคาร / หมู่บ้าน", "Building name / Village"],
+    "soi": ["ซอย", "Soi"],
+    "remember": [
+      "บันทึกที่อยู่ใบกำกับภาษีไว้ใช้ในครั้งต่อไป",
+      "Save billing address"
+    ]
+  },
+  "summary": {
+    "title": ["สรุปรายการ", "Summary"],
+    "subtotal": ["ค่าสินค้าหลังหักส่วนลด", "Price after discount"],
+    "cash_discount": ["ส่วนลดเงินสด", "Cash discount"],
+    "discount": ["ส่วนลดคูปอง", "Coupon Discount"],
+    "discount_staff": ["ส่วนลดพนักงาน", "Staff Discount"],
+    "delivery_fee": ["ค่าจัดส่ง", "Delivery Fee"],
+    "grand_total": ["จำนวนเงินทั้งหมด", "Total"],
+    "button": ["ยืนยันรายการสินค้า", "Proceed to Checkout"],
+    "t1c_earn": ["คะแนนที่คาดว่าจะได้รับ", "Estimated points earned"],
+    "confirm_coupon_deletion": [
+      "คุณแน่ใจหรือว่าต้องการลบคูปอง",
+      "Are you sure you want to remove the coupon"
+    ]
+  },
+  "timeslot": {
+    "noslot": [
+      "ไม่สามารถจัดส่งในพื้นที่ของคุณได้",
+      "No slot available in your location."
+    ],
+    "check_collecter": ["กรุณาระบุชื่อ และเบอร์โทรศัพท์ผู้รับสินค้า", "Please enter collector information"],
+    "mobile": {
+      "back_to_delivery": ["การจัดส่ง", "Delivery"],
+      "head_text": ["วันและเวลาจัดส่ง", "Delivery date and time"],
+      "head_subtext": [
+        "เลือกล่วงหน้าได้ สูงสุด 7 วัน",
+        "Select your delivery slot at maximum of 7 days in advance"
+      ],
+      "back_to_store": ["สาขา", "Store"],
+      "header_pickup": ["วันและเวลารับสินค้า", "Pick-up date & time"],
+      "sub_header_pickup": [
+        "กรุณาเลือกวันและเวลารับสินค้า​",
+        "Select pick-up date & time​"
+      ]
+    },
+    "grid": {
+      "slot": {
+        "full": ["เต็ม", "Full"],
+        "free": ["ฟรี", "Free"],
+        "selected": ["เลือกรอบนี้", "Selected"]
+      },
+      "today": ["วันนี้", "Today"],
+      "time": ["เวลา", "Time"]
+    },
+    "tab": {
+      "buttons": {
+        "back": ["ย้อนกลับ", "Back"],
+        "confirm_date": ["ยืนยันวันเวลา", "Confirm"]
+      },
+      "loading": ["กำลังโหลด", "Loading..."],
+      "modal_title": [
+        "เลือกล่วงหน้าได้ สูงสุด {day} วัน",
+        "Select your delivery slot at maximum of {day} days in advance"
+      ],
+      "header_text": ["เลือกวันและเวลาจัดส่ง", "Delivery date and time"],
+      "header_subtext": [
+        "กรุณาเลือกวันและเวลาจัดส่งค่ะ",
+        "Please select you delivery/pickup time slot"
+      ],
+      "upper_panel_text": [
+        "เลือกล่วงหน้าได้ สูงสุด {day} วัน",
+        "Select your delivery slot at maximum of {day} days in advance"
+      ],
+      "upper_panel_subtext": ["ดูตารางทั้งหมด", "View all slots"],
+      "lower_panel": [
+        "*เนื่องจากตะกร้าสินค้าของท่านมีสินค้าจำกัดจำนวนวันส่ง",
+        "* Flexi: send any time in 10:00-22:00. The staff will call 1 hour in advance."
+      ],
+      "header_pickup": ["วันและเวลารับสินค้า", "Pick-up date & time"],
+      "sub_header_pickup": [
+        "กรุณาเลือกวันและเวลารับสินค้า​",
+        "Select pick-up date & time​"
+      ],
+      "slot_not_available": [
+        "เวลาจัดส่งที่คุณเลือกไม่สามารถใช้งานได้",
+        "The delivery time slot is not available."
+      ]
+    }
+  },
+  "unit": { "baht": ["บาท", "baht"], "point": ["คะแนน", "point"] },
+  "baht_sign": ["฿", "฿"],
+  "checkout": {
+    "preferences": ["หมายเหตุ", "Extra command"],
+    "completed": ["รายการเสร็จสิ้น", "Order Complete"],
+    "steps": {
+      "checklist": {
+        "name": ["ตรวจเช็ครายการ", "Your order"],
+        "fullname": ["รายการที่สั่งซื้อทั้งหมด", "Your product list"],
+        "description": ["รายละเอียดสินค้า", "Item Description"],
+        "quantity": ["จำนวน", "Quantity"],
+        "unit": ["หน่วย", "Unit"],
+        "price": ["ราคารวม", "Price per unit"],
+        "discount": ["ส่วนลด", "Discount"],
+        "net_price": ["ราคารวมสุทธิ", "Subtotal"],
+        "product_notes": ["หมายเหตุสินค้า", "Remark"],
+        "back": ["กลับไปเลือกซื้อสินค้า", "Continue shopping"],
+        "remove_all_products": ["ลบสินค้าทั้งหมด", "Empty cart"],
+        "confirm_item_deletion": [
+          "คุณแน่ใจหรือว่าต้องการลบผลิตภัณฑ์",
+          "Are you sure you want to remove the product"
+        ],
+        "confirm_all_items_deletion": [
+          "คุณแน่ใจหรือไม่ว่าต้องการนำผลิตภัณฑ์ทั้งหมดออก",
+          "Are you sure you want to remove all products"
+        ],
+        "empty_cart": [
+          "ไม่มีสินค้าในรถเข็นของคุณ",
+          "Your shopping cart is empty."
+        ]
+      },
+      "payment": {
+        "name": ["การชำระเงิน", "Payment"],
+        "confirm_item_deletion": [
+          "คุณแน่ใจหรือไม่ว่าต้องการลบหมายเลขบัตรเครดิต",
+          "Are you sure you want to remove your credit card number"
+        ]
+      }
+    }
+  },
+  "errors": {
+    "billing_form": {
+      "fullname": ["กรุณากรอกชื่อผู้เสียภาษี", "Please Enter Full Name"],
+      "id_card": ["กรุณากรอกเลขผู้เสียภาษี", "Please Enter Id Card"],
+      "address": ["กรุณากรอกเลขที่บ้าน", "Please Enter Address"],
+      "sub_district": ["กรุณากรอกตำบล/แขวง", "Please Enter Sub District"],
+      "district": ["กรุณากรอกอำเภอ/เขต", "Please Enter District"],
+      "province": ["กรุณากรอกจังหวัด", "Please Enter Province"],
+      "postcode": ["กรุณากรอกรหัสไปรษณีย์", "Please Enter Postcode"],
+      "first_name": ["กรุณากรอกชื่อผู้เสียภาษี", "Please Enter Your Name"],
+      "last_name": [
+        "กรุณากรอกนามสกุลผู้เสียภาษี",
+        "Please Enter Your Last Name"
+      ],
+      "road": ["กรุณากรอกถนน", "Please Enter Road"],
+      "company_name": ["กรุณากรอกชื่อบริษัท", "Please Enter Your Company Name"]
+    },
+    "payment_form": {
+      "enter_card_no": [
+        "กรุณากรอกหมายเลขบัตรเครดิตคุณค่ะ",
+        "Please enter your card number."
+      ],
+      "card_no_invalid": [
+        "หมายเลขบัตรเครดิตไม่ถูกต้องค่ะ",
+        "Invalid credit card number."
+      ],
+      "enter_card_name": [
+        "กรุณากรอกชื่อผู้ถือบัตรของคุณค่ะ",
+        "Please enter your card holder name."
+      ],
+      "enter_card_exp": [
+        "กรุณากรอกวันหมดค่ะ",
+        "Please enter your card expired."
+      ],
+      "card_exp_invalid": [
+        "ข้อมูลไม่ถูกต้องค่ะ",
+        "Your credit card is expired or invalid."
+      ],
+      "enter_card_cvv": [
+        "กรุณากรอกเลขหลังบัตรค่ะ",
+        "Please enter your card cvv."
+      ],
+      "card_cvv_invalid": [
+        "เลขหลังบัตรไม่ถูกต้องค่ะ",
+        "Invalid credit card cvv."
+      ]
+    },
+    "coupons": {
+      "is_valid": [
+        "หมายเลขคูปองโค้ดไม่ถูกต้อง",
+        "Sorry, your code is invalid."
+      ],
+      "is_used": ["คูปองนี้ใช้งานอยู่แล้ว", "This coupon is used."],
+      "not_apply": ["คูปองนี้ไม่สามารถใช้งานได้", "Can not apply it."]
+    },
+    "regis": {
+      "email": ["กรุณาใส่อีเมล", "Please insert your email"],
+      "email_format": [
+        "รูปแบบอีเมลไม่ถูกต้อง",
+        "You have entered an invalid email."
+      ],
+      "email_has_already_used": [
+        "อีเมลนี้ได้ลงทะเบียนไว้แล้ว กรุณาคลิก 'ลืมรหัสผ่าน' หรือลงทะเบียนด้วยอีเมลอื่น",
+        "This email you have entered is already registered. Please click 'forget password' or register with other email."
+      ],
+      "password": ["กรุณากรอกรหัสผ่าน", "Please insert password"],
+      "password_format": ["รูปแบบรหัสผ่านไม่ถูกต้อง", "Invalid password."],
+      "confirmPass": ["กรุณายืนยันรหัสผ่าน", "Please confirm password"],
+      "pass_not_match": ["รหัสผ่านไม่ตรงกัน", "Password mismatch."],
+      "first_name": ["กรุณาใส่ชื่อ", "Please insert your name"],
+      "last_name": ["กรุณาใส่นามสกุล", "Please insert your last name"],
+      "house_no": ["กรุณาใส่บ้านเลขที่", "Please insert house no"],
+      "sub_district": ["กรุณาใส่แขวง/ ตำบล", "Please insert your subdistrict"],
+      "district": ["กรุณาใส่เขต/ อำเภอ", "Please insert your district"],
+      "province": ["กรุณาใส่จังหวัด", "Please insert your province."],
+      "postcode": ["กรุณากรอกรหัสไปรษณีย์", "Please enter postcode"],
+      "mobile": ["กรุณากรอกเบอร์โทรศัพท์", "Please insert mobile number"],
+      "mobile1": ["หมายเลขโทรศัพท์มือถือไม่ถูกต้อง", "Invalid mobile number"],
+      "t1c_10": [
+        "หมายเลข The 1 ไม่ถูกต้อง",
+        "You have entered an invalid The 1 number."
+      ],
+      "t1c_16": [
+        "หมายเลข The 1 ไม่ถูกต้อง",
+        "You have entered an invalid The 1 number."
+      ],
+      "t1c_phone_format": [
+        "หมายเลขโทรศัพท์ไม่ถูกต้อง",
+        "You have entered an invalid phone number."
+      ],
+      "birth_day": [" ", " "],
+      "birth_month": [" ", " "],
+      "birth_year": [" ", " "]
+    },
+    "login": {
+      "invalid": [
+        "ข้อมูลไม่ถูกต้อง",
+        "Sorry, we could not log you in. Please check your email and password."
+      ]
+    }
+  },
+  "profile": {
+    "one_card_membership": [
+      "หมายเลขสมาชิก The 1 Card ",
+      "The 1 Card membership no."
+    ],
+    "menu": {
+      "order_history": [
+        "สถานะ และประวัติการสั่งซื้อ",
+        "My order status and history"
+      ],
+      "personal_info": [
+        "ข้อมูลส่วนตัว และที่อยู่จัดส่ง",
+        "Personal information and address"
+      ],
+      "billing_address": ["ข้อมูลใบกำกับภาษี", "Tax invoice information"],
+      "t1c_member": ["หมายเลข The1: ", "The1 member: "],
+      "sign_out": ["ออกจากระบบ", "Logout"]
+    }
+  },
+  "order_history": {
+    "order_history": ["ประวัติการสั่งซื้อ", "Order History"],
+    "my_account": ["บัญชีของฉัน", "My Account"],
+    "table": {
+      "number": ["เลขที่ใบสั่งซื้อ", "Order Number"],
+      "date": ["วันและเวลา", "Date & Time"],
+      "status": ["สถานะใบสั่งซื้อ", "Order Status"],
+      "price": ["ราคาสุทธิ", "Total"],
+      "address": ["ที่อยู่จัดส่ง", "Delivery address"],
+      "repeat": ["สั่งซื้อซ้ำ", "Reorder"],
+      "track_order": ["ติดตามการจัดส่ง", "Order Tracking"]
+    },
+    "view_button": ["ดูคำสั่งซื้อ", "View"],
+    "status": {
+      "pending": ["กำลังดำเนินการ", "Pending"],
+      "logistics": ["กำลังจัดเตรียมสินค้า", "Logistics"],
+      "complete": ["จัดส่งสำเร็จ", "Complete"],
+      "canceled": ["การสั่งซื้อไม่สมบูรณ์", "Canceled"],
+      "on_hold": ["กำลังดำเนินการ", "On Hold"],
+      "new": ["ได้รับคำสั่งซื้อ", "New"],
+      "rejected": ["ยกเลิกคำสั่งซื้อ", "Rejected"],
+      "error": ["คำสั่งซื้อเกิดความผิดพลาด", "Error"],
+      "partial_shipped": ["จัดส่งสำเร็จบางส่วน", "Partial shipped"],
+      "pending_payment": ["รอการชำระเงิน", "Pending Payment"],
+      "approved": ["ยืนยันคำสั่งซื้อ", "Approved"],
+      "processing": ["การประมวลผล", "Processing"],
+      "received": ["ได้รับคำสั่งซื้อ", "Received"]
+    }
+  },
+  "remark_form": {
+    "title": ["หมายเหตุการสั่งซื้อ", "Remark (Optional)"],
+    "remember": ["บันทึกหมายเหตุ", "Save remark"],
+    "note": ["โน๊ต", "Note"],
+    "note_placeholder": [
+      "ข้อความถึงพนักงานของเรา...",
+      "Note to our staff  for this order… "
+    ]
+  },
+  "payment_complete": {
+    "dear": ["คุณ", "Dear"],
+    "thankyou": [
+      "ขอบคุณที่ใช้บริการท็อปส์ ออนไลน์ค่ะ",
+      "Thank you for shopping at Tops Online"
+    ],
+    "order_complete": ["คำสั่งซื้อสำเร็จ", "Order Completed​"],
+    "order_no": ["เลขที่สั่งซื้อ:", "Order no."],
+    "check_order": [
+      "ติดตามใบสั่งซื้อของคุณได้ที่เมนู",
+      "Check your purchase history at"
+    ],
+    "latest_order": ["ประวัติการสั่งซื้อ", "Latest order /  Order"],
+    "back_home": ["กลับหน้าหลัก", "Go to homepage"],
+    "check_status": ["ตรวจสอบสถานะคำสั่งซื้อ", "Check order status"],
+    "receivers": ["ผู้รับสินค้า", "Receive order"],
+    "pickup_receivers": ["ผู้รับสินค้า", "Collector"],
+    "pickup_at": ["รับสินค้าที่", "Pick up at"],
+    "date_and_time": ["วันเวลาจัดส่งสินค้า", "Date&Time"],
+    "receivers_date": ["วันเวลารับสินค้า", "Date & Time"],
+    "receivers_time": ["เวลารับสินค้า", "Pick-up time"],
+    "receivers_date_cod": ["วันเวลาจัดส่ง", "Date & Time"],
+    "pick_up_date_and_time": ["วันและเวลา", "Pick-up date & time"],
+    "time_unit": ["น.", "hrs."],
+    "remark_pickup_at_store": [
+      "กรุณาแสดงข้อความ SMS ยืนยันการสั่งซื้อที่ได้รับ และบัตรประชาชน แก่เจ้าหน้าที่​ในวันมารับสินค้า",
+      "Please present confirmation SMS and ID card to our staff on the pick-up date.​"
+    ],
+    "payment_method": ["การชำระเงิน", "Payment"],
+    "shipping_method": ["วิธีการรับสินค้า", "Receiver order"],
+    "shipping_address": ["จัดส่งที่", "Delivery to"]
+  },
+  "payment_fail": {
+    "sorry": [
+      "คำสั่งซื้อของคุณถูกยกเลิกเนื่องจากการชำระเงินไม่สำเร็จ",
+      "Your order has been canceled due to an unsuccessful transaction."
+    ],
+    "empty_id_system_error": [
+      "คำสั่งซื้อของคุณถูกยกเลิกเนื่องจากการชำระเงินไม่สำเร็จ คุณสามารถสั่งซื้อสินค้าเดิมได้อีกครั้งโดยการคลิก \"สั่งซื้อซ้ำ\" ในหน้าประวัติการสั่งซื้อ",
+      "Your order has been canceled due to an unsuccessful transaction. You can make a purchase again by clicking \"Re-order\" on order history page"
+    ],
+    "system_error": [
+      "คำสั่งซื้อของคุณถูกยกเลิกเนื่องจากการชำระเงินไม่สำเร็จ คุณสามารถสั่งซื้อสินค้าเดิมได้อีกครั้งโดยการคลิก \"สั่งซื้อซ้ำ\"",
+      "Your order has been canceled due to an unsuccessful transaction. You can make a purchase again by clicking \"Re-order\""
+    ],
+    "pay-again": ["กรุณาทำรายการใหม่อีกครั้ง", "Please try again."],
+    "back_pay": ["เลือกวิธีการชำระเงิน", "Select Payment Methods"],
+    "back_home": ["กลับหน้าหลัก", "Back to Home"],
+    "sorry_title": ["คำสั่งซื้อถูกยกเลิก", "Order has been canceled"],
+    "re_order": ["สั่งซื้อซ้ำ", "Re-order"],
+    "contact_us": ["ติดต่อเรา", "Contact us"]
+  },
+  "checkout_step": {
+    "check": ["ตรวจเช็ครายการ", "My Cart"],
+    "payment": ["การชำระเงิน", "Pay"],
+    "complete": ["รายการเสร็จสิ้น", "Confirm"]
+  },
+  "order_detail": {
+    "number": ["เลขที่ใบสั่งซื้อ", "Order No."],
+    "unit_pack": ["แพค", "pack"],
+    "unit_item": ["ชิ้น", "item"],
+    "baht": ["บาท", "baht"],
+    "payment": {
+      "summary": ["การทำรายการทั้งหมด", "Payment summary"],
+      "method": ["การชำระเงิน", "Payment"]
+    },
+    "subtotal": ["ค่าสินค้าก่อนหักส่วนลด", "Subtotal"],
+    "coupon_discount": ["ส่วนลด", "Discount"],
+    "staff_discount": ["ส่วนลดพนักงาน", "Staff discount"],
+    "delivery": {
+      "fee": ["ค่าจัดส่ง", "Delivery fee"],
+      "date": ["วันที่จัดส่ง", "Delivery date"],
+      "time": ["เวลาจัดส่ง", "Delivery Time"]
+    },
+    "receiver": {
+      "name": ["ชื่อผู้รับ", "Recipient"],
+      "contact_number": ["เบอร์ผู้รับ", "Recipient Tel."]
+    },
+    "grand_total": ["จำนวนเงินทั้งหมด", "Grand total"],
+    "estimate_t1c_point": ["คะแนนที่คาดว่าจะได้รับ", "Estimate T1C point"],
+    "shipping": {
+      "summary": ["สรุปรายการจัดส่ง", "Shipping summary"],
+      "name": ["Shipping name", "Shipping name"],
+      "address": ["ส่งที่", "Shipping address"]
+    },
+    "table": {
+      "products": ["รายการสินค้าที่ท่านสั่งซื้อ", "Your order"],
+      "details": ["รายละเอียดสินค้า", "Item description"],
+      "count": ["จำนวน", "Quantity"],
+      "unit": ["หน่วย", "Unit"],
+      "price": ["ราคา", "Price per unit"],
+      "discount": ["ส่วนลด", "Discount"],
+      "net_price": ["ราคารวมสุทธิ", "Subtotal"]
+    },
+    "notice_point": ["จุดสังเกต", "Notice point"],
+    "currency": ["บาท", "THB"]
+  },
+  "coupon": {
+    "title": ["คูปองส่วนลดสินค้า", "Discount coupons"],
+    "please_enter_coupon": [
+      "กรุณากรอกหมายเลขบาร์โค้ดในคูปอง :",
+      "Please enter the barcode number in the coupon :"
+    ],
+    "choice": ["CPN9 / CPN2 / E-Coupon", "CPN9 / CPN2 / E-Coupon"],
+    "button": ["ใช้คูปอง", "Apply"],
+    "row_coupon-title": ["คูปองที่ใช้ไป", "Used coupon"],
+    "t1c": { "title": ["คูปองเงินสด The 1 Card", "Coupon The 1 Card"] },
+    "enter_coupon_code": ["ใส่รหัสคูปอง", "Enter coupon code"]
+  },
+  "promotion": {
+    "select_product": ["เลือกสินค้า", "Select "],
+    "select_product_free": ["เลือกตัวแถม", "Add Free Items"],
+    "title": ["สินค้าโปรโมชั่น", "Promotion"],
+    "notic": [
+      "กรุณาเลือกสินค้าให้ครบโปรโมชั่น",
+      "Please select multiple products to complete promotion"
+    ],
+    "notic_success": [
+      "เพิ่มสินค้าลงในตะกร้า\nเรียบร้อยแล้ว",
+      "Added to Basket"
+    ],
+    "sale": ["Sale", "Sale"],
+    "redhot": ["Red Hot", "Red Hot"],
+    "bogo": ["ซื้อ 2 จ่าย 1", "Buy 2 Pay 1"],
+    "b2g1": ["ซื้อ 3 จ่าย 2", "Buy 3 Pay 2"],
+    "b3g1": ["ซื้อ 4 จ่าย 3", "Buy 4 Pay 3"],
+    "b1gv": ["ซื้อ 2 ชิ้นประหยัดกว่า", "Buy 2 Save More"],
+    "b2gv": ["ซื้อ 3 ชิ้นประหยัดกว่า", "Buy 3 Save More"],
+    "b3gv": ["ซื้อ 4 ชิ้นประหยัดกว่า", "Buy 4 Save More"],
+    "moneyback": [
+      "รับเพิ่ม ${point} คะแนน / ${qty} ${unit}",
+      "Get ${point} extra points / ${qty} ${unit}"
+    ],
+    "change_free_items": ["เปลี่ยนสี/กลิ่น/รสชาติ", "Change color/flavor"],
+    "free": ["ฟรี", "Free"],
+    "and": ["และ", "and"],
+    "promotion_discount": [
+      "ส่วนลดโปรโมชั่น (ประหยัด ${amount}฿)",
+      "Discount from promotion (Save ${amount}฿)"
+    ],
+    "promotion_online": [
+      "ส่วนลดโปรโมชั่น ${label}",
+      "Discount ${label}"
+    ]
+  },
+  "topics": {
+    "how_to_use_website": ["วิธีการใช้งานเว็บไซต์", "How to use the website"],
+    "how_to_shop": ["การสั่งซื้อสินค้า", "How to shop"],
+    "product_and_promotion": [
+      "ข้อมูลสินค้าและโปรโมชั่น",
+      "Product and promotion details"
+    ],
+    "how_to_pay": ["การชำระเงิน", "Payment"],
+    "shipping_and_delivery": ["การจัดส่งสินค้า", "Delivery"],
+    "user_account": ["บัญชีผู้ใช้งาน", "User account"],
+    "other_issues": ["แจ้งปัญหาอื่นๆ", "Others"]
+  },
+  "help_page": {
+    "most_asked_questions": ["คำถามที่พบบ่อย", "Most asked questions"],
+    "not_find_the_answer": [
+      "สอบถามและติดต่อท็อปส์ออนไลน์ได้ที่นี้",
+      "For more information, please contact Tops online here."
+    ],
+    "contact_tops_online": [
+      "ในกรณีที่ไม่พบคำตอบของคุณ",
+      "In case your answer cannot be found."
+    ],
+    "contact_us": ["ติดต่อเรา", "Contact Us"]
+  },
+  "contact_us_subject": {
+    "delivery": ["การจัดส่งสินค้า", "Delivery"],
+    "website_application": ["เว็บไซต์ / แอพพลิเคชั่น", "Website / Application"],
+    "promotion": ["โปรโมชั่น", "Promotion"],
+    "staff_service": ["การให้บริการ", "Staff Service"],
+    "information": ["สอบถามข้อมูล", "Information"]
+  },
+  "contact_us_page": {
+    "choose_topics_title": [
+      "เลือกหัวข้อที่จะติดต่อเรา",
+      "Please select your topic"
+    ],
+    "select_topic": [
+      "เลือกหัวข้อที่จะติดต่อเรา",
+      "Select a topic to contact our staff"
+    ],
+    "contact_form": ["แบบฟอร์มติดต่อ", "Contact Form"],
+    "leave_message": [
+      "กรุณาฝากข้อความของคุณไว้ และเราจะติดต่อกลับภายใน 2 วันทำการ",
+      "Please leave your message and we will get back to you within 2 working days."
+    ],
+    "subject": ["เรื่อง", "Subject"],
+    "suggestions_and_complaints": [
+      "ข้อเสนอแนะ / ร้องเรียนปัญหา",
+      "Suggestion / Complaint"
+    ],
+    "order_number": [
+      "หมายเลขรายการสั่งซื้อ (ถ้ามี)",
+      "Order number (optional)"
+    ],
+    "name": ["ชื่อ", "First name"],
+    "last_name": ["นามสกุล", "Last name"],
+    "email": ["อีเมล", "Email"],
+    "phone": ["โทรศัพท์", "Phone"],
+    "email_address": ["อีเมล", "Email address"],
+    "phone_number": ["โทรศัพท์", "Phone number"],
+    "attachments": ["ไฟล์แนบ (ถ้ามี)", "Attachments (if any)"],
+    "how_to_contact": [
+      "คุณต้องการให้เราติดต่อคุณด้วยวิธีใด",
+      "How would you like to be contacted?"
+    ],
+    "type_captcha": [
+      "กรอกตัวอักษรตามภาพ",
+      "To continue please prove you are not a robot"
+    ],
+    "contact_by_chat": ["ติดต่อเราทางแชท", "Chat with us"],
+    "working_hours": [
+      "เวลาทำการ 09:00 - 21:00 น.",
+      "Operating hours 09.00 - 21.00"
+    ],
+    "start_chat": [
+      "เริ่มแชทกับท็อปส์ออนไลน์",
+      "Start chatting with Tops online"
+    ],
+    "send_answers": ["ส่ง", "Send"],
+    "thanks_for_the_message": [
+      "ขอบคุณสำหรับข้อความของคุณ เราจะติดต่อกลับไปภายใน 2 วันทำการ",
+      "Thank you for your message. We will contact you within 2 business days"
+    ],
+    "verify_you_are_human": [
+      "กรุณากดเพื่อยืนยันตัวตน",
+      "Please click on captcha to verify you're human"
+    ],
+    "verify_you_email": ["อีเมลไม่ถูกต้อง", "Email address invalid format."],
+    "type_correct_phone_number": [
+      "กรุณากรอกเบอร์โทรศัทพ์ให้ถูกต้อง (ตัวอย่าง: 0XXXXXXXXX)",
+      "Please type in a correct phone number (Format: 0XXXXXXXXX)"
+    ],
+    "type_correct_email": [
+      "กรุณากรอกอีเมลให้ถูกต้อง",
+      "Please type in a correct email"
+    ],
+    "type_correct_name": [
+      "กรุณากรอกชื่อให้ถูกต้อง",
+      "Please type in your first name in this field"
+    ],
+    "type_correct_last_name": [
+      "กรุณากรอกนามสกุลให้ถูกต้อง",
+      "Please type in your last name in this field"
+    ],
+    "choose_the_subject": ["กรุณาเลือกหัวข้อ", "Please choose the subject"],
+    "describe_your_problem": [
+      "กรุณากรอกปัญหา หรือคำแนะนำของคุณ",
+      "Please describe your problem or suggestion"
+    ]
+  },
+  "title_substitution": {
+    "more_detail": ["รายละเอียดเพิ่มเติม", "More Details"],
+    "description": [
+      "การติดต่อในกรณีสินค้าบางรายการหมด และหมายเหตุเพิ่มเติม",
+      "To be infromed via telephone if any product is sold out and remarks."
+    ]
+  },
+  "substitution": {
+    "title": ["กรณีสินค้าบางรายการหมด", "If any product is sold out"],
+    "get_substitution": ["รับสินค้าทดแทน", "Allow substitutions"],
+    "by_owner": [
+      "ต้องการให้พนักงานโทรศัพท์แจ้ง",
+      "I wish to be informed via telephone."
+    ],
+    "by_staff": [
+      "ไม่ต้องการให้พนักงานโทรศัพท์แจ้ง",
+      "I don't wish to be informed via telephone."
+    ],
+    "get_substitution_by_owner": [
+      "ลูกค้าต้องการให้โทรศัพท์แจ้ง หากมีบางสินค้าหมด ",
+      "Customer would like to be informed if any product is sold out"
+    ],
+    "get_substitution_by_staff": [
+      "ลูกค้าไม่ต้องการให้โทรศัพท์แจ้ง หากมีบางสินค้าหมด",
+      "Do not inform if any product is sold out"
+    ],
+    "no_need_substitution": ["ไม่รับสินค้าทดแทน", "Do not allow substitutions"]
+  },
+  "age_modal": {
+    "upper_title": [
+      "คุณอายุ 20 ปีบริบูรณ์ขึ้นไปแล้วหรือไม่?",
+      "Are you 20 years of age or older?"
+    ],
+    "lower_title": ["กรุณาเลือกคำตอบของท่าน", "Please select your answer."],
+    "yes": ["ใช่", "Yes"],
+    "no": ["ไม่ใช่", "No"],
+    "note": [
+      "*ผู้รับสินค้าแอลกอฮอล ควรมีอายุ 20 ปีบริบูรณ์ขึนไป",
+      "*You are required to be 20 years of age or older to be eligible to receive alcohol products."
+    ],
+    "confirm": ["ยืนยันคำตอบ", "Confirm"]
+  },
+  "login": {
+    "title": ["กรุณาเข้าสู่ระบบ", "Please login"],
+    "description": [
+      "หากยังไม่มีบัญชีผู้ใช้งาน สามารถ",
+      "If you do not have an account "
+    ],
+    "button_label": ["สมัครได้ที่นี่", "Register"],
+    "content": {
+      "title_1": ["คุณสามารถเข้าสู่ระบบ", "Log in to"],
+      "title_2": ["ได้", "with"],
+      "description": ["ด้วยบัญชี The 1 Card", "The 1 Card account"]
+    },
+    "tops_login": {
+      "title": ["เข้าสู่ระบบ", "Log in"],
+      "description": ["ลูกค้าใหม่ สามารถ", "New Customer? "],
+      "new_to_tops_online": [
+        "ลูกค้าใหม่ Tops online ?",
+        "New to Tops online ?"
+      ],
+      "button_label": ["สมัครได้ที่นี่", "Register"],
+      "content": {
+        "title_1": [
+          "กรุณาเข้าสู่ระบบ เพื่อเริ่มช้อป",
+          "Please log in to start shopping"
+        ],
+        "button": ["เข้าสู่ระบบ", "Log in"]
+      },
+      "price_promotion_change": [
+        "ราคา /โปรโมชั่น และสินค้าอาจเปลี่ยนแปลงตามพื้นที่ให้บริการเพื่อให้คุณได้ประโยชน์สูงสุด",
+        "Price, promotion and assortment might change according to serviced area for your best benefits"
+      ]
+    },
+    "error": {
+      "401": ["ข้อมูลส่วนตัวของคุณมีการเปลี่ยนแปลง เพื่อความปลอดภัยกรุณาเข้าสู่ระบบใหม่อีกครั้ง", "Sorry, your personal information has been changed. For your safety please login again."]
+    }
+  },
+  "alert_msg": {
+    "success": ["ส่งข้อมูลสำเร็จ", "Send data success."],
+    "error": ["ส่งข้อมูลไม่สำเร็จ", "Can not send data."]
+  },
+  "bundle_shipment": {
+    "shipment_free": ["ยินดีด้วยคุณได้รับการจัดส่งฟรี", "Shipping Free"]
+  },
+  "meta_tags": {
+    "home": {
+      "title": [
+        "Tops online ซูเปอร์มาร์เก็ตออนไลน์อันดับ 1 ของไทย",
+        "Tops online is Thailand’s Number 1 online grocery shopping"
+      ],
+      "description": [
+        "ท็อปส์ ออนไลน์ สั่งออนไลน์ 24 ชม. บริการจัดส่งด่วนพิเศษ ภายใน 2 ชั่วโมง",
+        "Tops online Grocery Delivery Convenient and easy to shop"
+      ],
+      "keywords": [
+        "ท็อปส์ ออนไลน์, ท็อปซูเปอร์มาร์เก็ต , ท็อป ออนไลน์, top ออนไลน์, ท็อปซูเปอร์,  tops ออนไลน์, เซ็นทรัลฟู้ดฮอลล์, ซูเปอร์มาร์เก็ต ออนไลน์, supermarket ออนไลน์",
+        "Tops online , top supermarket, tops thailand, top super, top market, central food hall"
+      ],
+      "og_description": [
+        "ท็อป ช็อปออนไลน์ ซื้อและส่งสินค้า จาก Tops  มี โปรโมชั่น ซื้อ 1 แถม 1 และ สินค้าลดราคา",
+        "Tops Shoponline order and delivery from Tops Promotions buy 1 get 1 free and sale"
+      ],
+      "og_title": ["Tops online ท็อปส์ ออนไลน์", "Tops online ท็อปส์ ออนไลน์"]
+    },
+    "trending": {
+      "title": ["โปรโมชั่น | Tops online", "Promotion | Tops online"],
+      "description": [
+        "โปรโมชั่น - Tops online ซื้อของสด ผัก ผลไม้ เนื้อสัตว์ อาหารสด อาหารพร้อมรับประทาน เครื่องดื่ม ขนมขบเคี้ยว ของหวาน สินค้าแม่และเด็ก และอื่นๆ ได้ที่ ท็อปส์ออนไลน์",
+        "Promotion - Tops online, online shopping for your fresh groceries such as fruits, vegetables, meat, seafood, fresh food, ready to eat, snacks, desserts, beverages and more at Tops online"
+      ],
+      "keywords": [
+        "ท็อปส์, ท็อปส์ ออนไลน์, ช้อปออนไลน์, โปรโมชั่น",
+        "Tops, Tops online, shop online, promotion"
+      ]
+    },
+    "deal": {
+      "title": [
+        "ดีลส์พิเศษจาก ท็อปส์ออนไลน์ | Tops online",
+        "Special deals from Tops.co.th | Tops online"
+      ],
+      "description": [
+        "รับดีลส์พิเศษเพื่อซื้อสินค้าต่างๆ ที่ ท็อปส์ออนไลน์ ซื้อของสด ผัก ผลไม้ เนื้อสัตว์ อาหารสด อาหารพร้อมรับประทาน เครื่องดื่ม ขนมขบเคี้ยว ของหวาน สินค้าแม่และเด็ก และอื่นๆ ได้ที่ ท็อปส์ออนไลน์",
+        "Special deals from Tops online. Enjoy your online shopping with our special deals at Tops online."
+      ],
+      "keywords": [
+        "ท็อปส์, ท็อปส์ ออนไลน์, ช้อปออนไลน์, ดีล, ดีลส์, ดีลพิเศษ",
+        "Tops, Tops online, shop online, best price, deals, special deals"
+      ]
+    },
+    "privilege": {
+      "title": [
+        "สิทธิพิเศษอื่นๆ จาก ท็อปส์ออนไลน์ | Tops online",
+        "Privileges | Tops online"
+      ],
+      "description": [
+        "สิทธิพิเศษเพื่อซื้อสินค้าต่างๆ ที่ ท็อปส์ออนไลน์ ซื้อของสด ผัก ผลไม้ เนื้อสัตว์ อาหารสด อาหารพร้อมรับประทาน เครื่องดื่ม ขนมขบเคี้ยว ของหวาน สินค้าแม่และเด็ก และอื่นๆ ได้ที่ ท็อปส์ออนไลน์",
+        "Let's see the previleges from Tops online. Enjoy your privileges for online shopping with our special deals at Tops online."
+      ],
+      "keywords": [
+        "ท็อปส์, ท็อปส์ ออนไลน์, ช้อปออนไลน์, สิทธิพิเศษ, สิทธิพิเศษอื่นๆ",
+        "Tops, Tops online, shop online, best price, privilege, privileges"
+      ]
+    },
+    "wishlist": {
+      "title": ["ลิสต์ของฉัน | Tops online", "Wishlist | Tops online"],
+      "description": [
+        "ลิสต์สินค้าของฉัน ซื้อของสด ผัก ผลไม้ เนื้อสัตว์ อาหารสด อาหารพร้อมรับประทาน เครื่องดื่ม ขนมขบเคี้ยว ของหวาน สินค้าแม่และเด็ก และอื่นๆ ได้ที่ ท็อปส์ออนไลน์",
+        "Wishlist - Tops online, online shopping for your fresh groceries such as fruits, vegetables, meat, seafood, fresh food, ready to eat, snacks, desserts, beverages and more at Tops online"
+      ],
+      "keywords": [
+        "ท็อปส์, ท็อปส์ ออนไลน์, ช้อปออนไลน์, ลิสต์ของฉัน",
+        "Tops, Tops online, shop online, best price, wishlist"
+      ]
+    },
+    "search": {
+      "title": ["ค้นหาสินค้า | Tops online", "Search | Tops online"],
+      "description": [
+        "ค้นหาสินค้า - Tops online ซื้อของสด ผัก ผลไม้ เนื้อสัตว์ อาหารสด อาหารพร้อมรับประทาน เครื่องดื่ม ขนมขบเคี้ยว ของหวาน สินค้าแม่และเด็ก และอื่นๆ ได้ที่ ท็อปส์ออนไลน์",
+        "Search - Tops online, online shopping for your fresh groceries such as fruits, vegetables, meat, seafood, fresh food, ready to eat, snacks, desserts, beverages and more at Tops online"
+      ],
+      "keywords": [
+        "ท็อปส์, ท็อปส์ ออนไลน์, ช้อปออนไลน์, ค้นหาสินค้า",
+        "Tops, Tops online, shop online, best price, search"
+      ]
+    },
+    "cart": {
+      "title": ["ตะกร้าสินค้า | Tops online", "Cart | Tops online"],
+      "description": [
+        "ตะกร้าสินค้า - Tops online ซื้อของสด ผัก ผลไม้ เนื้อสัตว์ อาหารสด อาหารพร้อมรับประทาน เครื่องดื่ม ขนมขบเคี้ยว ของหวาน สินค้าแม่และเด็ก และอื่นๆ ได้ที่ ท็อปส์ออนไลน์",
+        "Cart - Tops online, online shopping for your fresh groceries such as fruits, vegetables, meat, seafood, fresh food, ready to eat, snacks, desserts, beverages and more at Tops online"
+      ],
+      "keywords": [
+        "ท็อปส์, ท็อปส์ ออนไลน์, ช้อปออนไลน์, ตะกร้าสินค้า",
+        "Tops, Tops online, shop online, best price, cart, basket"
+      ]
+    },
+    "login": {
+      "title": ["เข้าสู่ระบบ | Tops online", "Login | Tops online"],
+      "description": [
+        "เข้าสู่ระบบ - Tops online ซื้อของสด ผัก ผลไม้ เนื้อสัตว์ อาหารสด อาหารพร้อมรับประทาน เครื่องดื่ม ขนมขบเคี้ยว ของหวาน สินค้าแม่และเด็ก และอื่นๆ ได้ที่ ท็อปส์ออนไลน์",
+        "Login - Tops online, online shopping for your fresh groceries such as fruits, vegetables, meat, seafood, fresh food, ready to eat, snacks, desserts, beverages and more at Tops online"
+      ],
+      "keywords": [
+        "ท็อปส์, ท็อปส์ ออนไลน์, ช้อปออนไลน์, เข้าสู่ระบบ",
+        "Tops, Tops online, shop online, best price, login"
+      ]
+    },
+    "registration": {
+      "title": ["ลงทะเบียน | Tops online", "Registration | Tops online"],
+      "description": [
+        "ลงทะเบียน - Tops online ซื้อของสด ผัก ผลไม้ เนื้อสัตว์ อาหารสด อาหารพร้อมรับประทาน เครื่องดื่ม ขนมขบเคี้ยว ของหวาน สินค้าแม่และเด็ก และอื่นๆ ได้ที่ ท็อปส์ออนไลน์",
+        "Registration - Tops online, online shopping for your fresh groceries such as fruits, vegetables, meat, seafood, fresh food, ready to eat, snacks, desserts, beverages and more at Tops online"
+      ],
+      "keywords": [
+        "ท็อปส์, ท็อปส์ ออนไลน์, ช้อปออนไลน์, ลงทะเบียน",
+        "Tops, Tops online, shop online, best price, registration"
+      ]
+    },
+    "registration_completed": {
+      "title": [
+        "ลงทะเบียนเรียบร้อย | Tops online",
+        "Registration | Tops online"
+      ],
+      "description": [
+        "ลงทะเบียน - Tops online ซื้อของสด ผัก ผลไม้ เนื้อสัตว์ อาหารสด อาหารพร้อมรับประทาน เครื่องดื่ม ขนมขบเคี้ยว ของหวาน สินค้าแม่และเด็ก และอื่นๆ ได้ที่ ท็อปส์ออนไลน์",
+        "Registration - Tops online, online shopping for your fresh groceries such as fruits, vegetables, meat, seafood, fresh food, ready to eat, snacks, desserts, beverages and more at Tops online"
+      ],
+      "keywords": [
+        "ท็อปส์, ท็อปส์ ออนไลน์, ช้อปออนไลน์, ลงทะเบียน",
+        "Tops, Tops online, shop online, best price, registration"
+      ]
+    },
+    "reset_password": {
+      "title": [
+        "รีเซ็ตพาสเวิร์ด | Tops online",
+        "Reset password | Tops online"
+      ],
+      "description": [
+        "รีเซ็ตพาสเวิร์ด - Tops online ซื้อของสด ผัก ผลไม้ เนื้อสัตว์ อาหารสด อาหารพร้อมรับประทาน เครื่องดื่ม ขนมขบเคี้ยว ของหวาน สินค้าแม่และเด็ก และอื่นๆ ได้ที่ ท็อปส์ออนไลน์",
+        "Reset password - Tops online, online shopping for your fresh groceries such as fruits, vegetables, meat, seafood, fresh food, ready to eat, snacks, desserts, beverages and more at Tops online"
+      ],
+      "keywords": [
+        "ท็อปส์, ท็อปส์ ออนไลน์, ช้อปออนไลน์, พาสเวิร์ด, รีเซ็ตพาสเวิร์ด",
+        "Tops, Tops online, shop online, best price, reset password"
+      ]
+    },
+    "reset_password_completed": {
+      "title": [
+        "รีเซ็ตพาสเวิร์ดสำเร็จ | Tops online",
+        "Reset password | Tops online"
+      ],
+      "description": [
+        "รีเซ็ตพาสเวิร์ด - Tops online ซื้อของสด ผัก ผลไม้ เนื้อสัตว์ อาหารสด อาหารพร้อมรับประทาน เครื่องดื่ม ขนมขบเคี้ยว ของหวาน สินค้าแม่และเด็ก และอื่นๆ ได้ที่ ท็อปส์ออนไลน์",
+        "Reset password - Tops online, online shopping for your fresh groceries such as fruits, vegetables, meat, seafood, fresh food, ready to eat, snacks, desserts, beverages and more at Tops online"
+      ],
+      "keywords": [
+        "ท็อปส์, ท็อปส์ ออนไลน์, ช้อปออนไลน์, พาสเวิร์ด, รีเซ็ตพาสเวิร์ด",
+        "Tops, Tops online, shop online, best price, reset password"
+      ]
+    },
+    "checkout": {
+      "title": ["ชำระเงิน | Tops online", "Checkout | Tops online"],
+      "description": [
+        "ชำระเงิน - Tops online ซื้อของสด ผัก ผลไม้ เนื้อสัตว์ อาหารสด อาหารพร้อมรับประทาน เครื่องดื่ม ขนมขบเคี้ยว ของหวาน สินค้าแม่และเด็ก และอื่นๆ ได้ที่ ท็อปส์ออนไลน์",
+        "Checkout - Tops online, online shopping for your fresh groceries such as fruits, vegetables, meat, seafood, fresh food, ready to eat, snacks, desserts, beverages and more at Tops online"
+      ],
+      "keywords": [
+        "ท็อปส์, ท็อปส์ ออนไลน์, ช้อปออนไลน์, ชำระเงิน",
+        "Tops, Tops online, shop online, best price, checkout"
+      ]
+    },
+    "checkout_completed": {
+      "title": ["ชำระเงินเรียบร้อย | Tops online", "Checkout | Tops online"],
+      "description": [
+        "ชำระเงิน - Tops online ซื้อของสด ผัก ผลไม้ เนื้อสัตว์ อาหารสด อาหารพร้อมรับประทาน เครื่องดื่ม ขนมขบเคี้ยว ของหวาน สินค้าแม่และเด็ก และอื่นๆ ได้ที่ ท็อปส์ออนไลน์",
+        "Checkout - Tops online, online shopping for your fresh groceries such as fruits, vegetables, meat, seafood, fresh food, ready to eat, snacks, desserts, beverages and more at Tops online"
+      ],
+      "keywords": [
+        "ท็อปส์, ท็อปส์ ออนไลน์, ช้อปออนไลน์, ชำระเงิน",
+        "Tops, Tops online, shop online, best price, checkout"
+      ]
+    },
+    "order_detail": {
+      "title": [
+        "รายละเอียดออร์เดอร์ | Tops online",
+        "Order details | Tops online"
+      ],
+      "description": [
+        "รายละเอียดออร์เดอร์ - Tops online ซื้อของสด ผัก ผลไม้ เนื้อสัตว์ อาหารสด อาหารพร้อมรับประทาน เครื่องดื่ม ขนมขบเคี้ยว ของหวาน สินค้าแม่และเด็ก และอื่นๆ ได้ที่ ท็อปส์ออนไลน์",
+        "Order details - Tops online, online shopping for your fresh groceries such as fruits, vegetables, meat, seafood, fresh food, ready to eat, snacks, desserts, beverages and more at Tops online"
+      ],
+      "keywords": [
+        "ท็อปส์, ท็อปส์ ออนไลน์, ช้อปออนไลน์, สินค้าในตะกร้า, ออร์เดอร์",
+        "Tops, Tops online, shop online, best price, order details"
+      ]
+    },
+    "forgot_password": {
+      "title": ["ลืมพาสเวิร์ด | Tops online", "Forgot password | Tops online"],
+      "description": [
+        "ลืมพาสเวิร์ด - Tops online ซื้อของสด ผัก ผลไม้ เนื้อสัตว์ อาหารสด อาหารพร้อมรับประทาน เครื่องดื่ม ขนมขบเคี้ยว ของหวาน สินค้าแม่และเด็ก และอื่นๆ ได้ที่ ท็อปส์ออนไลน์",
+        "Forgot password - Tops online, online shopping for your fresh groceries such as fruits, vegetables, meat, seafood, fresh food, ready to eat, snacks, desserts, beverages and more at Tops online"
+      ],
+      "keywords": [
+        "ท็อปส์, ท็อปส์ ออนไลน์, ช้อปออนไลน์, พาสเวิร์ด",
+        "Tops, Tops online, shop online, best price, forgot password"
+      ]
+    },
+    "forgot_completed": {
+      "title": ["ลืมพาสเวิร์ด | Tops online", "Forgot password | Tops online"],
+      "description": [
+        "ลืมพาสเวิร์ด - Tops online ซื้อของสด ผัก ผลไม้ เนื้อสัตว์ อาหารสด อาหารพร้อมรับประทาน เครื่องดื่ม ขนมขบเคี้ยว ของหวาน สินค้าแม่และเด็ก และอื่นๆ ได้ที่ ท็อปส์ออนไลน์",
+        "Forgot password - Tops online, online shopping for your fresh groceries such as fruits, vegetables, meat, seafood, fresh food, ready to eat, snacks, desserts, beverages and more at Tops online"
+      ],
+      "keywords": [
+        "ท็อปส์, ท็อปส์ ออนไลน์, ช้อปออนไลน์, พาสเวิร์ด, ลืมพาสเวิร์ด",
+        "Tops, Tops online, shop online, best price, forgot password"
+      ]
+    },
+    "help": {
+      "title": ["ช่วยเหลือ | Tops online", "Help | Tops online"],
+      "description": [
+        "ช่วยเหลือ - Tops online ซื้อของสด ผัก ผลไม้ เนื้อสัตว์ อาหารสด อาหารพร้อมรับประทาน เครื่องดื่ม ขนมขบเคี้ยว ของหวาน สินค้าแม่และเด็ก และอื่นๆ ได้ที่ ท็อปส์ออนไลน์",
+        "Help - Tops online, online shopping for your fresh groceries such as fruits, vegetables, meat, seafood, fresh food, ready to eat, snacks, desserts, beverages and more at Tops online"
+      ],
+      "keywords": [
+        "ท็อปส์, ท็อปส์ ออนไลน์, ช้อปออนไลน์, ช่วยเหลือ",
+        "Tops, Tops online, shop online, best price, help"
+      ],
+      "nodes": {
+        "how_to_use_website": {
+          "title": ["การใช้งานเว็บไซต์ | Tops online", "Help | Tops online"],
+          "description": [
+            "ช่วยเหลือ เรื่องการใช้งานเว็บไซต์ - Tops online ซื้อของสด ผัก ผลไม้ เนื้อสัตว์ อาหารสด อาหารพร้อมรับประทาน เครื่องดื่ม ขนมขบเคี้ยว ของหวาน สินค้าแม่และเด็ก และอื่นๆ ได้ที่ ท็อปส์ออนไลน์",
+            "Help - Tops online, online shopping for your fresh groceries such as fruits, vegetables, meat, seafood, fresh food, ready to eat, snacks, desserts, beverages and more at Tops online"
+          ],
+          "keywords": [
+            "ท็อปส์, ท็อปส์ ออนไลน์, ช้อปออนไลน์, ช่วยเหลือ, การใช้งานเว็บไซต์",
+            "Tops, Tops online, shop online, best price, help"
+          ]
+        },
+        "how_to_shop": {
+          "title": ["การสั่งซื้อสินค้า | Tops online", "Help | Tops online"],
+          "description": [
+            "ช่วยเหลือ เรื่องการสั่งซื้อสินค้า - Tops online ซื้อของสด ผัก ผลไม้ เนื้อสัตว์ อาหารสด อาหารพร้อมรับประทาน เครื่องดื่ม ขนมขบเคี้ยว ของหวาน สินค้าแม่และเด็ก และอื่นๆ ได้ที่ ท็อปส์ออนไลน์",
+            "Help - Tops online, online shopping for your fresh groceries such as fruits, vegetables, meat, seafood, fresh food, ready to eat, snacks, desserts, beverages and more at Tops online"
+          ],
+          "keywords": [
+            "ท็อปส์, ท็อปส์ ออนไลน์, ช้อปออนไลน์, ช่วยเหลือ, การสั่งซื้อสินค้า",
+            "Tops, Tops online, shop online, best price, help"
+          ]
+        },
+        "product_and_promotion": {
+          "title": [
+            "ข้อมูลสินค้าและโปรโมชั่น | Tops online",
+            "Help | Tops online"
+          ],
+          "description": [
+            "ช่วยเหลือ เรื่องข้อมูลสินค้าและโปรโมชั่น - Tops online ซื้อของสด ผัก ผลไม้ เนื้อสัตว์ อาหารสด อาหารพร้อมรับประทาน เครื่องดื่ม ขนมขบเคี้ยว ของหวาน สินค้าแม่และเด็ก และอื่นๆ ได้ที่ ท็อปส์ออนไลน์",
+            "Help - Tops online, online shopping for your fresh groceries such as fruits, vegetables, meat, seafood, fresh food, ready to eat, snacks, desserts, beverages and more at Tops online"
+          ],
+          "keywords": [
+            "ท็อปส์, ท็อปส์ ออนไลน์, ช้อปออนไลน์, ช่วยเหลือ, ข้อมูลสินค้าและโปรโมชั่น",
+            "Tops, Tops online, shop online, best price, help"
+          ]
+        },
+        "how_to_pay": {
+          "title": ["วิธีการชำระเงิน | Tops online", "Help | Tops online"],
+          "description": [
+            "ช่วยเหลือ เรื่องวิธีการชำระเงิน - Tops online ซื้อของสด ผัก ผลไม้ เนื้อสัตว์ อาหารสด อาหารพร้อมรับประทาน เครื่องดื่ม ขนมขบเคี้ยว ของหวาน สินค้าแม่และเด็ก และอื่นๆ ได้ที่ ท็อปส์ออนไลน์",
+            "Help - Tops online, online shopping for your fresh groceries such as fruits, vegetables, meat, seafood, fresh food, ready to eat, snacks, desserts, beverages and more at Tops online"
+          ],
+          "keywords": [
+            "ท็อปส์, ท็อปส์ ออนไลน์, ช้อปออนไลน์, ช่วยเหลือ, วิธีการชำระเงิน",
+            "Tops, Tops online, shop online, best price, help"
+          ]
+        },
+        "shipping_and_delivery": {
+          "title": ["การส่งสินค้า | Tops online", "Help | Tops online"],
+          "description": [
+            "ช่วยเหลือ เรื่องวิธีส่งสินค้า - Tops online ซื้อของสด ผัก ผลไม้ เนื้อสัตว์ อาหารสด อาหารพร้อมรับประทาน เครื่องดื่ม ขนมขบเคี้ยว ของหวาน สินค้าแม่และเด็ก และอื่นๆ ได้ที่ ท็อปส์ออนไลน์",
+            "Help - Tops online, online shopping for your fresh groceries such as fruits, vegetables, meat, seafood, fresh food, ready to eat, snacks, desserts, beverages and more at Tops online"
+          ],
+          "keywords": [
+            "ท็อปส์, ท็อปส์ ออนไลน์, ช้อปออนไลน์, ช่วยเหลือ, การส่งสินค้า",
+            "Tops, Tops online, shop online, best price, help"
+          ]
+        },
+        "user_account": {
+          "title": ["บัญชีผู้ใช้งาน | Tops online", "Help | Tops online"],
+          "description": [
+            "ช่วยเหลือ เรื่องบัญชีผู้ใช้งาน - Tops online ซื้อของสด ผัก ผลไม้ เนื้อสัตว์ อาหารสด อาหารพร้อมรับประทาน เครื่องดื่ม ขนมขบเคี้ยว ของหวาน สินค้าแม่และเด็ก และอื่นๆ ได้ที่ ท็อปส์ออนไลน์",
+            "Help - Tops online, online shopping for your fresh groceries such as fruits, vegetables, meat, seafood, fresh food, ready to eat, snacks, desserts, beverages and more at Tops online"
+          ],
+          "keywords": [
+            "ท็อปส์, ท็อปส์ ออนไลน์, ช้อปออนไลน์, ช่วยเหลือ, บัญชีผู้ใช้งาน",
+            "Tops, Tops online, shop online, best price, help"
+          ]
+        }
+      }
+    },
+    "contact": {
+      "title": ["ติดต่อเรา | Tops online", "Contact us | Tops online"],
+      "description": [
+        "ติดต่อเรา - Tops online ซื้อของสด ผัก ผลไม้ เนื้อสัตว์ อาหารสด อาหารพร้อมรับประทาน เครื่องดื่ม ขนมขบเคี้ยว ของหวาน สินค้าแม่และเด็ก และอื่นๆ ได้ที่ ท็อปส์ออนไลน์",
+        "Contact us - Tops online, online shopping for your fresh groceries such as fruits, vegetables, meat, seafood, fresh food, ready to eat, snacks, desserts, beverages and more at Tops online"
+      ],
+      "keywords": [
+        "ท็อปส์, ท็อปส์ ออนไลน์, ช้อปออนไลน์, ติดต่อเรา",
+        "Tops, Tops online, shop online, best price, contact us"
+      ],
+      "nodes": {
+        "user_account": {
+          "title": [
+            "ติดต่อเรา เรื่องบัญชีผู้ใช้ | Tops online",
+            "Contact us | Tops online"
+          ],
+          "description": [
+            "ติดต่อเรา เรื่องบัญชีผู้ใช้ - Tops online ซื้อของสด ผัก ผลไม้ เนื้อสัตว์ อาหารสด อาหารพร้อมรับประทาน เครื่องดื่ม ขนมขบเคี้ยว ของหวาน สินค้าแม่และเด็ก และอื่นๆ ได้ที่ ท็อปส์ออนไลน์",
+            "Contact us - Tops online, online shopping for your fresh groceries such as fruits, vegetables, meat, seafood, fresh food, ready to eat, snacks, desserts, beverages and more at Tops online"
+          ],
+          "keywords": [
+            "ท็อปส์, ท็อปส์ ออนไลน์, ช้อปออนไลน์, ติดต่อเรา, บัญชีผู้ใช้",
+            "Tops, Tops online, shop online, best price, contact us"
+          ]
+        },
+        "how_to_shop": {
+          "title": [
+            "ติดต่อเรา เรื่องการสั่งซื้อสินค้า | Tops online",
+            "Contact us | Tops online"
+          ],
+          "description": [
+            "ติดต่อเรา เรื่องการสั่งซื้อสินค้า - Tops online ซื้อของสด ผัก ผลไม้ เนื้อสัตว์ อาหารสด อาหารพร้อมรับประทาน เครื่องดื่ม ขนมขบเคี้ยว ของหวาน สินค้าแม่และเด็ก และอื่นๆ ได้ที่ ท็อปส์ออนไลน์",
+            "Contact us - Tops online, online shopping for your fresh groceries such as fruits, vegetables, meat, seafood, fresh food, ready to eat, snacks, desserts, beverages and more at Tops online"
+          ],
+          "keywords": [
+            "ท็อปส์, ท็อปส์ ออนไลน์, ช้อปออนไลน์, ติดต่อเรา, การสั่งซื้อสินค้า",
+            "Tops, Tops online, shop online, best price, contact us"
+          ]
+        },
+        "product_and_promotion": {
+          "title": [
+            "ติดต่อเรา เรื่องข้อมูลสินค้าและโปรโมชั่น | Tops online",
+            "Contact us | Tops online"
+          ],
+          "description": [
+            "ติดต่อเรา เรื่องข้อมูลสินค้าและโปรโมชั่น - Tops online ซื้อของสด ผัก ผลไม้ เนื้อสัตว์ อาหารสด อาหารพร้อมรับประทาน เครื่องดื่ม ขนมขบเคี้ยว ของหวาน สินค้าแม่และเด็ก และอื่นๆ ได้ที่ ท็อปส์ออนไลน์",
+            "Contact us - Tops online, online shopping for your fresh groceries such as fruits, vegetables, meat, seafood, fresh food, ready to eat, snacks, desserts, beverages and more at Tops online"
+          ],
+          "keywords": [
+            "ท็อปส์, ท็อปส์ ออนไลน์, ช้อปออนไลน์, ติดต่อเรา, ข้อมูลสินค้าและโปรโมชั่น",
+            "Tops, Tops online, shop online, best price, contact us"
+          ]
+        },
+        "how_to_pay": {
+          "title": [
+            "ติดต่อเรา เรื่องวิธีการชำระเงิน | Tops online",
+            "Contact us | Tops online"
+          ],
+          "description": [
+            "ติดต่อเรา เรื่องวิธีการชำระเงิน - Tops online ซื้อของสด ผัก ผลไม้ เนื้อสัตว์ อาหารสด อาหารพร้อมรับประทาน เครื่องดื่ม ขนมขบเคี้ยว ของหวาน สินค้าแม่และเด็ก และอื่นๆ ได้ที่ ท็อปส์ออนไลน์",
+            "Contact us - Tops online, online shopping for your fresh groceries such as fruits, vegetables, meat, seafood, fresh food, ready to eat, snacks, desserts, beverages and more at Tops online"
+          ],
+          "keywords": [
+            "ท็อปส์, ท็อปส์ ออนไลน์, ช้อปออนไลน์, ติดต่อเรา, วิธีการชำระเงิน",
+            "Tops, Tops online, shop online, best price, contact us"
+          ]
+        },
+        "shipping_and_delivery": {
+          "title": [
+            "ติดต่อเรา เรื่องการส่งสินค้า | Tops online",
+            "Contact us | Tops online"
+          ],
+          "description": [
+            "ติดต่อเรา เรื่องการส่งสินค้า - Tops online ซื้อของสด ผัก ผลไม้ เนื้อสัตว์ อาหารสด อาหารพร้อมรับประทาน เครื่องดื่ม ขนมขบเคี้ยว ของหวาน สินค้าแม่และเด็ก และอื่นๆ ได้ที่ ท็อปส์ออนไลน์",
+            "Contact us - Tops online, online shopping for your fresh groceries such as fruits, vegetables, meat, seafood, fresh food, ready to eat, snacks, desserts, beverages and more at Tops online"
+          ],
+          "keywords": [
+            "ท็อปส์, ท็อปส์ ออนไลน์, ช้อปออนไลน์, ติดต่อเรา, การส่งสินค้า",
+            "Tops, Tops online, shop online, best price, contact us"
+          ]
+        },
+        "other_issues": {
+          "title": [
+            "ติดต่อเรา เรื่องปัญหาอื่นๆ | Tops online",
+            "Contact us | Tops online"
+          ],
+          "description": [
+            "ติดต่อเรา เรื่องปัญหาอื่นๆ - Tops online ซื้อของสด ผัก ผลไม้ เนื้อสัตว์ อาหารสด อาหารพร้อมรับประทาน เครื่องดื่ม ขนมขบเคี้ยว ของหวาน สินค้าแม่และเด็ก และอื่นๆ ได้ที่ ท็อปส์ออนไลน์",
+            "Contact us - Tops online, online shopping for your fresh groceries such as fruits, vegetables, meat, seafood, fresh food, ready to eat, snacks, desserts, beverages and more at Tops online"
+          ],
+          "keywords": [
+            "ท็อปส์, ท็อปส์ ออนไลน์, ช้อปออนไลน์, ติดต่อเรา, ปัญหาอื่นๆ",
+            "Tops, Tops online, shop online, best price, contact us"
+          ]
+        }
+      }
+    },
+    "order_history": {
+      "title": [
+        "ประวัติการสั่งซื้อสินค้า | Tops online",
+        "Order History | Tops online"
+      ],
+      "description": [
+        "ประวัติการซื้อสินค้า - Tops online ซื้อของสด ผัก ผลไม้ เนื้อสัตว์ อาหารสด อาหารพร้อมรับประทาน เครื่องดื่ม ขนมขบเคี้ยว ของหวาน สินค้าแม่และเด็ก และอื่นๆ ได้ที่ ท็อปส์ออนไลน์",
+        "Order history - Tops online, online shopping for your fresh groceries such as fruits, vegetables, meat, seafood, fresh food, ready to eat, snacks, desserts, beverages and more at Tops online"
+      ],
+      "keywords": [
+        "ท็อปส์, ท็อปส์ ออนไลน์, ช้อปออนไลน์, ประวัติการซื้อสินค้า",
+        "Tops, Tops online, shop online, best price, order history"
+      ]
+    },
+    "recommended": {
+      "title": ["สินค้าแนะนำ | Tops online", "Recommended | Tops online"],
+      "description": [
+        "สินค้าแนะนำ - Tops online ซื้อของสด ผัก ผลไม้ เนื้อสัตว์ อาหารสด อาหารพร้อมรับประทาน เครื่องดื่ม ขนมขบเคี้ยว ของหวาน สินค้าแม่และเด็ก และอื่นๆ ได้ที่ ท็อปส์ออนไลน์",
+        "Recommended - Tops online, online shopping for your fresh groceries such as fruits, vegetables, meat, seafood, fresh food, ready to eat, snacks, desserts, beverages and more at Tops online"
+      ],
+      "keywords": [
+        "ท็อปส์, ท็อปส์ ออนไลน์, ช้อปออนไลน์, สินค้าแนะนำ",
+        "Tops, Tops online, shop online, recommended product"
+      ]
+    },
+    "promotion": {
+      "title": ["โปรโมชั่น | Tops online", "Promotion | Tops online"],
+      "description": [
+        "โปรโมชั่น - Tops online ซื้อของสด ผัก ผลไม้ เนื้อสัตว์ อาหารสด อาหารพร้อมรับประทาน เครื่องดื่ม ขนมขบเคี้ยว ของหวาน สินค้าแม่และเด็ก และอื่นๆ ได้ที่ ท็อปส์ออนไลน์",
+        "Promotion - Tops online, online shopping for your fresh groceries such as fruits, vegetables, meat, seafood, fresh food, ready to eat, snacks, desserts, beverages and more at Tops online"
+      ],
+      "keywords": [
+        "ท็อปส์, ท็อปส์ ออนไลน์, ช้อปออนไลน์, โปรโมชั่น",
+        "Tops, Tops online, shop online, promotion"
+      ]
+    }
+  },
+  "shipping_free": {
+    "title": ["ยินดีด้วย! คุณได้รับสิทธิ์ ", "Congrats! You’ve received"],
+    "description": ["“ฟรีค่าจัดส่ง”", "“Free delivery”"]
+  },
+  "regis_form": {
+    "regis_header": ["สมัครสมาชิก", "Register"],
+    "regis_btn_facebook": [
+      "เริ่มใช้งานด้วย Facebook",
+      "Continue with Facebook"
+    ],
+    "cancel": ["ยกเลิก", "Cancel"],
+    "back_home": ["กลับไปที่โฮมเพจ", "Back to homepage"],
+    "progress_bar_step1": ["บัญชีผู้ใช้", "Account"],
+    "progress_bar_step2": ["ที่อยู่", "Address"],
+    "progress_bar_step3": ["ข้อมูลส่วนตัว", "Profile"],
+    "title_step1": ["บัญชีผู้ใช้งาน", "Account"],
+    "title_step2": ["ที่อยู่จัดส่ง", "Delivery address"],
+    "title_step3": ["ข้อมูลส่วนตัว", "Profile"],
+    "topic_step3": ["ข้อมูลส่วนบุคคล", "Personal Information"],
+    "topic_contact": ["ข้อมูลติดต่อ", "Contact Information"],
+    "sub_topic_condition1": [
+      "ฉันได้อ่านและยอมรับ${term}และนโยบายความเป็นส่วนตัวที่ได้ระบุเอาไว้โดยบริษัทฯ และเข้าใจว่าข้อมูลความเป็นส่วนตัวจะได้รับความคุ้มครองตามนโยบายความปลอดภัยในการใช้และประมวลผลของข้อมูล",
+      "I have read and agreed to the ${term} and well acknowledged of the data policy declared by the company. I understand that my personal information will be protected with the terms of rights and security in processing the use of privacy data."
+    ],
+    "sub_topic_condition2": ["ข้อตกลงและเงื่อนไข", "terms and conditions"],
+    "notic_pass": [
+      "รหัสผ่านต้องเป็นภาษาอังกฤษประกอบด้วยตัวพิมพ์ใหญ่อย่างน้อย 1 ตัว ตัวพิมพ์เล็กอย่างน้อย 1 ตัว และตัวเลขอย่างน้อย 1 ตัว รวมกันไม่ต่ำกว่า 8 ตัว",
+      "The password must be at least 8 characters long, contain at least one number, one lowercase letter, and one uppercase letter."
+    ],
+    "have_account": [
+      "เป็นสมาชิกกับเราแล้วหรือยัง? ",
+      "Already have an account? "
+    ],
+    "login_link": ["เข้าสู่ระบบที่นี่", "Login"],
+    "form": {
+      "house_no": ["บ้านเลขที่", "House No"],
+      "building_type": ["ลักษณะอาคาร", "House Type"],
+      "soi": ["ซอย", "Soi"],
+      "moo": ["หมู่", "Moo"],
+      "village": ["ชื่อหมู่บ้าน / อาคาร", "Village / Building"],
+      "road": ["ถนน", "Road"],
+      "province": ["จังหวัด", "Province"],
+      "district": ["เขต/อำเภอ", "District"],
+      "sub_district": ["แขวง/ตำบล", "Sub district"],
+      "postcode": ["รหัสไปรษณีย์", "Postcode"],
+      "remark": ["จุดสังเกต", "Landmark"],
+      "birth_title": ["วัน/เดือน/ปี เกิด", "Date of Birth "],
+      "birth_day": ["วัน", "Date"],
+      "birth_month": ["เดือน", "Month"],
+      "birth_year": ["ปี", "Year"],
+      "birthday_format": ["DD/MM/YYYY", "DD/MM/YYYY"],
+      "mobile": ["เบอร์โทรศัพท์มือถือ", "Mobile Number"],
+      "first_name": ["ชื่อแรก", "First name"],
+      "last_name": ["นามสกุล", "Last name"],
+      "email": ["อีเมล", "Email"],
+      "password": ["รหัสผ่าน", "Password"],
+      "new_password": ["รหัสผ่านใหม่", "New Password"],
+      "confirm_password": ["ยืนยันรหัสผ่าน", "Confirm Password"],
+      "title": {
+        "miss": ["นางสาว", "Miss"],
+        "mrs": ["นาง", "Mrs."],
+        "mr": ["นาย", "Mr."]
+      },
+      "topic_t1c": ["ข้อมูล The 1", "The 1 Information"],
+      "t1c_phone": [
+        "หมายเลขโทรศัพท์ที่ใช้กับ The 1",
+        "Phone number registered with The 1"
+      ],
+      "t1c_card": ["หมายเลขบัตร The 1", "The 1 Card number"],
+      "t1c_checked1": [
+        "กรุณาตรวจสอบข้อมูล The 1 ให้ถูกต้อง หากต้องการเปลี่ยนแปลงภายหลัง",
+        "Please ensure your The 1 information is correct."
+      ],
+      "t1c_checked2": [
+        "สามารถติดต่อ 02-295-0930",
+        "If you want to change it later, please contact 02-295-0930."
+      ],
+      "t1c_account": [
+        "ยังไม่มีบัญชี The 1 Card ? ",
+        "If you do not have an The 1 account "
+      ],
+      "t1c_account_link": ["สมัครที่นี่", "Register"],
+      "placeholder": {
+        "email": ["กรอกอีเมล", "Enter your email"],
+        "password": ["กรอกรหัสผ่าน", "Enter your password"],
+        "confirmPass": ["กรอกรหัสผ่านอีกครั้ง", "Enter your password again"],
+        "first_name": ["กรอกชื่อ", "Enter your name"],
+        "last_name": ["กรอกนามสกุล", "Enter your last name"],
+        "house_no": ["กรอกบ้านเลขที่", "Enter house no"],
+        "sub_district": ["เลือกแขวง / ตำบล", "Select subdistrict"],
+        "district": ["เลือกเขต / อำเภอ", "Select district"],
+        "province": ["เลือกจังหวัด", "Select province"],
+        "postcode": ["เลือกรหัสไปรษณีย์", "Select postcode"],
+        "moo": ["กรอกเลขที่หมู่", "Enter moo"],
+        "soi": ["กรอกชื่อซอย", "Enter soi"],
+        "road": ["กรอกชื่อถนน", "Enter road"],
+        "building_type": ["เลือกลักษณะอาคาร", "Select house type"],
+        "village": ["กรอกชื่อหมู่บ้าน / อาคาร", "Enter village / building"],
+        "mobile": ["(ตัวอย่าง: 0XXXXXXXXX)", "(e.g. 0XXXXXXXXX)"],
+        "t1c_card": ["กรอกหมายเลขบัตร The 1", "Enter The 1 Card number"],
+        "t1c_phone": [
+          "กรอกหมายเลขโทรศัพท์ที่ใช้กับ The 1",
+          "Enter phone number registered with The 1"
+        ],
+        "remark": [
+          "ใส่จุดสังเกต เช่น อยู่ติดสวนสาธารณะ",
+          "Landmark Ex: next to public park"
+        ],
+        "birth_day": ["เลือกวัน", "Select Date"],
+        "birth_month": ["เลือกเดือน", "Select month"],
+        "birth_year": ["เลือกปี", "Select year"]
+      }
+    },
+    "month": {
+      "Janury": ["มกราคม", "Janury"],
+      "February": ["กุมภาพันธ์", "February"],
+      "March": ["มีนาคม", "March"],
+      "April": ["เมษายน", "April"],
+      "May": ["พฤษภาคม", "May"],
+      "June": ["มิถุนายน", "June"],
+      "July": ["กรกฎาคม", "July"],
+      "August": ["สิงหาคม", "August"],
+      "September": ["กันยายน", "September"],
+      "October": ["ตุลาคม", "October"],
+      "November": ["พฤศจิกายน", "November"],
+      "December": ["ธันวาคม", "December"]
+    },
+    "lang": {
+      "en_US": ["English", "English"],
+      "th_TH": ["ภาษาไทย", "ภาษาไทย"]
+    },
+    "contact": ["ติดต่อเรา", "Contact Us"],
+    "register": ["สมัครสมาชิกด้วยอีเมล", "Register by email"],
+    "next-step": ["ขั้นตอนต่อไป", "Confirm"]
+  },
+  "login_widget": {
+    "login": ["เข้าสู่ระบบ", "Login"],
+    "login_shopping": ["เข้าสู่ระบบ", "Start Shopping"],
+    "member_top": [
+      "ไม่ได้เป็นสมาชิก Tops ? สมัครเลยที่นี่",
+      "New to Tops? Register"
+    ],
+    "sign_up": ["สมัครสมาชิก", "Register"]
+  },
+  "login_form": {
+    "title": ["เข้าสู่ระบบ", "Login"],
+    "forgot": ["ลืมรหัสผ่าน?", "Forget Password?"],
+    "register": ["สมัครสมาชิก", "Register"],
+    "or": ["หรือ", "or"],
+    "login_btn": ["เข้าสู่ระบบ", "Log in"],
+    "login_btn_facebook": ["เข้าใช้งานด้วย Facebook", "Continue with Facebook"],
+    "login_fail": [
+      "ไม่สามารถล็อกอินได้ เนื่องจากคุณไม่อนุญาตให้ Tops Online เข้าถึงข้อมูล Facebook",
+      "Facebook permissions data must be allowed to use for login"
+    ]
+  },
+  "forgot_password": {
+    "title": ["ลืมรหัสผ่าน?", "Forget Password?"],
+    "description": [
+      "ลิงค์สำหรับ Reset รหัสผ่านจะถูกส่งไปยังอีเมลของคุณ",
+      "The link to reset password will be sent to your email."
+    ],
+    "msg_error": [
+      "ไม่พบ Account ดังกล่าวในระบบ",
+      "This email is not registered yet."
+    ],
+    "msg_to_many_password": [
+      "เราได้ส่งอีเมลพร้อมลิงค์สำหรับ Reset รหัสผ่านไปแล้ว กรุณาตรวจสอบอีเมลเพื่อทำการ Reset รหัสผ่าน",
+      "Email has been sent, please check your email, and click the provided link to reset your password."
+    ],
+    "exp_token": [
+      "เกินระยะเวลาที่กำหนด กรุณากรอกอีเมลพื่อตั้งรหัสผ่านใหม่อีกครั้ง",
+      "Session is expired. Please enter your email to reset password again."
+    ],
+    "button": ["ส่งลิงค์ไปที่อีเมลนี้", "Send me the link."],
+    "completed": {
+      "title": ["อีเมลได้ส่งออกไปแล้ว", "Email has been sent!"],
+      "sub_title": [
+        "กรุณาเช็คอีเมลและ Reset รหัสผ่าน",
+        "Please check your email, and click the provided link to reset your password."
+      ],
+      "desc": [
+        "*แนะนำให้เช็คกล่อง Junk Mail หากไม่ได้รับอีเมลจากเรา",
+        "*If you do not receive the email, please check your Spam/Junk folder."
+      ],
+      "button": ["ตกลง", "OK"]
+    }
+  },
+  "reset_password": {
+    "title": ["ตั้งรหัสผ่านใหม่", "Reset Password"],
+    "description": ["กรุณาใส่รหัสผ่านใหม่", "Please enter the new password."],
+    "remark": [
+      "รหัสผ่านต้องเป็นภาษาอังกฤษประกอบด้วยตัวพิมพ์ใหญ่อย่างน้อย 1 ตัว ตัวพิมพ์เล็กอย่างน้อย 1 ตัว และตัวเลขอย่างน้อย 1 ตัว รวมกันไม่ต่ำกว่า 8 ตัว",
+      "The password must be at least 8 characters long, contain at least one number, one lowercase letter, and one uppercase letter."
+    ],
+    "msg_error": ["กรุณาลองใหม่อีกครั้ง", "Please try again."],
+    "username": ["ชื่อผู้ใช้", "Username"],
+    "button": ["ยืนยัน", "Confirm"],
+    "completed": {
+      "title": [
+        "เปลี่ยนรหัสผ่านเรียบร้อยแล้ว!",
+        "Your password has been changed!"
+      ],
+      "desc": [
+        "คุณสามารถเข้าสู่ระบบด้วยรหัสผ่านใหม่ได้ทันที",
+        "Now you can login with your new password."
+      ],
+      "button": ["เริ่มช้อปปิ้ง", "Start Shopping"]
+    }
+  },
+  "regis_completed": {
+    "text_thanks": ["ถึงขั้นตอนสุดท้ายแล้ว!", "Just one last step!"],
+    "text_check_email1": [
+      "กรุณาเช็คอีเมลเพื่อยืนยันการสมัคร",
+      "Please check your email to activate your account."
+    ],
+    "text_check_email2": [
+      "*แนะนำให้เช็คกล่อง Junk Mail หากไม่ได้รับอีเมลจากเรา",
+      "*If you don't receive the email please check Spam/ Junk folder."
+    ],
+    "button": ["ตกลง", "OK"]
+  },
+  "call_back": {
+    "success": {
+      "title": ["ระบบกำลังดำเนินการ...", "System in progress..."],
+      "sub_title": [
+        "กรุณาไม่ปิดเบราว์เซอร์ หรือ กดกลับ หรือรีเฟรชหน้านี...",
+        "Please do not close the browser or back or refresh this page..."
+      ]
+    },
+    "error": {
+      "title": ["เกิดข้อผิดพลาดในระบบ", "An error occurred in the system"],
+      "sub_title": [
+        "ไม่สามารถเข้าสู่ระบบได้ กรุณาลองใหม่อีกครั้ง...",
+        "Can not login. Please try again..."
+      ]
+    }
+  },
+  "modal-location": {
+    "title": ["ขออภัยค่ะ", "Sorry!"],
+    "detail": [
+      "ไม่สามารถให้บริการได้ เนื่องจากอยู่นอกพื้นที่จัดส่งของท็อปส์ออนไลน์",
+      "Your address is out of our service area."
+    ],
+    "change-location": [
+      "*กรุณาเปลี่ยนที่อยู่จัดส่ง",
+      "*Please change your delivery address."
+    ],
+    "button": ["ตกลง", "OK"]
+  },
+  "edit-profile": {
+    "edit_profile": ["แก้ไขข้อมูลส่วนตัว", "Edit Profile"],
+    "t1c_info": ["ข้อมูลสมาชิก The 1", "The 1 information"],
+    "my_profile": ["ข้อมูลส่วนตัว", "Personal information"],
+    "first_name": ["ชื่อ", "Firstname"],
+    "last_name": ["นามสกุล", "Lastname"],
+    "contact": ["เบอร์ติดต่อ", "Contact Number"],
+    "t1c_card": ["หมายเลขสมาชิก The 1", "The 1 no."],
+    "t1c_phone": [
+      "เบอร์โทรศัพท์ที่ผูกกับ The 1",
+      "Phone no. connected with the 1"
+    ],
+    "btn_confirm": ["บันทึก", "Confirm"],
+    "error": {
+      "first_name": ["กรุณากรอกชื่อ", "Please enter your name"],
+      "last_name": ["กรุณากรอกนามสกุล", "Please enter your lastname"],
+      "contact": ["กรุณากรอกเบอร์โทรศัพท์", "Please enter your contact number"],
+      "t1c_card": ["กรุณาระบุหมายเลข The 1", "Please enter The 1 number"],
+      "t1c_phone": ["กรุณาระบุเบอร์โทรศัพท์", "Please enter phone No"],
+      "t1c_phone_format": ["หมายเลขโทรศัพท์ไม่ถูกต้อง", "Invalid phone number"],
+      "t1c_card_format": ["หมายเลข The 1 ไม่ถูกต้อง", "Invalid The 1 number."]
+    }
+  },
+  "search_suggestion": {
+    "recent_search": ["คำที่เคยค้นหา", "Recent Search"],
+    "placeholder": [
+      "ค้นหาจากชื่อสินค้าหรือชื่อแบรนด์",
+      "Search product name and brand"
+    ],
+    "search_btn": ["ค้นหา", "Search"]
+  },
+  "404_not_found": {
+    "title1": ["ขออภัยค่ะ", "Page not found."],
+    "title2": ["ไม่พบหน้าที่คุณกำลังค้นหา", " "],
+    "sub_title1": [
+      "เนื่องจากหมดเวลาของโปรโมชั่น หรือไม่มีหน้าที่คุณกำลังค้นหา",
+      "Sorry, we couldn’t find the page you were looking for."
+    ],
+    "sub_title2": [
+      "คุณสามารถกลับสู่หน้าหลัก, หน้ารวมสินค้าโปรโมชั่น หรือ ค้นหาสินค้าที่คุณต้องการ",
+      "We suggest that you go to homepage, promotion page or try searching."
+    ],
+    "btn_home": ["กลับหน้าหลัก Tops Online", "Back to homepage"],
+    "btn_promotion": ["หน้ารวมสินค้าโปรโมชั่น", "Promotion page"]
+  },
+  "brands": ["แบรนด์", "Brands"],
+  "imported_products": ["สินค้านำเข้า", "International products"],
+  "click-and-collect": {
+    "delivery-method-title": ["หรือ รับสินค้าที่สาขา", "OR PICK UP AT STORE"],
+    "form": {
+      "recipient_name": ["ชื่อ", "Name"],
+      "recipient_tel": ["เบอร์ติดต่อ", "Mobile"]
+    }
+  },
+  "multi_checkout": {
+    "progress_bar": {
+      "step_1": ["สินค้า และการรับสินค้า", "Product list & Order details"],
+      "step_2": [
+        "การชำระเงิน และรายละเอียดอื่นๆ",
+        "Payment and Order Remarks "
+      ],
+      "step_3": ["การสั่งซื้อสำเร็จ", "Order Complete"],
+      "step_3_fail": ["คำสั่งซื้อถูกยกเลิก", "Order Canceled"]
+
+    },
+    "summary": {
+      "title": ["สรุปรายการสั่งซื้อ", "Summary"],
+      "total": ["ราคาหลังส่วนลดโปรโมชั่น", "Total after promotion"],
+      "discount": ["หักคูปองส่วนลด", "Coupon discount"],
+      "shipping_fee": ["ค่าบริการจัดส่ง", "Delivery fee"],
+      "order_total": ["ราคารวมทั้งสิ้น", "Grand Total"],
+      "btn_select_shipping": [
+        "เลือกที่อยู่จัดส่ง/รับสินค้า",
+        "Go to select delivery address/pickup store"
+      ],
+      "btn_goto_payment": ["ไปขั้นตอนการชำระเงิน", "Go to payment"],
+      "delivery_to": ["จัดส่งที่: ", "Delivery to: "],
+      "pickup_at": ["รับสินค้าที่: ", "Pick up at: "],
+      "receiver_order": ["วิธีการจัดส่ง: ", "Receive order:"],
+      "date_time": ["วันเวลาจัดส่ง:", "Date & Time:"],
+      "receiver": ["ผู้รับสินค้า:", "Receiver:"],
+      "collector": ["ผู้รับสินค้า:", "Collector:"],
+      "the1": ["หมายเลข The1:", "The1 member:"],
+      "estimated_point": [
+        "คะแนนที่คาดว่าจะได้รับ:",
+        "Estimated points earned:"
+      ],
+      "t1c_point": ["ประมาณ ${point} คะแนน", "${point} point"],
+      "contact_number": ["เบอร์โทรศัพท์:", "Tel.:"]
+    },
+    "method": {
+      "standard_mds": [
+        "จัดส่งที่บ้าน (จัดส่งปกติ)",
+        "Home delivery (Standard delivery)"
+      ],
+      "standard_local": [
+        "จัดส่งที่บ้าน (จัดส่งปกติ)",
+        "Home delivery (Standard delivery)"
+      ],
+      "tops_express": [
+        "จัดส่งที่บ้าน (จัดส่งแบบด่วน)",
+        "Home delivery (Express delivery)"
+      ],
+      "undefined": [
+        "จัดส่งที่บ้าน (จัดส่งปกติ)",
+        "Home delivery (Standard delivery)"
+      ],
+      "null": [
+        "จัดส่งที่บ้าน (จัดส่งปกติ)",
+        "Home delivery (Standard delivery)"
+      ],
+      "pickupatstore_tops": ["รับสินค้าที่สาขา", "Pickup at store"]
+    },
+    "mobile_header": {
+      "cart_item": ["สินค้าในรถเข็น", "Shopping Cart"],
+      "shipping_detail": ["รายละเอียดการรับสินค้า", "Receive Order Details"],
+      "step": ["ขั้นตอนที่ ${step} จาก 4", "Step ${step} out of 4"],
+      "delete_all": ["ลบทั้งหมด", "Delete all items"],
+      "payment": [
+        "การชำระเงิน และรายละเอียดเพิ่มเติม",
+        "Payment and Order Remarks"
+      ]
+    },
+    "notification": {
+      "limit_qty_200": ["ไม่สามารถเพิ่มสินค้าได้ เนื่องจากสินค้าถึงจำนวนที่จำกัดต่อคำสั่งซื้อ", "Cart item limit exceeded"],
+      "reorder_limit_qty_200": ["ไม่สามารถเพิ่มสินค้าได้ เนื่องจากสินค้าถึงจำนวนที่จำกัดต่อคำสั่งซื้อ กรุณาเลือกสินค้าบางรายการ", "Can't reorder due to cart item limit exceeded. Please select some item(s) and try again."]
+    }
+  },
+  "cart": {
+    "product_list": ["รายการสินค้า", "Product list"],
+    "product_quantity": ["จำนวน", "Quantity"],
+    "product_price": ["ราคาต่อ/หน่วย", "Price/unit"],
+    "product_unit": ["หน่วย", "Unit"],
+    "product_discount": ["ส่วนลด", "Discount"],
+    "product_subtotal": ["รวม", "Sub total"],
+    "show_more_item": ["แสดงรายการสั่งซื้อทั้งหมด", "Show all product list"],
+    "hide_item": ["ซ่อนรายการสั่งซื้อ", "Show less product list"],
+    "category_other": ["อื่นๆ", "Other"]
+  },
+  "mini_cart": {
+    "title": ["สินค้าในรถเข็น", "Shopping Cart"],
+    "total_price": ["ราคารวม", "Sub Total"],
+    "view_cart": ["ดำเนินการสั่งซื้อสินค้า", "Go to checkout"],
+    "deliver_during": [
+      "ในรถเข็นมีสินค้าจำกัดวันส่ง/รับสินค้า วันที่ ",
+      "You have preorder item(s} in you cart, Your cart can be delivery/pick up durring: "
+    ],
+    "date_only": ["เท่านั้น", "only."]
+  },
+  "checkout_delivery": {
+    "delivery_home": ["จัดส่งถึงบ้าน", "Home Delivery"],
+    "delivery_home_sub": [
+      "รับสินค้าเร็วขึ้นด้วยบริการจัดส่งแบบด่วน หรือจัดส่งวันเดียวกันเมื่อสั่งก่อนบ่ายโมง",
+      "Receive faster with Express delivery or Same day delivery (when order before 13:00)"
+    ],
+    "select_pickup_store": {
+      "title": ["เลือกสาขาที่ต้องการรับสินค้า", "Select Pick Up Store"]
+    },
+    "click_and_collect": ["รับสินค้าที่สาขา / ไดร์ฟ-ทรู", "Click & Collect / Drive Thru"],
+    "click_and_collect_mobile1": ["รับสินค้าที่สาขา / ", "Click & Collect / "],
+    "click_and_collect_mobile2": ["ไดร์ฟ-ทรู", "Drive Thru"],
+    "click_and_collect_sub": [
+      "ช็อปออนไลน์ง่ายๆ และรับสินค้าที่สาขาใกล้บ้านคุณ​ ฟรีค่าบริการ! ไม่มีขั้นต่ำ​​",
+      "Shop online and pick up at nearby store. ​Free service! No minimum spending.​"
+    ],
+    "tel": ["เบอร์โทรศัพท์:", "Tel.:"],
+    "address": ["ที่อยู่:", "Address:"],
+    "shipping_address": {
+      "title": {
+        "delivery_home": [
+          "ข้อมูลที่อยู่จัดส่ง",
+          "Delivery Address Information"
+        ],
+        "click_and_collect": ["รับสินค้าที่สาขา / ไดร์ฟ-ทรู", "Click & Collect / Drive Thru"]
+      },
+      "form": {
+        "recipient_name": ["ชื่อผู้รับสินค้า", "Recipient name"],
+        "telephone": ["เบอร์ติดต่อ", "Phone number"],
+        "detail": ["รายละเอียดที่อยู่จัดส่ง", "Details"]
+      }
+    },
+    "click_collect": {
+      "form": {
+        "collector": ["ชื่อผู้มารับสินค้า", "Collector"],
+        "mobile_no": ["เบอร์มือถือ", "Mobile no."]
+      }
+    },
+    "tax": {
+      "title": ["ข้อมูลใบกำกับภาษี", "Tax Invoice Information"],
+      "request": ["ต้องการรับใบกำกับภาษี", "Need a full tax invoice"],
+      "no_request": ["ไม่รับใบกำกับภาษี", "Don't need full tax invoice"],
+      "tax_id": ["เลขประจำตัวผู้เสียภาษี:", "Tax ID:"],
+      "address": ["ที่อยู่:", "Address:"],
+      "tel": ["เบอร์โทรศัพท์:", "Tel.:"],
+      "required": {
+        "address": [
+          "กรุณาระบุรายละเอียดในการออกเอกสารใบกำกับภาษี",
+          "Please create or select tax invoice information."
+        ]
+      }
+    },
+    "shipping_method": {
+      "home_delivery": {
+        "title": [
+          "เลือกวิธีการจัดส่ง และวันเวลาที่ต้องการรับสินค้า",
+          "Delivery Services & Delivery Time Slot"
+        ]
+      },
+      "shipping_mobile_time_slot": {
+        "delivery_services": ["เลือกวันที่ต้องการรับสินค้า", "Delivery Date"],
+        "delivery_time_slot": [
+          "เลือกเวลาต้องการรับสินค้า",
+          "Select Delivery Time Slot"
+        ]
+      },
+      "shipping_title_method": {
+        "delivery": ["บริการจัดปกติ", "Standard delivery"],
+        "express": ["บริการจัดส่งด่วน", "Express Delivery"]
+      },
+      "click_and_collect": {
+        "title": ["เลือกวันเวลาที่ต้องการรับสินค้า", "Pick-up Time Slot"]
+      },
+      "standard": {
+        "head_subtext": [
+          "สามารถจองล่วงหน้าได้ ${day} วัน",
+          "Book slot up to ${day} days in advance."
+        ]
+      },
+
+      "express": {
+        "head_subtext": [
+          "บริการจัดส่งด่วน ภายใน 1-2 ชั่วโมง",
+          "Receive faster with Express delivery"
+        ]
+      },
+      "no_select_shipping": [
+        "กรุณาเลือกที่อยู่จัดส่ง เพื่อเลือกรายละเอียดการจัดส่งสินค้า",
+        "Please select or create a delivery address to select the delivery date and time slot."
+      ],
+      "no_select_pickup": [
+        "กรุณาเลือกสาขาที่ต้องการรับสินค้า เพื่อเลือกรายละเอียดวันและเวลารับสินค้า",
+        "Please select pick up store to select the pick-up date and time slot."
+      ],
+      "not_found_slot": [
+        "ขออภัยค่ะ พื้นที่จัดส่งที่คุณเลือกอยู่นอกพื้นที่ให้บริการ การจัดส่งสินค้าของ Tops online",
+        "Sorry, Our delivery service is currently not available in your area.​"
+      ]
+    },
+    "change_shipping_address": ["เปลี่ยนที่อยู่", "Change delivery address"],
+    "change_billing_address": [
+      "เปลี่ยนที่อยู่ใบกำกับภาษี",
+      "Change tax invoice address"
+    ],
+    "change_pickup_address": [
+      "เปลี่ยนสาขาที่รับสินค้า",
+      "Change pick up store"
+    ],
+    "receiver_name": ["ผู้รับสินค้า", "Receiver"],
+    "receiver_phone": ["เบอร์ติดต่อ", "Mobile no."],
+    "select_delivery_address": [
+      "เลือกที่อยู่จัดส่ง",
+      "Select delivery address"
+    ],
+    "create_delivery_address": [
+      "สร้างที่อยู่จัดส่งใหม่",
+      "Create delivery address"
+    ],
+    "select_tax_invoice_address": [
+      "Select tax invoice address",
+      "Select tax invoice address"
+    ],
+    "create_tax_invoice_address": [
+      "สร้างที่อยู่ใบกำกับภาษีใหม่",
+      "Add New Tax Invoice Address"
+    ],
+    "change_address": ["เปลี่ยนที่อยู่", "Change delivery address"],
+    "required_info": [
+      "กรุณากรอก/เลือกข้อมูลให้ครบถ้วน ",
+      "Please enter/select required information."
+    ]
+  },
+  "product_diff": {
+    "title": ["ขออภัยค่ะ", "Sorry!"],
+    "description": [
+      "สินค้า ${qty} รายการมีการเปลี่ยนแปลง",
+      "Changes with ${qty} items"
+    ],
+    "button": {
+      "same_address": ["ใช้ที่อยู่เดิม", "Same address"],
+      "change_address": ["เปลี่ยน", "Change"],
+      "ok": ["ตกลง", "OK"]
+    },
+    "error": {
+      "out_of_stock": ["สินค้าหมด", "Out of stock"],
+      "not_available": [
+        "สินค้าไม่สามารถจัดส่งได้ในพื้นที่ของท่าน",
+        "Product cannot be delivered in your area"
+      ],
+      "not_enough_quant": ["จำนวนสินค้าไม่เพียงพอ", "Not enough stock"],
+      "insufficient_stock": ["จำนวนสินค้าไม่เพียงพอ", "Not enough stock"],
+      "price_changed": ["สินค้ามีราคาเปลี่ยนแปลง", "Price changed"],
+      "product_disabled": [
+        "สินค้าไม่สามารถจัดส่งได้ในพื้นที่ของท่าน",
+        "Item isn't available for your destination."
+      ],
+      "max_qty": [
+        "ลิมิต ${ qty } ชิ้น/ใบเสร็จ",
+        "Limit ${ qty } units/receipt."
+      ]
+    }
+  },
+  "delivery_tool_bar": {
+    "my_account": ["บัญชีของฉัน", "My Account"],
+    "add_select_address": [
+      "เลือกที่อยู่จัดส่ง/สาขาที่ต้องการรับสินค้า",
+      "Select address or pickup store"
+    ],
+    "pickup_at": ["รับสินค้าที่: ", "Pickup at:"],
+    "delivery_to": ["จัดส่งที่: ", "Delivery to:"]
+  },
+  "delivery_tool_bar_modal": {
+    "title": [
+      "คุณต้องการรับสินค้าด้วยวิธีใด?",
+      "How would you like to receive your order?"
+    ],
+    "description": [
+      "ระบุพื้นที่จัดส่ง/สาขาที่รับสินค้า เพื่อให้เราแสดงสินค้าที่เหมาะสม",
+      "Please select delivery address or pickup store."
+    ],
+    "remark": [
+      "หมายเหตุ: ราคา/โปรโมชั่น และสินค้าอาจเปลี่ยนแปลงตามที่อยู่จัดส่งและสาขาที่รับสินค้าเพื่อให้คุณได้ประโยชน์สูงสุด",
+      "Remarks: Price, promotion and assortment might change according to serviced area for your best benefits"
+    ],
+    "btn_close": ["ปิดหน้าต่าง", "Close"],
+    "btn_select_store": ["เลือกรับสินค้าที่สาขา", "Select pick-up store"],
+    "btn_select_address": ["เลือกที่อยู่จัดส่ง", "Select delivery address"],
+    "add_new_address": ["สร้างที่อยู่จัดส่งใหม่", "Add New Delivery Address"],
+    "add_new_billing": [
+      "สร้างที่อยู่ใบกำกับภาษีใหม่",
+      "Add New Tax Invoice Address"
+    ],
+    "receiver": ["ผู้รับสินค้า:", "Receiver: "],
+    "mobile_no": ["เบอร์ติดต่อ:", "Mobile no.: "]
+  },
+  "shipping_address_modal": {
+    "shipping_address": ["เลือกที่อยู่จัดส่งสินค้า", "Select Delivery Address"],
+    "shipping_address_desc": [
+      "ราคาและสินค้าอาจเปลี่ยนแปลงตามที่อยู่จัดส่งของคุณ",
+      "Prices and product might change according to your delivery address."
+    ],
+    "new_shipping_address": [
+      "สร้างที่อยู่จัดส่งสินค้าใหม่",
+      "Add New Delivery Address"
+    ],
+    "new_shipping_address_desc": [
+      "กรุณาระบุรายละเอียดที่อยู่รับสินค้าตามที่กำหนด",
+      "Please fill in/select required information."
+    ],
+    "btn_save": ["บันทึก และใช้เป็นที่อยู่จัดส่ง", "Save and Use"]
+  },
+  "slore_locator_modal": {
+    "title": ["เลือกสาขาที่ต้องการรับสินค้า", "Select Pick-up Store"],
+    "description": [
+      "ราคาและสินค้าอาจเปลี่ยนแปลงตาม สาขาที่รับสินค้า",
+      "Prices and product might change according to your pick up store."
+    ]
+  },
+  "billig_address_modal": {
+    "billig_address": ["ข้อมูลใบกำกับภาษี", "Tax Invoice Information"],
+    "billig_address_desc": [
+      "กรุณาเลือกที่อยู่/รายละเอียด ที่ต้องการออกเอกสารใบกำกับภาษี",
+      "Please select tax invoice information."
+    ],
+    "new_billig_address": [
+      "สร้างที่อยู่ใบกำกับภาษีใหม่",
+      "Add New Tax Invoice Information"
+    ],
+    "new_billig_address_desc": [
+      "กรุณากรอกรายละเอียดตามที่กำหนด",
+      "Please enter/select required information."
+    ],
+    "btn_save": ["เลือกที่อยู่สำหรับใบกำกับภาษี", "Select for tax invoice"]
+  },
+  "address_form": {
+    "receiver_info": ["ข้อมูลผู้รับสินค้า", "Receiver Information"],
+    "first_name": ["ชื่อจริง", "First name"],
+    "last_name": ["นามสกุล", "Last name"],
+    "mobile_no": ["เบอร์มือถือ", "Mobile no."],
+    "address_info": ["ข้อมูลที่อยู่จัดส่ง", "Address Information"],
+    "search_current_location": [
+      "ค้นหาที่ตั้งปัจจุบันของฉัน",
+      "Search Current Location"
+    ],
+    "building_type": ["ลักษณะอาคาร", "Building type"],
+    "building_type_placeholder": [
+      "กรุณาเลือกลักษณะอาคาร",
+      "Select building type"
+    ],
+    "building_type_list": {
+      "detached_house": ["บ้านเดี่ยว", "Detached house"],
+      "townhouse": ["ทาวน์เฮ้าส์", "Townhouse"],
+      "condominium": ["คอนโดมิเนียม", "Condominium"],
+      "office_building": ["อาคารสำนักงาน", "Office building"]
+    },
+    "house_no": ["เลขที่บ้าน/อาคาร", "Address no."],
+    "house_no_placeholder": ["เลขทีบ้าน/อาคาร", "Building/ house/ unit no."],
+    "moo": ["หมู่", "Moo"],
+    "building_name": ["ชื่อหมู่บ้าน/อาคาร", "Village/ building"],
+    "building_name_placeholder": [
+      "ชื่อหมู่บ้าน,อาคาร",
+      "Village or building name"
+    ],
+    "soi": ["ซอย", "Soi"],
+    "street": ["ถนน", "Street"],
+    "province": ["จังหวัด", "Province"],
+    "province_placeholder": ["เลือกจังหวัด", "Select province"],
+    "district": ["เขต/อำเภอ", "District"],
+    "district_placeholder": ["เลือกเขต/อำเภอ", "Select district"],
+    "sub_district": ["แขวง/ตำบล", "Sub-district"],
+    "sub_district_placeholder": ["เลือกแขวง/ตำบล", "Select sub-district"],
+    "postal_code": ["รหัสไปรษณีย์", "Postal code"],
+    "postal_code_placeholder": ["เลือกรหัสไปรษณีย์", "Select postal code"],
+    "more_detail": ["ข้อมูลเพิ่มเติม", "More Details"],
+    "address_name": ["ชื่อที่อยู่", "Name address"],
+    "address_name_placeholder": ["ตั้งชื่อที่อยู่ของคุณ", "Name your address"],
+    "notic": ["จุดสังเกต", "Notice point"],
+    "notic_placeholder": [
+      "จุดสังเกตในการค้นหาที่จัดส่ง",
+      "Note to delivery staff"
+    ],
+    "btn_save": ["บันทึก และใช้เป็นที่อยู่จัดส่ง", "Save"],
+    "btn_back": ["ย้อนกลับ", "Back"],
+    "required_field": ["กรุณากรอกข้อมูล", "Required information"],
+    "required_field_format": [
+      "เบอร์โทรศัพท์ไม่ถูกต้อง กรุณาตรวจสอบอีกครั้ง",
+      "Invalid phon no. format, please try again."
+    ],
+    "required_field_tax_format": ["เลขประจำตัวผู้เสียภาษีไม่ถูกต้อง กรุณาตรวจสอบอีกครั้ง", "Invalid Tax ID format, please try again."],
+    "required_field_idcard_format": ["เลขบัตรประชาชนไม่ถูกต้อง กรุณาตรวจสอบอีกครั้ง", "Invalid Tax ID format, please try again."]
+  },
+  "billing_form": {
+    "customer": ["บุคคลธรรมดา", "Personal"],
+    "company": ["นิติบุคคล", "Company"],
+    "company_name": ["ชื่อบริษัท", "Company name"],
+    "company_name_placeholder": ["ชื่อบริษัท/ห้างหุ้นส่วน", "Company name"],
+    "tax_id": ["เลขผู้เสียภาษี", "Tax ID"],
+    "id_card": ["เลขบัตรประชาชน", "Tax ID"],
+    "tel": ["เบอร์โทรศัพท์", "Telephone no."],
+    "first_name": ["ชื่อจริง", "First name"],
+    "last_name": ["นามสกุล", "Last name"],
+    "house_no": ["เลขที่บ้าน/อาคาร", "Address no."],
+    "house_no_placeholder": [
+      "เลขที่อาคาร/บ้าน/สำนักงาน",
+      "Building/ house/ unit no."
+    ],
+    "building_type": ["ลักษณะอาคาร", "Building type"],
+    "building_type_placeholder": [
+      "กรุณาเลือกลักษณะอาคาร",
+      "Select building type"
+    ],
+    "building_type_list": {
+      "detached_house": ["บ้านเดี่ยว", "Detached house"],
+      "townhouse": ["ทาวน์เฮ้าส์", "Townhouse"],
+      "condominium": ["คอนโดมิเนียม", "Condominium"],
+      "office_building": ["อาคารสำนักงาน", "Office building"]
+    },
+    "building_name": ["ชื่อหมู่บ้าน/อาคาร", "Village/ building"],
+    "building_name_placeholder": [
+      "ชื่อหมู่บ้าน/คอนโดมิเนียม/อาคาร",
+      "Village or building name"
+    ],
+    "soi": ["ซอย", "Soi"],
+    "moo": ["หมู่", "Moo"],
+    "street": ["ถนน", "Street"],
+    "province": ["จังหวัด", "Province"],
+    "province_placeholder": ["เลือกจังหวัด", "Select province"],
+    "district": ["เขต/อำเภอ", "District"],
+    "district_placeholder": ["เลือกเขต/อำเภอ", "Select district"],
+    "sub_district": ["แขวง/ตำบล", "Sub-district"],
+    "sub_district_placeholder": ["เลือกแขวง/ตำบล", "Select sub-district"],
+    "postal_code": ["รหัสไปรษณีย์", "Postal code"],
+    "postal_code_placeholder": ["เลือกรหัสไปรษณีย์", "Select postal code"],
+    "set_billing_default": ["ตั้งเป็นค่าเริ่มต้น", "Set as default"],
+    "btn_save": ["บันทึก", "Save and Use"],
+    "required_field": ["กรุณากรอกข้อมูล", "Required information"],
+    "required_field_format": [
+      "เบอร์โทรศัพท์ไม่ถูกต้อง กรุณาตรวจสอบอีกครั้ง",
+      "Invalid phon no. format, please try again."
+    ]
+  },
+  "coupon_popup": {
+    "title": ["คูปองส่วนลด", "Add Coupons"],
+    "sub_title": [
+      "คุณสามารถกรอกคูปองส่วนลด หรือกรอกบาร์โค้ดส่วนลด",
+      "You can enter coupon code and coupon barcode"
+    ],
+    "placeholder": [
+      "กรอกคูปองส่วนลด หรือบาร์โค้ด",
+      "Enter coupon code or coupon barcode"
+    ],
+    "btn_add_coupon": ["ใช้คูปอง", "Apply"],
+    "applied_coupon": [
+      "เพิ่มคูปองส่วนลดของคุณแล้ว",
+      "Coupon code has been applied."
+    ],
+    "empty_coupon": [
+      "คุณสามารถกรอกคูปองส่วนลดได้ที่ด้านบน",
+      "Enter your coupon code at the top."
+    ],
+    "coupons": ["คูปองส่วนลด", "Coupons"],
+    "edit_coupons": ["แก้ไขคูปอง", "Edit coupon"],
+    "add_coupons": ["เพิ่มคูปองส่วนลด", "Add coupon"],
+    "coupon_item": {
+      "title": ["ส่วนลด", "Discount"],
+      "baht": ["บาท", "Baht"],
+      "coupon_code": ["คูปองส่วนลด: ", "Coupon code: "]
+    }
+  },
+  "profile_info": {
+    "personal": {
+      "title": ["ข้อมูลส่วนตัว", "Personal Information"],
+      "name": ["ชื่อ-นามสกุล", "Full name"],
+      "t1c_no": ["หมายเลข The1 ", "The1 member"],
+      "phone": ["เบอร์ติดต่อ", "Phone no."],
+      "email": ["อีเมล", "Email"],
+      "receive": [
+        "คุณจะได้รับคะแนนจากการสั่งซื้อนี้ประมาณ ${the1} คะแนน",
+        "You will get ${the1} points from this order."
+      ],
+      "connect_t1c": [
+        "เชื่อมต่อ The 1 เพื่อรับคะแนน ${the1} คะแนน!",
+        "Connect with The1 to get ${the1} points!"
+      ],
+      "connect_t1c_tel": [
+        "เชื่อมต่อด้วยหมายเลขโทรศัพท์",
+        "Connect with The1 phone no."
+      ],
+      "connect_t1c_member": [
+        "เชื่อมต่อด้วยเลขสมาชิก The1",
+        "Connect with The1 member no."
+      ],
+      "t1c_placeholder_tel": [
+        "ใส่หมายเลขโทรศัพท์ที่เชื่อมไว้กับ The1",
+        "Insert phone no. connected with The1"
+      ],
+      "t1c_placeholder_member": [
+        "ใส่หมายเลขสมาชิก The1",
+        "Insert The1 member no."
+      ]
+    },
+    "dilivery_address": {
+      "address_info": ["ข้อมูลที่อยู่จัดส่ง", "Delivery Address Information"],
+      "add_new_address": ["สร้างที่อยู่จัดส่งใหม่", "Add New Delivery Address"],
+      "receiver": ["ผู้รับสินค้า:", "Receiver:"],
+      "mobile_no": ["เบอร์ติดต่อ:", "Mobile no.:"]
+    },
+    "billing_address": {
+      "billing_info": ["ข้อมูลใบกำกับภาษี", "Tax Invoice Information"],
+      "add_new_billing": [
+        "สร้างที่อยู่ใบกำกับภาษีใหม่",
+        "Add New Tax Invoice Address"
+      ],
+      "tax_id": ["เลขประจำตัวผู้เสียภาษี:", "Tax ID:"]
+    },
+    "edit_personal_form": {
+      "title": ["แก้ไขข้อมูลส่วนตัว", "Edit Personal Information"],
+      "personal": ["ข้อมูลส่วนตัว", "Personal Information"],
+      "first_name": ["ชื่อจริง", "First name"],
+      "last_name": ["นามสกุล", "Last name"],
+      "phone_no": ["เบอร์ติดต่อ", "Phone no."],
+      "t1c_title": ["เชื่อมต่อสมาชิก The1", "Connect The1 member"],
+      "t1_phone_no": ["เบอร์ที่สมัคร The1", "The1 phone no."],
+      "t1_phone_no_placeholder": [
+        "ใส่หมายเลขโทรศัพท์ที่เชื่อมไว้กับ The1",
+        "Enter The1 phone no."
+      ],
+      "t1c_no": ["หมายเลขสมาชิก The1", "The1 member no."],
+      "t1c_placeholder": ["ใส่หมายเลขสมาชิก The1", "Enter The1 member no."],
+      "required_field": ["กรุณากรอกข้อมูล", "Required information"],
+      "required_field_format": [
+        "เบอร์โทรศัพท์ไม่ถูกต้อง กรุณาตรวจสอบอีกครั้ง",
+        "Invalid phon no. format, please try again."
+      ],
+      "validate_t1c_format": [
+        "หมายเลขสมาชิก The1 ไม่ถูกต้อง",
+        "Invalid The1 no."
+      ]
+    }
+  },
+  "button": {
+    "edit": ["แก้ไข", "Edit"],
+    "del": ["ลบ", "Delete"],
+    "cancel": ["ยกเลิก", "Cancel"],
+    "save": ["บันทึก", "Save"],
+    "close": ["ปิดหน้าต่าง", "Close"],
+    "select_delivery_address": [
+      "เลือกที่อยู่จัดส่ง",
+      "Select delivery address"
+    ],
+    "select_pickup_store": ["เลือกรับสินค้าที่สาขา", "Select pick-up store"],
+    "back": ["ย้อนกลับ", "Back"],
+    "continue_shopping": ["กลับไปเลือกสินค้า", "Continue shopping"],
+    "back_to_productlist": [
+      "แก้ไขรายละเอียดสินค้า",
+      "Back to product list & details"
+    ],
+    "back_proceed_checkout": ["ยืนยันการสั่งซื้อสินค้า", "Proceed to checkout"]
+  },
+  "onboarding": {
+    "delivery": ["คุณสามารถเลือกที่อยู่จัดส่ง<br />หรือสาขาที่ต้องการรับสินค้าได้จากท่ี่นี่", "You can quick select/change delivery address or pickup store from this bar."],
+    "cart": ["คุณสามารถดูสินค้าในรถเข็น และ<br />สั่งซื้อโดยการกดสัญลักษณ์ รถเข็น", "You can view products in your cart and start checkout from here."],
+    "button": {
+      "close": ["ปิด", "Close"],
+      "next": ["ถัดไป", "Next"]
+    }
+  },
+  "pdpa": {
+    "title": ["เพื่อให้เรานำเสนอประสบการณ์ที่ดีและตรงใจคุณที่สุด ให้เรารู้จักคุณมากขึ้นด้วยการเช็กกล่องด้านล่างนี้", "Let us understand you more to deliver you the best experience. Check the boxes below and stay in touch!"],
+    "privacy_title":["นโยบายความเป็นส่วนตัว","Privacy Policy "],
+    "term_condition":["ข้อกำหนดและเงื่อนไข", "Terms and Conditions "],
+    "text1": ["ฉันตกลงตาม","By register, you agree to "],
+    "text2": ["และรับทราบ","and acknowledged the "],
+    "btn_consent":["ยืนยัน", "Confirm"],
+    "home_text1": ["ฉันตกลงตาม","By Clicking, you accept the "],
+    "payment_text1": ["ฉันตกลงตาม","By place your order, you agree to "]
+  },
+  "search_store_locator": {
+    "input_search_placeholder": ["ค้นหาชื่อจุดรับสินค้า", "Search pick-up store name"],
+    "not_found": ["ไม่พบผลลัพธ์การค้นหาของคุณ", "Your search results not found."]
+  }
+}

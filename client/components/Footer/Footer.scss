@@ -1,0 +1,390 @@
+.footer-cover {
+  background-color: $white;
+  margin-top: 20px;
+
+  .footer-wrapper {
+    margin: 0 auto;
+    display: flow-root;
+    justify-content: space-between;
+
+    @include tablet {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .footer-section {
+    @include clearfix;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+
+    p {
+      margin-bottom: 5px;
+      font-size: 12px;
+      &.title {
+        font-weight: bold;
+        font-size: 16px;
+      }
+    }
+
+    a {
+      color: $gray-dark;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    .footer-banner img {
+      object-position: top center;
+      object-fit: contain;
+      height: auto;
+      width: 100%;
+    }
+
+    @include e('bottom') {
+      padding-bottom: 20px;
+
+      .partners-logo {
+        padding: 10px 0;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        .image {
+          flex: 1;
+          margin: 0 20px;
+        }
+
+        .central img {
+          width: 214px;
+          height: auto;
+          max-width: 214px;
+          margin-right: 20px;
+        }
+
+        .dbd img {
+          max-width: 135px;
+          max-height: 57.56px;
+          margin-left: 20px;
+          margin-right: 20px;
+        }
+
+        .ocpb img {
+          width: auto;
+          height: 60px;
+          margin-left: 20px;
+        }
+      }
+
+      .footer-copyright {
+        display: block;
+        width: 100%;
+        margin-top: 20px;
+        font-size: 12px;
+        text-align: center;
+      }
+    }
+  }
+
+  .box-left {
+    width: 30%;
+    margin-right: 32px;
+    border-right: 1px solid $gray-dark;
+
+    .title {
+      width: 100%;
+    }
+
+    .column {
+      width: 50%;
+      float: left;
+    }
+
+    .footer-other-bu {
+      margin-top: 20px;
+    }
+
+    .clear {
+      clear:  both;
+    }
+  }
+
+  .box-right {
+    display: flex;
+    align-items: center;
+    //padding: 0 5%;
+    justify-content: center;
+    width: 70%;
+
+    .title {
+      margin: 0 27px 0 0;
+      padding: 0;
+    }
+
+    .text-center {
+      display: flex;
+      align-items: center;
+    }
+    .new-liine {
+      display: none;
+
+      @include tablet{
+        display: block
+      }
+    }
+    .contact_info {
+      display: flex;
+      font-size: 12px;
+
+      .contact_info_link {
+        padding-right: 3px;
+      }
+
+      @include desktop-small {
+        flex-direction: column;
+      }
+      @include tablet {
+        flex-direction: column;
+      }
+    }
+  }
+
+  .box-center {
+    width: 20%;
+    border-right: 1px solid $gray-dark;
+  }
+
+  .box-media {
+    padding: 0 0 0 5%;
+    width: 50%;
+    //overflow: hidden;
+
+    @include e('icons') {
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+    }
+
+    .title {
+      width: 100%;
+    }
+  }
+
+  .media-link {
+    display: inline-block;
+    margin: 0 10px;
+    white-space: nowrap;
+  }
+
+  .media-icon {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    width: 35px;
+
+    &.left {
+      display: inline-block;
+      margin: 10px;
+      vertical-align: middle;
+    }
+  }
+
+  .line {
+    border-top: 1px solid $gray-dark;
+    border-bottom: 1px solid $gray-dark;
+
+    .box-left {
+      padding-right: 10px;
+    }
+  }
+
+  .line-bottom {
+    border-bottom: 1px solid $gray-dark;
+
+    .box-media {
+      padding: 0 0 0 45px;
+    }
+  }
+
+  @include desktop-small {
+    .footer-section {
+      display: block;
+      padding: 20px 0;
+      margin: 0 20px;
+    }
+
+    .box-left {
+      width: 100%;
+      border: none;
+      display: flow-root;
+    }
+
+    .box-right {
+      padding: 0;
+      width: 100%;
+    }
+
+    .box-center {
+      padding-bottom: 15px;
+      width: 100%;
+      display: flow-root;
+      border-bottom: 1px solid $gray-dark;
+      border-right: none;
+
+      .link {
+        width: 50%;
+        float: left;
+      }
+    }
+
+    .box-media {
+      width: 100%;
+      padding: 10px 0 0;
+    }
+
+    .media-link {
+      white-space: inherit;
+    }
+
+    .line-bottom {
+      .box-media {
+        padding: 20px 0;
+      }
+    }
+  }
+
+  @include tablet {
+    .footer-wraper {
+      display: flex;
+      flex-direction: column;
+
+      .line,
+      .line-bottom {
+        padding: 10px 0;
+        margin: 0 10px;
+
+        .box-media {
+          padding: 10px 0;
+
+          @include e('icons') {
+            margin: 0 -6px;
+          }
+
+          .subscribe-cover {
+            .subscribe-input-section {
+              margin: 0 auto;
+              display: flex;
+              align-items: center;
+              width: 100%;
+              overflow: hidden;
+            }
+          }
+        }
+      }
+    }
+
+    .footer-section {
+      padding: 10px 10px 0 10px;
+      display: flex;
+      flex-direction: column;
+
+      > * {
+        width: 100% !important;
+        border-right: 0 !important;
+      }
+
+      @include e('bottom') {
+       .partners-logo {
+          padding: 15px 0;
+          display: table;
+          align-content: center;
+
+          .central {
+            width: 50%;
+            float: left;
+
+            img {
+              width: 158px;
+              height: auto;
+              max-width: 158px;
+              margin: 10px 15px;
+            }
+          }
+
+          .dbd {
+            width: 50%;
+            float: right;
+
+            img {
+              max-width: 107px;
+              max-height: 57.56px;
+              margin: 0 auto;
+            }
+          }
+
+          .ocpb {
+            width: 100%;
+            float: left;
+
+            a {
+              width: 100%;
+
+              img {
+                max-height: 57px;
+                margin: 0 auto;
+              }
+            }
+            
+          }
+        }
+
+        .footer-copyright {
+          margin-top: 5px;
+          padding: 0 30px;
+        }
+      }
+    }
+
+    .box-left {
+      width: 100%;
+      border-right: none;
+      border-bottom: 1px solid $gray-dark;
+      padding-bottom: 15px;
+      display: flow-root;
+    }
+
+    .box-right {
+      padding: 0;
+      display: block;
+      width: 100%;
+      padding-top: 15px;
+
+      .media-link {
+        display: block;
+        margin: 0;
+      }
+    }
+
+    .box-center {
+      padding: 15px 0;
+      width: 100%;
+      display: flow-root;
+      border-bottom: 1px solid $gray-dark;
+      border-right: none;
+
+      .link {
+        width: 50%;
+        float: left;
+      }
+    }
+
+    .box-media {
+      width: 100%;
+      padding: 10px 0 0;
+    }
+  }
+}

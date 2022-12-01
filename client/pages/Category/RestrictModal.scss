@@ -1,0 +1,25 @@
+.alco-restrict-modal {
+  width: 100%;
+}
+
+.alco-restrict-content {
+  padding: 10px !important;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .close-icon {
+    background: transparent !important;
+    border: none !important;
+    position: absolute !important;
+    top: 5px !important;
+    right: 0 !important;
+
+    img {
+      width: 13.3px;
+      height: 14.5px;
+    }
+  }
+}

@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`features/orderDetail/components/OrderDetailButtonFooter click open tracking process from grap | it should be match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="OrderDetailButtonFooter__ReorderButtonWrapper-sc-6rs6dw-0 fhILxp"
+  >
+    <div
+      class="OrderDetailButtonFooter__Line-sc-6rs6dw-1 gtJCeu"
+    />
+    <div
+      class="OrderDetailButtonFooter__FooterButtonWrapper-sc-6rs6dw-2 hSIxrd"
+    >
+      <button
+        class="OrderDetailButtonFooter__TrackingButton-sc-6rs6dw-3 hhKNIt"
+        data-testid="btn-viewOrderDetailButtonFooter-handleTrackClick-809219"
+      >
+        order_history.table.track_order
+      </button>
+      <button
+        class="OrderDetailButtonFooter__ReorderButton-sc-6rs6dw-4 iHhFnX"
+        data-testid="btn-addOrderDetailButtonFooter-handleReorderClick-809219"
+      >
+        order_history.table.repeat
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`features/orderDetail/components/OrderDetailButtonFooter click reorder | it should be match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="OrderDetailButtonFooter__ReorderButtonWrapper-sc-6rs6dw-0 fhILxp"
+  >
+    <div
+      class="OrderDetailButtonFooter__Line-sc-6rs6dw-1 gtJCeu"
+    />
+    <div
+      class="OrderDetailButtonFooter__FooterButtonWrapper-sc-6rs6dw-2 hSIxrd"
+    >
+      <button
+        class="OrderDetailButtonFooter__TrackingButton-sc-6rs6dw-3 hhKNIt"
+        data-testid="btn-viewOrderDetailButtonFooter-handleTrackClick-809219"
+      >
+        order_history.table.track_order
+      </button>
+      <button
+        class="OrderDetailButtonFooter__ReorderButton-sc-6rs6dw-4 iHhFnX"
+        data-testid="btn-addOrderDetailButtonFooter-handleReorderClick-809219"
+      >
+        order_history.table.repeat
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`features/orderDetail/components/OrderDetailButtonFooter click reorder when loading true | it should be match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="OrderDetailButtonFooter__ReorderButtonWrapper-sc-6rs6dw-0 fhILxp"
+  >
+    <div
+      class="OrderDetailButtonFooter__Line-sc-6rs6dw-1 gtJCeu"
+    />
+    <div
+      class="OrderDetailButtonFooter__FooterButtonWrapper-sc-6rs6dw-2 hSIxrd"
+    >
+      <button
+        class="OrderDetailButtonFooter__TrackingButton-sc-6rs6dw-3 hhKNIt"
+        data-testid="btn-viewOrderDetailButtonFooter-handleTrackClick-809219"
+        disabled=""
+      >
+        order_history.table.track_order
+      </button>
+      <button
+        class="OrderDetailButtonFooter__ReorderButton-sc-6rs6dw-4 iHhFnX"
+        data-testid="btn-addOrderDetailButtonFooter-handleReorderClick-809219"
+        disabled=""
+      >
+        <div
+          class="ui small active inline loader"
+          data-testid="view-loading-reorder-809219"
+        />
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`features/orderDetail/components/OrderDetailButtonFooter it not show button tracking when tracking_info from api return array empty | it should be match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="OrderDetailButtonFooter__ReorderButtonWrapper-sc-6rs6dw-0 fhILxp"
+  >
+    <div
+      class="OrderDetailButtonFooter__Line-sc-6rs6dw-1 gtJCeu"
+    />
+    <div
+      class="OrderDetailButtonFooter__FooterButtonWrapper-sc-6rs6dw-2 hSIxrd"
+    >
+      <button
+        class="OrderDetailButtonFooter__ReorderButton-sc-6rs6dw-4 iHhFnX"
+        data-testid="btn-addOrderDetailButtonFooter-handleReorderClick-809219"
+      >
+        order_history.table.repeat
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`features/orderDetail/components/OrderDetailButtonFooter it should be match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="OrderDetailButtonFooter__ReorderButtonWrapper-sc-6rs6dw-0 fhILxp"
+  >
+    <div
+      class="OrderDetailButtonFooter__Line-sc-6rs6dw-1 gtJCeu"
+    />
+    <div
+      class="OrderDetailButtonFooter__FooterButtonWrapper-sc-6rs6dw-2 hSIxrd"
+    >
+      <button
+        class="OrderDetailButtonFooter__TrackingButton-sc-6rs6dw-3 hhKNIt"
+        data-testid="btn-viewOrderDetailButtonFooter-handleTrackClick-809219"
+      >
+        order_history.table.track_order
+      </button>
+      <button
+        class="OrderDetailButtonFooter__ReorderButton-sc-6rs6dw-4 iHhFnX"
+        data-testid="btn-addOrderDetailButtonFooter-handleReorderClick-809219"
+      >
+        order_history.table.repeat
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

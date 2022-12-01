@@ -1,0 +1,58 @@
+@import '../../styles/variable';
+@import '../../styles/mixin';
+
+.sp-category {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin-bottom: 34px;
+  -webkit-overflow-scrolling: touch;
+  display: none;
+
+  @include tablet {
+    display: flex;
+  }
+
+  .sp-cate-link {
+    flex: 0 0 80px;
+    height: 72px;
+    background: #fff;
+    text-align: center;
+    border: 1px solid #e2e2e2;
+    border-width: 1px 0 1px 1px;
+    margin: 0;
+    border-radius: 0;
+    padding-top: 10px;
+
+    &:last-child {
+      border-right: 1px solid #e2e2e2;
+    }
+
+    a {
+      color: $black;
+    }
+
+    .img {
+      height: 24px;
+      display: block;
+      margin-bottom: 4px;
+      img {
+        height: 100%;
+        width: auto;
+        display: block;
+        margin: auto;
+      }
+    }
+
+    .text {
+      word-break: break-word;
+      height: 26px;
+      line-height: 120%;
+      padding-top: 2px;
+      overflow: hidden;
+      display: block;
+      font-weight: normal;
+      font-size: 10px;
+    }
+  }
+}

@@ -1,0 +1,257 @@
+.main-content.active {
+  .product-filter-item {
+    width: 33.33%;
+    
+    @include desktop-small {
+      width: 50%;
+    };
+  }
+}
+
+.product-filter {
+  margin-bottom: 24px;
+
+  .nodata {
+    text-align: center;
+    padding: 8px;
+  }
+  
+  .product-filter--container {
+    position: relative;
+    border-bottom: 1px solid $border-gray;
+  }
+
+  .product-filter--tablist {
+    @include clearfix;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 50px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    margin-right: 100px;
+
+    li {
+      position: relative;
+      float: left;
+      font-size: 14px;
+      color: lighten($gray, 15%);
+      cursor: pointer;
+      line-height: 50px;
+      height: 50px;
+      outline: none;
+
+      h1, .title {
+        position: relative;
+        float: left;
+        padding: 0 20px;
+        font-size: 14px;
+        font-weight: normal;
+        cursor: pointer;
+        line-height: 50px;
+        height: 50px;
+        outline: none;
+        text-align: center;
+      }
+
+      .has-selected {
+        display: inline-block;
+        width: 6px;
+        height: 6px;
+        background: $red;
+        border-radius: 50%;
+        position: relative;
+        top: -10px;
+        left: 5px;
+      }
+
+      &:hover {
+        color: $gray;
+      }
+
+      &.react-tabs__tab--selected {
+        color: $black;
+        border-bottom: 3px solid $red;
+      }
+    }    
+  }
+  
+  .reset-all {
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    font-size: 13px;
+    text-decoration: underline;
+    color: $black;
+    background: none;
+    border: 0;
+    margin: -20px 0 0 0;
+    padding: 0 24px;
+    line-height: 40px;
+    height: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+
+    &:active {
+      background-color: $background-gray-lighter;
+    }
+  }
+
+  .product-filter-item--checkbox {
+    label:before {
+      top: 50%;
+      transform: translateY(-50%);
+      width: 20px;
+      height: 20px;
+      border-width: 2px;
+      border-color: $gray-light;
+    }
+
+    &.checked {
+      label:after {
+        margin-top: 1px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 20px;
+        height: 20px;
+        color: $green !important;
+      }
+    }
+  }
+
+  .react-tabs__tab-panel {
+    max-height: 149px;
+    overflow: auto;
+  }
+  
+  .category--filters.react-tabs__tab-panel--selected {
+    max-height: 200px;
+    overflow: auto;
+  }
+
+  .product-filter-item {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 2px 0;
+    padding: 0 24px;
+    position: relative;
+    margin: 15px 0;
+    
+    @include desktop-small {
+      width: 33.33%;
+    };
+
+    .product-filter-item--checkbox {
+      width: 100%;
+      height: inherit;
+      line-height: inherit;
+      vertical-align: top;
+    }
+
+    .label-box {
+      display: flex;
+      padding-right: 55px;
+      max-width: 100%;
+      position: relative;
+    }
+
+    .label-text {
+      align-self: center;
+      font-size: 13px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      vertical-align: middle;
+      max-width: 100%;
+      margin: 0 4px;
+    }
+
+    .label-icon {
+      display: inline-block;
+      width: 28px;
+      height: 28px;
+      vertical-align: middle;
+      margin: 0 4px;
+      position: relative;
+      img {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+    }
+
+    .label-counter {
+      display: inline-block;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      margin-top: -13px;
+      font-size: 12px;
+      vertical-align: middle;
+      line-height: 27px;
+      height: 25px;
+      width: 30px;
+      text-align: center;
+      background: $background-body;
+      border-radius: 5px;
+      color: $gray-darker;
+    }
+  }
+
+  .product-filter--pusher {
+    .product-filter-pusher-header {
+      font-size: 12px;
+      height: 44px;
+      line-height: 44px;
+      font-weight: bold;
+    }
+    .product-filter-pusher-elem {
+      padding: 0 16px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid $background-gray;
+    }
+    .product-filter-item {
+      width: auto;
+      padding: 0;
+      margin: 0 8px 8px 0;
+    }
+    .label-icon {
+      display: none;
+    }
+    .label-box {
+      padding: 0;
+    }
+    .label-counter {
+      display: none;
+    }
+    .product-filter-item--checkbox {
+      background: $background-gray-lighter;
+      border: 1px solid $background-gray-lighter;
+      padding: 4px 8px;
+      border-radius: 5px;
+      &.checked {
+        border-color: $red;
+        background: $white;
+        .label-text {
+          color: $red;
+        }
+      }
+      label {
+        padding: 0;
+      }
+      label:before {
+        display: none;
+      }
+      label:after {
+        display: none;
+      }
+    }
+  }
+}

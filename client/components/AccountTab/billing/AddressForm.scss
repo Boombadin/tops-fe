@@ -1,0 +1,189 @@
+@import '../../../styles/mixin';
+
+.billing-address-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+
+  @include tablet {
+    height: calc(100vh - 50px);
+  }
+
+  .header-wrapper {
+    height: 60px;
+    width: 100%;
+    flex: 0;
+    margin: 0 !important;
+    background-color: $white !important;
+    border-radius: 0 !important;
+    z-index: 10;
+    padding: 10px 12px 10px 18px !important;
+
+    .text {
+      margin-bottom: 7px;
+    }
+
+    .info {
+      white-space: nowrap;
+      font-size: 12px;
+    }
+  }
+
+  .body {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+
+    .checkbox {
+      display: flex;
+      margin-bottom: 14px;
+
+      input {
+        flex: 0 0 18px;
+        width: 18px;
+        height: 18px;
+        margin-right: 5px;
+        border: 1px solid $background-gray;
+      }
+    }
+
+    .form {
+      width: 100%;
+      margin: 30px 0;
+      padding: 0 20px;
+
+      @include mobile {
+        margin: 30px 0 80px;
+      }
+      
+      .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+
+        & > div {
+          &:first-child {
+            margin-right: 14px;
+          }
+        }
+      }
+
+      .address_no {
+        width: 55%;
+      }
+
+      .moo {
+        width: 45%;
+      }
+    }
+  }
+
+  .bottom {
+    width: 100%;
+    flex: 0 0 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: $white;
+    color: $white;
+
+    .back {
+      width: 82px;
+      height: 40px;
+      font-size: 11px;
+      border-radius: 6px 0 0 6px;
+      color: $white;
+      background-color: $black-dark;
+      margin: 0;
+      padding: 0;
+
+      @include tablet {
+        display: none;
+      }
+    }
+
+    .verify {
+      min-width: 114px;
+      height: 40px;
+      border-radius: 0 6px 6px 0;
+      color: $white;
+      background-color: #534741;
+      margin: 0;
+      padding: 0 2px 0 0;
+      position: relative;
+      display: flex;
+
+      @include tablet {
+        width: 90%;
+        border-radius: 6px;
+
+        .icon-next {
+          display: none;
+        }
+      }
+
+      .text {
+        margin: 0 15px;
+      }
+
+      span {
+        position: absolute;
+        font-size: 11px;
+        align-self: center;
+        left: 3px;
+
+        @include tablet {
+          position: relative;
+          left: 0;
+          font-size: 14px;
+          margin: 0 auto !important;
+        }
+      }
+
+      img {
+        width: 12px;
+        height: 12px;
+        position: absolute;
+        right: 5px;
+        align-self: center;
+
+        @include tablet {
+          display: none;
+        }
+      }
+    }
+
+    .icon-next {
+      margin: 0 !important;
+      width: 10px;
+    }
+  }
+
+  .ui.checkbox input:checked ~ label:after {
+    color: $green
+  }
+
+  .billing-options-tab-mask {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(128, 128, 128, 0.3);
+  }
+
+  .billing-options-tab-loader {
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+}

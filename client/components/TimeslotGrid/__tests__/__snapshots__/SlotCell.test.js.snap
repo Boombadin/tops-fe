@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/TimeslotGrid/SlotCell it should match with snapshot 1`] = `
+<div
+  class="timeslot-interval-cell active"
+  data-testid="inf-viewSlotCell-Container"
+  role="cell"
+>
+  <div
+    class="timeslot-interval-cell__active"
+  >
+    <div
+      class="timeslot-interval-cell__check-mark"
+    >
+      ✔
+    </div>
+  </div>
+  60 baht_sign
+</div>
+`;

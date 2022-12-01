@@ -1,0 +1,38 @@
+.counter-root {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 43px;
+  width: 180px;
+  background-color: #f60403;
+  border: 3px solid #f60403;
+  border-radius: 6px;
+
+  .sign {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 100%;
+    background-color: #f60403;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .qty {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+    height: 100%;
+    background-color: #ffffff;
+    color: #f60403;
+    font-size: 15px;
+    font-weight: bold;
+  }
+}

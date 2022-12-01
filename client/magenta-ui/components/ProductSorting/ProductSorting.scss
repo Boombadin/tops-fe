@@ -1,0 +1,30 @@
+.sorting {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.sorting-dropdown-item,
+.sorting-label {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sorting-dropdown {
+    background-color: white;
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    right: 0;
+}
+
+.sorting-icon {
+
+}
+
+.sorting-mask {
+
+}
+

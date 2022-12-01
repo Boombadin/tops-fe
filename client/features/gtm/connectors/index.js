@@ -1,0 +1,1 @@
+export { withGTMCheckout } from './withGTMCheckout'

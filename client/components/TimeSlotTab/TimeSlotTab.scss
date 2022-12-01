@@ -1,0 +1,327 @@
+.timeslottab-root {
+  // position: relative;
+  // display: flex;
+  // flex-direction: column;
+  // flex-grow: 1;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  overflow: auto;
+}
+
+.timeslottab__no-slot {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.timeslottab-root__gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 20px;
+  background-image: linear-gradient(to right, rgba(184, 184, 184, 0.3), rgba(184, 184, 184, 0));
+  background-blend-mode: multiply;
+}
+
+.timeslottab-header {
+  height: 60px;
+  background-color: #ffffff;
+  padding-left: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.2);
+
+  .timeslottab-header__text {
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: 15px;
+  }
+
+  .timeslottab-header__subtext {
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+}
+
+
+
+.timeslottab-upper-panel {
+  position: relative;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .timeslottab-upper-panel__upper-gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+    // background-image: linear-gradient(to bottom, rgba(184, 184, 184, 0.5), rgba(184, 184, 184, 0));
+    background-blend-mode: multiply;
+  }
+
+  .timeslottab-upper-panel__lower-gradient {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+    background-image: linear-gradient(to top, rgba(184, 184, 184, 0.5), rgba(184, 184, 184, 0));
+    background-blend-mode: multiply;
+  }
+
+  .timeslottab-upper-panel__icon {
+    width: 36px;
+    height: 36px;
+    background-color: #e4e4e4;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  .timeslottab-upper-panel__text {
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .timeslottab-upper-panel__subtext {
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    text-decoration: underline;
+    color: $red;
+    cursor: pointer;
+  }
+
+  .method-powered-by {
+    display: flex;
+    height: 20px;
+    .powered-by-text-grab {
+      color: #231f20;
+      font-size: 11px;
+      align-self: center;
+      font-weight: normal;
+    }
+    .powered-by-icon-grab {
+      width: 41px;
+      align-self: center;
+      margin-top: -8px;
+    }
+  }
+}
+
+.timeslottab-lower-panel {
+  position: relative;
+  flex-grow: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-size: 13px;
+  line-height: 1;
+
+  .timeslottab-lower-panel__gradient {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+    // background-image: linear-gradient(to top, rgba(184, 184, 184, 0.5), rgba(184, 184, 184, 0));
+    // background-blend-mode: multiply;
+  }
+}
+
+.timeslottab-buttons-panel {
+  height: 80px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 -4px 25px rgba(0, 0, 0, 0.2)
+}
+
+.timeslottab__left-button {
+  user-select: none;
+  height: 40px;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  border-radius: 6px 0 0 6px !important;
+  background-color: #808080 !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  color: white !important;
+  cursor: pointer;
+  font-size: 12px !important;
+  margin-right: 0 !important;
+  vertical-align: middle;
+  width: 85px;
+
+  .timeslottab__left-button__arrow {
+    // margin-left:3px;
+    margin-right: 3px;
+  }
+  .timeslottab__left-button__text {
+    width: 100%;
+    text-align: left;
+  }
+}
+
+.timeslottab__right-button {
+  height: 40px;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  border-radius: 0 6px 6px 0;
+  background-color: #534741 !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  color: white !important;
+  cursor: pointer;
+  font-size: 12px !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  width: 116px;
+  margin-right: 0 !important;
+
+  .timeslottab__right-button__arrow {
+    margin-left:3px;
+    // margin-right: 3px;
+  }
+
+  .timeslottab__right-button__text {
+    width: 100%;
+    text-align: right;
+  }
+}
+
+.timeslottab__ok-button {
+  width: 196px;
+  height: 40px;
+  border-radius: 6px;
+  color: #ffffff !important;
+  background-color: #007a33 !important;
+  border-color: rgba(0, 0, 0, 0.4) !important;
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.timeslottab_button-empty {
+  background-color: white;
+  cursor: auto;
+}
+
+.timeslottab-modal {
+  position: relative;
+  .timeslottab-modal__close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+  }
+}
+
+.timeslottab-modal__body {
+  position: relative;
+  padding-right: 76px;
+  padding-left: 76px;
+  background-color: #f2f2f2;
+  padding-top: 42px;
+  padding-bottom: 37px;
+  .timeslottab-modal__body-gradient {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+    background-image: linear-gradient(to top, rgba(184, 184, 184, 0.5), rgba(184, 184, 184, 0));
+    background-blend-mode: multiply;
+  }
+
+  &.center {
+    text-align: center;
+  }
+}
+
+.timeslottab-modal__title {
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  margin-bottom: 10px;
+  color: $red;
+
+  &.black {
+    color: #534741;
+  }
+}
+
+.timeslottab-modal__footer {
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeslottab-modal__grid-header {
+  background-color: #f2f2f2;
+  display: flex;
+}
+
+.tst-loader-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.tst-loader-container__firefox {
+  padding-top: 20px;
+}

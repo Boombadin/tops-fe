@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`features/checkout/components/DeliveryForm/ShippingMethodContainer Delivery method is Click and Collect | it should show title is Click and Collect 1`] = `
+<DocumentFragment>
+  <div
+    class="ShippingMethodContainer__Section-e4v8n2-0 gdXndw"
+  >
+    <div
+      class="ShippingMethodContainer__SectionTitle-e4v8n2-1 cEppTm"
+      data-testid="inf-viewShippingMethodContainer-ShippingTitle"
+    >
+      <p
+        class="Text-sc-9p67zt-0 kuopgj"
+        color="default"
+        display=""
+        size="15"
+        spacing="-0.6px"
+      >
+        <img
+          class="ShippingMethodContainer__SectionTitleIcon-e4v8n2-2 fhDISq"
+          src="/assets/icons/calendar-icon.svg"
+          style="margin-right: 10px;"
+        />
+        checkout_delivery.shipping_method.click_and_collect.title
+      </p>
+    </div>
+    <div
+      class="ShippingMethodContainer__SectionContent-e4v8n2-3 clFyYt"
+    >
+      <mock-widget />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`features/checkout/components/DeliveryForm/ShippingMethodContainer Delivery method is Home Delivery | it should show title is home delivery 1`] = `
+<DocumentFragment>
+  <div
+    class="ShippingMethodContainer__Section-e4v8n2-0 gdXndw"
+  >
+    <div
+      class="ShippingMethodContainer__SectionTitle-e4v8n2-1 cEppTm"
+      data-testid="inf-viewShippingMethodContainer-ShippingTitle"
+    >
+      <p
+        class="Text-sc-9p67zt-0 kuopgj"
+        color="default"
+        display=""
+        size="15"
+        spacing="-0.6px"
+      >
+        <img
+          class="ShippingMethodContainer__SectionTitleIcon-e4v8n2-2 fhDISq"
+          src="/assets/icons/calendar-icon.svg"
+          style="margin-right: 10px;"
+        />
+        checkout_delivery.shipping_method.home_delivery.title
+      </p>
+    </div>
+    <div
+      class="ShippingMethodContainer__SectionContent-e4v8n2-3 kKwRB"
+    >
+      <div
+        class="ShippingMethodContainer__ShippingMethod-e4v8n2-4 kpJTsW"
+        data-testid="btn-changeShippingMethodContainer-SelectShippingExpress"
+      >
+        <label
+          class="radio-container ButtonRadio__ButtonRadioWrapper-sc-1c2fqmv-0 jmXno"
+        >
+          <input
+            name="shippingMethod"
+            readonly=""
+            type="radio"
+          />
+          <div
+            class="radio-checkmark ButtonRadio__RadioCheckMark-sc-1c2fqmv-1 dRrEo"
+          />
+        </label>
+        <div
+          class="ShippingMethodContainer__ShippingMethodDescription-e4v8n2-5 kDrWlS"
+        >
+          <div
+            class="ShippingMethodContainer__ShippingMethodDescriptionTitle-e4v8n2-6 ibPjvO"
+          >
+            <span
+              class="ShippingMethodContainer__MethodTitle-e4v8n2-7 bLqiQm"
+            >
+              checkout_delivery.shipping_method.shipping_title_method.express
+            </span>
+            <div
+              class="ShippingMethodContainer__MethodPowered-e4v8n2-8 gszani"
+            >
+              <p
+                class="Text-sc-9p67zt-0 ShippingMethodContainer__ShippingMethodDescriptionTitleLabel-e4v8n2-9 gQzGIY TextGuide__Caption-sc-1wuo3jj-0 DAZVd"
+                color="default"
+                display=""
+                size="11"
+                spacing="normal"
+              >
+                right_menu.shipping_options.powered_by
+              </p>
+              <img
+                class="ShippingMethodContainer__GrabIcon-e4v8n2-11 cUbjLu"
+                src="/assets/images/Grab_logo.svg"
+              />
+            </div>
+          </div>
+          <p
+            class="Text-sc-9p67zt-0 default-font TextGuide__Caption-sc-1wuo3jj-0 khELOm"
+            color="#666666"
+            display=""
+            size="11"
+            spacing="normal"
+          >
+            รับสินค้าเร็วขึ้นด้วยบริการจัดส่งแบบด่วน
+            <br />
+            right_menu.shipping_options.next_round right_menu.shipping_options.next_round_datetime
+            <br />
+            right_menu.shipping_options.round_cost
+          </p>
+        </div>
+      </div>
+      <div
+        class="ShippingMethodContainer__ShippingMethod-e4v8n2-4 kpJTsW"
+        data-testid="btn-changeShippingMethodContainer-SelectShippingStandard"
+      >
+        <label
+          class="radio-container ButtonRadio__ButtonRadioWrapper-sc-1c2fqmv-0 jmXno"
+        >
+          <input
+            name="shippingMethod"
+            readonly=""
+            type="radio"
+          />
+          <div
+            class="radio-checkmark ButtonRadio__RadioCheckMark-sc-1c2fqmv-1 dRrEo"
+          />
+        </label>
+        <div
+          class="ShippingMethodContainer__ShippingMethodDescription-e4v8n2-5 kDrWlS"
+        >
+          <div
+            class="ShippingMethodContainer__ShippingMethodDescriptionTitle-e4v8n2-6 ibPjvO"
+          >
+            checkout_delivery.shipping_method.shipping_title_method.delivery
+          </div>
+          <p
+            class="Text-sc-9p67zt-0 ShippingMethodContainer__ShippingMethodDescriptionText-e4v8n2-10 dNYNbm TextGuide__Caption-sc-1wuo3jj-0 DAZVd"
+            color="default"
+            display=""
+            size="11"
+            spacing="normal"
+          >
+            รับสินค้าเร็วขึ้นด้วยบริการจัดส่งแบบด่วน
+            <br />
+            right_menu.shipping_options.next_round right_menu.shipping_options.next_round_datetime
+            <br />
+            right_menu.shipping_options.round_cost
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ShippingMethodContainer__SectionContent-e4v8n2-3 clFyYt"
+    >
+      <mock-widget />
+    </div>
+  </div>
+</DocumentFragment>
+`;

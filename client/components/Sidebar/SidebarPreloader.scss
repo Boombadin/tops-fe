@@ -1,0 +1,14 @@
+.sidebar-preloader {
+  .animated-background {
+    width: 86%;
+    height: 20px;
+    margin-bottom: 18px;
+    background: linear-gradient(to right, #e3e4e3 8%, #dddddd 18%, #e3e4e3 33%);
+    display: block;
+    background-size: 900px 104px;
+  }
+  
+  .animated-background:last-child {
+    width: 60%;
+  }
+}

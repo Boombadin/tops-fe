@@ -1,0 +1,75 @@
+.sort-wrapper.sort-wrapper {
+  .sort-containers {
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .sort-label {
+    padding: 0 13px;
+  }
+  
+  .sort-list {
+    .dropdown {
+      .text {
+        margin-right: 26px;
+      }
+    }
+
+    &:hover {
+      background-color: lighten($gray-light, 15%);
+    }
+    
+    .dropdown.ui {
+      padding: 0 16px;
+      width: 100%;
+      border: 1px solid transparent;
+      min-width: 166px;
+      
+      .icon {
+        overflow: hidden;
+        position: absolute;
+        right: 14px;
+        top: 50%;
+        margin-top: -5px;
+        background: url('/assets/icons/arrow-down.svg') center center no-repeat;
+        width: 15px;
+        height: 10px;
+        text-indent: 999px;
+        background-size: 15px;
+      }
+      
+      &.loading {
+        .icon {
+          background: none;
+        }
+      }
+    }
+    
+    .dropdown.ui.active {
+      border-color: $border-gray;
+      background: $white;
+      border-bottom-color: $white;
+      @include tablet {
+        border: 0;
+        padding: 0;
+        border-bottom: 1px solid $border-gray;
+      };
+    }
+    
+    .menu {
+      right: -1px;
+      left: -1px;
+      box-shadow: none;
+      border-top-color: $white;
+      border-radius: 0;
+      .item {
+        color: $gray;
+      }
+      .item.active {
+        color: $black;
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+.shop-by-country-item-wrap.country-item {
+  width: calc(33.33% - 18px);
+  // max-height: 150px;
+  height: auto;
+  margin: 0 9px;
+
+  .country-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333333;
+    width: fill-available ;
+    width: webkit-fill-available;
+    width: 100%;
+  }
+
+  @include tablet {
+    width: calc(40% - 14px);
+  }
+
+  @include mobile {
+    width: calc(80% - 14px);
+  }
+
+  .country-img {
+    // height: 150px;
+    width: 100%;
+    height: auto;
+    // padding-top: 50%;
+
+    img {
+      // height: 50px;
+      width: 100%;
+      // position: absolute;
+      // left: 0;
+      // top: 0;
+
+      // width: auto;
+      // position: absolute;
+      // height: auto;
+      // left: 50%;
+      // max-width: 100%;
+      // transform: translate(-50%, -50%);
+      // max-height: 100%;
+      // top: 50%;
+    }
+  }
+}
+
+.main-content.active {
+  .shop-by-country-item-wrap.country-item { 
+    width: calc(33.33% - 18px);
+
+    @include desktop-small {
+      width: calc(50% - 18px);
+    }
+  }
+}

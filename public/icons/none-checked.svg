@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <filter id="wz2msv43ib" width="116.7%" height="116.7%" x="-8.3%" y="-8.3%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation=".5"/>
+            <feOffset dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+        </filter>
+        <circle id="di654h28ja" cx="9" cy="9" r="9"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <path fill="#F7F7F7" d="M0 0H375V1209H0z" transform="translate(-31 -626)"/>
+            <path fill="#FFF" d="M0 80L375 80 375 935 0 935 0 113.975z" transform="translate(-31 -626)"/>
+            <g transform="translate(-31 -626) translate(20 615)">
+                <rect width="334" height="39" x=".5" y=".5" fill="#FAFAFA" stroke="#CCC" rx="4"/>
+                <g>
+                    <g transform="translate(11 11) translate(1 1)">
+                        <use fill="#FFF" xlink:href="#di654h28ja"/>
+                        <use fill="#000" filter="url(#wz2msv43ib)" xlink:href="#di654h28ja"/>
+                        <use stroke="#CCC" xlink:href="#di654h28ja"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

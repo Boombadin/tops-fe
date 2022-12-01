@@ -1,0 +1,16 @@
+{
+  "th_TH": {
+    "edit": "แก้ไข",
+    "delete": "ลบ",
+    "default_card": "บัตรชำระเงินเริ่มต้น",
+    "expired_date": "วันหมดอายุ",
+    "expired": "EXPIRED"
+  },
+  "en_US": {
+    "edit": "Edit",
+    "delete": "Delete",
+    "default_card": "Default Payment Card",
+    "expired_date": "Expires",
+    "expired": "EXPIRED"
+  }
+}

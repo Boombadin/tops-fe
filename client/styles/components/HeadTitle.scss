@@ -1,0 +1,84 @@
+.mt-title-section {
+  margin-bottom: 12px;
+
+  &.mt-title-left {
+    .mt-title {
+      padding-left: 0;
+      margin-left: 0;
+    }
+  }
+
+  .mt-head-title-link {
+    background: #e3e4e3;
+    font-size: 16px;
+    color: #333333;
+    padding-right: 0;
+
+    @include tablet {
+      font-size: 14px;
+      color: #404040;
+    };
+
+    .icon {
+      width: 7px;
+      height: 12px;
+      background: url(/assets/icons/arrow-icon.svg) center center no-repeat;
+      overflow: hidden;
+      background-size: 100%;
+      text-indent: 999px;
+      margin: 0 0 0 9px;
+    }
+  }
+
+  .mt-title-wrap::after {
+    background-color: #404040;
+    @include tablet {
+      display: none;
+    };
+  }
+
+  .ui.grid > .row > .column {
+    padding: 0;
+  }
+
+  .mt-head-title-link {
+    line-height: normal !important;
+    margin-top: 14px !important;
+  }
+
+  .mt-title {
+    font-size: 21px;
+    font-weight: bold;
+    background: #e3e4e3;
+    color: #333333;
+    display: inline;
+    width: auto;
+    margin: auto;
+    padding-top: 3px !important;
+
+    @include tablet {
+      font-size: 18px;
+      font-weight: bold;
+      margin-left: 0;
+    };
+  }
+
+  .sub-category-all {
+    font-size: 14px;
+    position: absolute;
+    right: 0;
+    line-height: 44px;
+    color: #333333;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background: #e2e2e2;
+    padding: 0 8px;
+
+    i.icon {
+      margin-left: 8px;
+      font-size: 15px;
+      top: 1px;
+      position: relative;
+    }
+  }
+}

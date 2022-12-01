@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19" height="23" viewBox="0 0 19 23">
+    <g fill="none" fill-rule="evenodd">
+        <circle cx="9.5" cy="11.5" r="9.5" fill="#0488CC"/>
+        <text fill="#FFF" font-family="SukhumvitSet-Text, Sukhumvit Set" font-size="14">
+            <tspan x="6" y="15">?</tspan>
+        </text>
+    </g>
+</svg>

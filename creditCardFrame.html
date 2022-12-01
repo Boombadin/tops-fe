@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html version="{version}" lang="{language}">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="/assets/icons/favicon.png" />
+  </head>
+  <body style="background: transparent;">
+    <div id="root-credit-card-frame"></div>
+    <script charset="UTF-8">
+      window.App = {app_state};
+    </script>
+    <div 
+      id="loading" 
+      style="display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 320px;"
+    >
+      <img src="/assets/icons/loader-2.gif" style="width: 100px;" />
+    </div>
+    <script>
+      window.onload = (event) => {
+        document.getElementById("loading").style.display = "none";
+      };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`features/order/OrderLimitQtyModal it should be match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="Modal__ModalWrapper-wn16q7-0 jMjbno"
+  >
+    <div
+      class="Modal__ModalScrollAble-wn16q7-2 iwyaFb"
+    >
+      <div
+        class="core-ui-modal-content Modal__ModalContent-wn16q7-3 eIyoWp"
+      >
+        <div
+          class="OrderLimitQtyModal__ModalContent-sc-1f4pyyc-0 fwuAwV"
+        >
+          <div
+            class="OrderLimitQtyModal__ModalContentText-sc-1f4pyyc-1 hQyGGB"
+          >
+            Can't reorder due to cart item limit exceeded. Please select some item(s) and try again.
+            <div
+              class="Margin-sc-11lglan-0 bnZjtk"
+            >
+              <div>
+                <button
+                  class="Button-r30g8h-0 gpTMCQ"
+                  color="danger"
+                  height="30"
+                  radius="4px"
+                  size="13"
+                  width="0"
+                >
+                  common.ok
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Modal__ModalClickAbleScreen-wn16q7-4 iZHbOl"
+        />
+      </div>
+    </div>
+    <div
+      class="core-ui-modal-overlay Modal__ModalOverlay-wn16q7-1 ionmzH"
+    />
+  </div>
+</DocumentFragment>
+`;

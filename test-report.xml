@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/Users/cto/Site/tops-fe/client/features/address/utils/__tests__/addressStringBuilder.test.js">
+    <testCase name="Address util when address is emptyObject It should be expect ``" duration="3"/>
+    <testCase name="Address util when address is address = mockAddress &amp; showAddressName = true It should be expect `บ้านสีลม 123 หมู่ 1 บ้านสีลม ซอยสีลม19 ถนนสีลม บางรัก, บางรัก, กรุงเทพ 10500`" duration="2"/>
+  </file>
+  <file path="/Users/cto/Site/tops-fe/client/utils/__test__/actionTypes.test.js">
+    <testCase name="Test asyncActionTypes function Verify action type with mockupData" duration="5"/>
+  </file>
+  <file path="/Users/cto/Site/tops-fe/client/features/checkout/utils/__test__/checkout.test.js">
+    <testCase name="Checkout util sumItemsInCart function when product simple in cart Count product simple " duration="4"/>
+    <testCase name="Checkout util sumItemsInCart function when product bundle in cart Count product bundle " duration="1"/>
+    <testCase name="Checkout util sumItemsInCart function when product bundle and simple in cart Count product bundle and simple" duration="0"/>
+    <testCase name="Checkout util sumCartRowBundleItems function add product bundle type BOGO in cart Count row Bundle Item" duration="3"/>
+    <testCase name="Checkout util add product bundle type BXGV in cart Count row Bundle Item" duration="0"/>
+    <testCase name="Checkout util add product bundle type BOGO and BXGV in cart Count row Bundle Item" duration="1"/>
+  </file>
+  <file path="/Users/cto/Site/tops-fe/client/utils/__test__/consent.test.js">
+    <testCase name="consent is work correctly getConsentData | fetch consentInfo successfully data from an API" duration="44"/>
+    <testCase name="consent is work correctly getConsentInfoPolicy | fetch consentInfo successfully data from an API" duration="0"/>
+    <testCase name="consent is work correctly getUserConsent | fetch user consent successfully data from an API" duration="3"/>
+    <testCase name="consent is work correctly saveConsent | post user consent info data to an API successfully" duration="1"/>
+  </file>
+  <file path="/Users/cto/Site/tops-fe/client/components/Test/__test__/Test.test.js">
+    <testCase name="Link Unit Testing renders link correctly" duration="29"/>
+  </file>
+</testExecutions>

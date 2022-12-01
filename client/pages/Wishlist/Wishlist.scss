@@ -1,0 +1,67 @@
+.wl-banner-background {
+  object-fit: contain;
+  background-color: #f2f2f3;
+  height: 200px;
+  position: relative;
+}
+
+.wl-banner-image {
+  position: absolute;
+  top: 7px;
+  right: 85px;
+}
+
+.wl-banner-text {
+  position: absolute;
+  top: 73px;
+  left: 56px;
+  color: #f70405;
+  font-size: 40px;
+  margin: 0px;
+}
+
+.wl-buy-button {
+  width: 186px;
+  height: 40px;
+  object-fit: contain;
+  border-radius: 6px;
+  background-color: #007a33;
+  box-shadow: 0px 3px 0 0 #00451d;
+  color: white;
+  border: none;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+.wl-buy-button__container {
+  display: flex;
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.wl-list-controls {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+
+  .wl-list-view-controls {
+    display: flex;
+
+    .wl-list-controls--grid-view,
+    .wl-list-controls--list-view {
+      cursor: pointer;
+      width: 17px;
+      height: 17px
+    }
+    
+    .wl-list-controls--grid-view {
+      margin-left: 20px;
+      margin-right: 8px;
+    }
+  }
+}

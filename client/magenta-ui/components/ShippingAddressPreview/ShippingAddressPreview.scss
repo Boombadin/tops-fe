@@ -1,0 +1,71 @@
+.mt-shipping-address-preview-root {
+  width: 218px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  padding: 15px 18px;
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  padding-left: 18px;
+
+  @media (max-width: 990px) {
+    width: 90vw;
+  }
+
+  .address-name-content {
+    display: flex;
+    flex-direction: column;
+
+    .address-name {
+      font-weight: bold !important;
+      max-width: 100%;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    .remark-address-default {
+      margin-left: 2px;
+      color: #8D8D8D;
+    }
+  }
+
+  .details {
+    color: #8D8D8D;
+  }
+
+  .manage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    .user-info {
+      max-width: 108.33px;
+      > div {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+    }
+
+    .controls {
+      padding-left: 5px;
+    }
+
+    .edit, .delete {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    .separator {
+      margin: 0 3px;
+    }
+  }
+}
+
+.mt-shipping-address-preview-default {
+  border: 1px solid #39a04a;
+  box-shadow: 0 2px 4px 0 #39a04a;
+}

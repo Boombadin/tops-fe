@@ -1,0 +1,8 @@
+import { asyncActionTypes } from '../../../utils/actionTypes'
+
+export const CALCULATE_NYB = asyncActionTypes('CALCULATE_NYB')
+export const CALCULATE_NYB_CHECKOUT_STEP_1 = asyncActionTypes('CALCULATE_NYB_CHECKOUT_STEP_1')
+export const CALCULATE_NYB_CHECKOUT_STEP_2 = asyncActionTypes('CALCULATE_NYB_CHECKOUT_STEP_2')
+export const HANDLE_NYB_CHECKOUT_MODAL_ERROR = 'HANDLE_NYB_CHECKOUT_MODAL_ERROR'
+export const HANDLE_NORMAL_CHECKOUT_MODAL_ERROR = 'HANDLE_NORMAL_CHECKOUT_MODAL_ERROR'
+export const FETCH_DISCOUNT_TYPE = asyncActionTypes('FETCH_DISCOUNT_TYPE')

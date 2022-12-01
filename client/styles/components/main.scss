@@ -1,0 +1,205 @@
+body {
+  background-color: $background-body;
+  font-family: $font-family !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #333333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.ui.menu,
+input,
+button,
+.ui.modal > .header {
+  font-family: $font-family !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input,
+button {
+  outline: none;
+}
+
+.pusher-container {
+  min-height: 100vh !important;
+}
+
+.app-wrapper {
+  border-radius: 0;
+  border: none;
+  // padding-top: $header-height;
+
+  @include tablet {
+    padding-top: 50px;
+  }
+
+  &.disable-search {
+    padding-top: $header-height-mobile;
+  }
+}
+
+.ui.modals {
+  z-index: 9999;
+  display: flex !important;
+  @include tablet {
+    z-index: 999;
+    cursor: pointer !important;
+  }
+}
+
+.ui.segment {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  box-shadow: none;
+  border: 0;
+}
+
+.ui.loader {
+  z-index: 9;
+}
+
+.ui.grid > .row {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.ui.grid {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.ui.grid > * {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.ui.grid > .column:not(.row) {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.ui.card > .content > .header,
+.ui.cards > .card > .content > .header {
+  font-family: inherit;
+}
+
+.ui.steps .step .title {
+  font-family: $font-family !important;
+}
+
+.ui.accordion .title:not(.ui) {
+  font-family: $font-family !important;
+}
+
+.main-layout {
+  min-height: 600px;
+
+  @include tablet {
+    min-height: inherit;
+  }
+}
+
+.upper-header-banner {
+  margin-top: 40px;
+
+  @include tablet {
+    margin-top: 35px;
+  }
+}
+
+.mobile-checkout-upper-header-banner {
+  margin-top: 0;
+
+  @include tablet {
+    margin-top: 40px;
+  }
+}
+
+.main-content {
+  display: block;
+  margin-left: 260px;
+  width: auto;
+  margin-right: 50px;
+  padding-top: 20px;
+  background: #e3e4e3;
+  // transition: margin 0.2s ease;
+
+  &.active {
+    margin-right: 350px;
+    @include tablet {
+      margin-right: 0;
+    }
+  }
+
+  & .ui.container {
+    width: 100%;
+  }
+
+  @include tablet {
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0;
+
+    & .ui.container {
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+  }
+}
+
+.hidden {
+  display: none !important;
+}
+
+.visibility {
+  visibility: hidden;
+}
+
+.clear-padding {
+  &.right {
+    padding-right: 0 !important;
+  }
+  &.left {
+    padding-left: 0 !important;
+  }
+  &.top {
+    padding-top: 0 !important;
+  }
+  &.bottom {
+    padding-bottom: 0 !important;
+  }
+}
+
+.hide-tablet {
+  @include tablet {
+    display: none !important;
+  }
+}
+
+.hide-desktop {
+  @include desktop {
+    display: none !important;;
+  }
+}
+
+.ui.attached.segment {
+  border: 0;
+}
+
+body ::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+body ::-webkit-scrollbar-thumb {
+  border-radius: 12px;
+}

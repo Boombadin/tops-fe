@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`client/pages/Search render search result 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="category-page"
+      id="category-page"
+    >
+      <div
+        class="category-page"
+        title="search.placeholder"
+      >
+        <div />
+        <div
+          class="mobile-top-filter-bar search-top-filter-bar"
+          style="border: 0px; margin: 0px;"
+        >
+          <div
+            class="mobile-sorting-box"
+          />
+          <div
+            class="mobile-filter-box"
+          >
+            <div
+              class="mt-pusher mobile-pusher-filter "
+              id="mt-pusher"
+            >
+              <div
+                class="pusher-continer"
+                style="width: 300px;"
+              >
+                <div
+                  class="pusher-header"
+                >
+                  <div
+                    class="pusher-header pusher-header--filters"
+                  >
+                    <span>
+                      <img
+                        alt="filter"
+                        src="/assets/icons/mobile-filter.png"
+                      />
+                    </span>
+                    <span>
+                      filter.label
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="pusher-body"
+                />
+                <div
+                  class="pusher-footer"
+                >
+                  <div
+                    class="pusher-footer pusher-footer--filters"
+                  >
+                    <span>
+                      <button
+                        class="button  
+      button--brown 
+      button--regular"
+                      >
+                        filter.reset
+                      </button>
+                    </span>
+                    <span>
+                      <button
+                        class="button  
+      button--green 
+      button--regular"
+                      >
+                        filter.done
+                      </button>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="pusher-backdrop"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="breadcrumb-background"
+        >
+          <div
+            class="ui breadcrumb"
+          >
+            <div
+              label="homepage_text"
+              url="/"
+            />
+          </div>
+        </div>
+        <div
+          class="mobile-search-filter-sorting-panel"
+        >
+          <div
+            class="filters"
+          >
+            <img
+              src="/assets/icons/filter-bar-icon.svg"
+            />
+            <span
+              class="text"
+            >
+              search.filters
+            </span>
+          </div>
+          <div
+            class="sorting"
+          >
+            <img
+              src="/assets/icons/sorting-bar-icon.svg"
+            />
+            <span
+              class="text"
+            >
+              search.sorting
+            </span>
+          </div>
+        </div>
+        <div
+          class="search-page-product-list"
+        >
+          <div
+            ownproducts=""
+            section="Search Results/undefined"
+            trackingsection="search"
+            trackinguserid="0"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

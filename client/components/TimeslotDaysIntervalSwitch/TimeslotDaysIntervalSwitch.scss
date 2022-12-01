@@ -1,0 +1,60 @@
+@import "../../styles/variable";
+
+.timeslotswitch {
+  display: flex;
+  background-color: $white;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: $red;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  justify-content: space-between;
+  padding-right: 15px;
+  padding-left: 15px;
+  user-select: none;
+}
+
+.timeslotswitch__left-arrow,
+.timeslotswitch__right-arrow {
+  color: #808080;
+  width: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+
+.timeslotmodalswitch {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+  background-color: white;
+  overflow: auto;
+}
+
+.timeslotmodalswitch-interval {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  border-bottom: 1px solid white;
+
+  &.active {
+    color: $red;
+    border-bottom: 1px solid $red;
+  }
+}

@@ -1,0 +1,58 @@
+image: node:12.13.1
+pipelines:
+  pull-requests: # Pipelines that run automatically on pull request
+    '**':
+      - step:
+          name: Install & Testing
+          caches:
+            - node
+          script:
+            - echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
+            - yarn
+            - yarn test:coverage
+            - yarn sonar
+      - step:
+          name: Build Production
+          trigger: manual
+          caches:
+            - node
+          script:
+            - echo "This step runs once you click the 'Run' button"
+            - yarn codegen
+            - yarn build:prod
+
+  branches: # Pipelines that run automatically on a commit to a branch
+    master:
+      - step:
+          name: Pre Release alpha version (ex 2.0.0 => 2.0.1-alpha.0)
+          caches:
+            - node
+          script:
+            - git remote set-url origin ${BITBUCKET_GIT_SSH_ORIGIN}
+            - git fetch --all
+            - npx standard-version --prerelease alpha
+            - git push --follow-tags
+            - yarn test:report
+            - yarn sonar
+      - step:
+          trigger: manual
+          name: Shift Version
+          deployment: Production
+          artifacts:
+            - CHANGELOG.md
+          script:
+            - git remote set-url origin ${BITBUCKET_GIT_SSH_ORIGIN}
+            - git fetch --all
+            - git pull
+            - npx standard-version
+            - git push --follow-tags
+
+    hotfix:
+      - step:
+          name: Hotfix
+          script:
+            - git remote set-url origin ${BITBUCKET_GIT_SSH_ORIGIN}
+            - git fetch --all
+            - git pull
+            - npx standard-version --release-as patch
+            - git push --follow-tags

@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`features/orderDetail/components/OrderAddress it should be match snapshot 1`] = `
+<DocumentFragment>
+  <span
+    class="address"
+  >
+    shipping_address.prefix_moo 1 shipping_address.prefix_soi 1 111 village_name 12 บางรัก บางรัก กรุงเทพมหานคร 10500
+  </span>
+</DocumentFragment>
+`;
+
+exports[`features/orderDetail/components/OrderAddress it should be match snapshot when address empty 1`] = `
+<DocumentFragment>
+  <span
+    class="address"
+  >
+     
+  </span>
+</DocumentFragment>
+`;
+
+exports[`features/orderDetail/components/OrderAddress it should be match snapshot when region and postcode empty 1`] = `
+<DocumentFragment>
+  <span
+    class="address"
+  >
+    shipping_address.prefix_moo 1 shipping_address.prefix_soi 1 111 village_name 12 บางรัก บางรัก  
+  </span>
+</DocumentFragment>
+`;
+
+exports[`features/orderDetail/components/OrderAddress it should be match snapshot when shipping empty 1`] = `
+<DocumentFragment>
+  <span
+    class="address"
+  >
+     
+  </span>
+</DocumentFragment>
+`;
+
+exports[`features/orderDetail/components/OrderAddress it should be match snapshot when shipping method pickupatstore_tops 1`] = `
+<DocumentFragment>
+  <span
+    class="address"
+  >
+    name
+  </span>
+</DocumentFragment>
+`;

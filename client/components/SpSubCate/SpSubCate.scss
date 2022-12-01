@@ -1,0 +1,51 @@
+@import '../../styles/variable';
+@import '../../styles/mixin';
+
+.sp-sub-category {
+  display: none;
+  @include tablet {
+    display: flex;
+  }
+}
+
+.sp-sub-category {
+  background: #e2e2e2;
+  // box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.35);
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  margin: 16px 0 8px;
+  padding: 0 16px;
+  padding-bottom: 8px;
+  flex-wrap: nowrap;
+
+  .sub-cate-link {
+    word-break: break-word;
+    background-color: #ffffff;
+    height: 40px;
+    padding: 3px 8px;
+    margin: 0 11px 0 0;
+    display: flex;
+    flex: 0 0 115px;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+
+    a {
+      width: 100%;
+      display: block;
+      text-align: center;
+      color: $black;
+      max-height: 100%;
+      text-overflow: ellipsis;
+      overflow: hidden;
+
+      h2 {
+        font-size: 13px;
+        font-weight: normal;
+        color: $black;
+        padding-top: 3px;
+      }
+    }
+  }
+}

@@ -1,0 +1,184 @@
+
+.login-form {
+  width: 100%;
+  max-width: 300px;
+  padding: 30px 20px 0;
+  text-align: left;
+
+  @include tablet {
+    padding: 30px 20px 0;
+  }
+
+  a {
+    color: #333333;
+    
+    &.register-link {
+      color: #333333;
+      font-weight: bold;
+    }
+  }
+
+  a:hover { 
+    color: #f40405;
+    text-decoration: underline;
+  }
+
+  .title {
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+  }
+  .sub-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .input-wrap {
+    &.input-error {
+      border: 1px solid $red !important;
+    }
+  }
+  
+  .ui.form {
+    .field {
+      margin-bottom: 23px;
+
+      &.field-password {
+        margin-bottom: 0;
+      }
+    }
+    input.input-wrap {
+      padding: 12px 15px;
+    }
+  }
+
+  .field {
+    text-align: left;
+    position: relative;
+    
+    label.label-wrap {
+      color: $black;
+      font-weight: normal;
+      font-size: 16px;
+    }
+    .checkbox {
+      label {
+        &::after {
+          color: $blue !important;
+        }
+      }
+    }
+    .input-section {
+      position: relative;
+      .error {
+        color:$red;
+        position: absolute;
+        top: -20px;
+        right: 0;
+        font-size: 12px;
+      }
+    }
+    .icon {
+      position: absolute;
+      top: 35px;
+      right: 5px;
+      cursor: pointer;
+    }
+    .lb-error {
+      color: $red;
+    }
+  }
+  
+  .ui.button
+  {
+    color: $white;
+    width: 100%;
+    height: 40px;
+
+    &.signup-button {
+      background: #534741;
+    }
+    &.submit {
+      background: $red;
+
+      &.disable {
+        color: #9a9a9a;
+        background: #d3d3d3;
+      }
+    }
+  } 
+
+  .notice {
+    font-size: 12px;
+    margin: 10px 0 20px !important;
+    
+    &.text-or {
+      margin: 10px 0;
+    }
+
+    .link {
+      text-decoration: underline;
+    }
+  }
+  .center {
+    text-align: center;
+  }
+  .right {
+    text-align: right;
+  }
+
+  .login-error {
+    color: red;
+    font-size: 12px;
+    font-weight: 300;
+    p {
+      margin: 5px 0px;
+    }
+  }
+
+  .login-new-customer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 12px;
+
+    .text-new-to-tops-online {
+      margin-right: 5px;
+      margin-bottom: 0;
+    }
+  }
+
+  .horizontal-line-middle {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #979797;
+    line-height: 0.1em;
+    margin: 41px 0;
+
+    .horizontal-line-middle-text {
+      background: #fff;
+      padding: 0 10px;
+    }
+  }
+}
+
+.btn-login-facebook {
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+  background-color: #4267b2;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .btn-login-facebook-icon {
+    font-size: 25px;
+    margin-right: 6px;
+  }
+
+  .btn-login-facebook-text {
+    padding-top: 4px;
+  }
+}

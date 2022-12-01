@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RowsProductItem it correctly renders the component 1`] = `
+<div
+  class="mt-mt-pi-rows swiper-slide Js-trackProductClick"
+  data-productbrand="FARMHOUSE"
+  data-productcategory="2958>Sliced Bread"
+  data-productid="8850123110436"
+  data-productname="Farmhouse Wholewheat Bread 500g."
+  data-productprice="40"
+  to="/farmhouse-wholewheat-bread-500g-8850123110436"
+>
+  <div
+    class="mt-pi-rows"
+  >
+    <div
+      class="mt-pi-rows--image-column"
+    >
+      <div
+        class="mt-pi-rows--image"
+      >
+        <div
+          class="lazyload-placeholder"
+          style="height: 100px;"
+        />
+      </div>
+    </div>
+    <div
+      class="mt-pi-rows--content-column"
+    >
+      <div
+        class="mt-pi-rows--title"
+        data-pid="8850123110436"
+        data-position="30"
+        data-productbrand="FARMHOUSE"
+        data-productcategory="2958>Sliced Bread"
+        data-productname="Farmhouse Wholewheat Bread 500g."
+        data-productoriginalprice="40"
+        data-productprice="40"
+        data-productsection="Recommended for you"
+      >
+        ฟาร์มเฮ้าส์ขนมปังโฮลวีต 500กรัม
+      </div>
+      <div
+        class="mt-pi-rows--promo-name mt-promo-names rows-layout"
+      />
+      <div
+        class="mt-pi-rows--promo-link"
+      />
+      <div
+        class="mt-pi-rows--promo-icon mt-promo-icons rows-layout"
+      />
+      <div
+        class="mt-pi-rows--price"
+      >
+        <div
+          class="price-elem"
+        >
+          <p>
+            <span
+              class="mt-price-number"
+            >
+              40.00
+               
+            </span>
+            <span
+              class="mt-price-label"
+            >
+               
+              /
+              ชิ้น
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mt-pi-rows--controls-column"
+    >
+      <div
+        class="mt-pi-rows--button"
+      >
+        <button
+          class="AddProductButton__Button-ag50oj-0 bkWnZn"
+          data-productbrand="FARMHOUSE"
+          data-productcategory="2958>Sliced Bread"
+          data-productid="8850123110436"
+          data-productname="Farmhouse Wholewheat Bread 500g."
+          data-productprice="40"
+          data-productsection="Recommended for you"
+          data-qty="1"
+          data-testid="add-product-button"
+          type="default"
+        >
+          ใส่รถเข็น
+        </button>
+      </div>
+      <i
+        aria-hidden="true"
+        class="like large icon mt-add-to-wishlist--rows"
+      />
+    </div>
+  </div>
+</div>
+`;

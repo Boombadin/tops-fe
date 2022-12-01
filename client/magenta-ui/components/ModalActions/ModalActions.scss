@@ -1,0 +1,17 @@
+.modal-actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 110px;
+  border-top: 1px solid #b8b8b8;
+
+  &.shadow {
+    box-shadow: 0px 5px 50px 10px #b1b1b1
+    
+  }
+}
+
+.ui.modal {
+  overflow: hidden;
+}

@@ -1,0 +1,132 @@
+@import '../../styles/variable';
+@import '../../styles/mixin';
+
+.profile-menu {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  .profile-menu__gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+    background-image: linear-gradient(to bottom, rgba(184, 184, 184, 0.3), rgba(184, 184, 184, 0));
+  }
+
+  .profile-menu__order-history,
+  .profile-menu__personal-info,
+  .profile-menu__invoice-info,
+  .profile-menu__pi-surname,
+  .profile-menu__pi-card,
+  .profile-menu__pi-number,
+  .profile-menu__pi-email,
+  .profile-menu__reward {
+    cursor: pointer;
+    height: 40px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e9e9e9;
+    display: flex;
+    align-items: center;
+    // justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 15px;
+    color: #2a2a2a;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .profile-menu__personal-info {
+    height: 60px;
+  }
+}
+
+.profile-menu__reward {
+  justify-content: flex-start !important;
+}
+
+.profile-menu__t1c-icon {
+  margin-right: 5px;
+  > img {
+    width: 20px;
+    
+  }
+}
+
+.profile-menu__t1c-text-light {
+  font-weight: lighter;
+}
+
+.profile-menu__sign-out {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  background-color: #ffffff;
+  border-bottom: 1px solid rgba(188, 181, 185, 1);
+  padding-left: 25px;
+
+  .profile-menu__sign-out-text {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: $red;
+    cursor: pointer;
+  }
+}
+
+.profile-menu__link {
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  cursor: pointer;
+  color: black;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: black;
+  }
+  &.center {
+    flex: 1 auto;
+  }
+}
+
+.profile-menu__arrow {
+  cursor: pointer;
+  &.right {
+    flex: 1 auto;
+  }
+}
+
+.profile-menu__prop-value-pair {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-menu__fieldName {
+  font-size: 11px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgb(119,119,119);
+}
+
+.profile-menu__fieldValue {
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.3;
+  letter-spacing: 0.5px;
+}

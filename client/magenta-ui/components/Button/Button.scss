@@ -1,0 +1,52 @@
+@import '../../styles/all';
+
+.button {
+  border: none;
+  border-radius: 2px;
+  padding: .75em 1em;
+  transition : filter 100ms linear;
+  color: $black;
+
+  @include m('blue') {
+    background-color: $blue;
+  }
+  
+  @include m('green') { 
+    background-color: $green;
+  }
+
+  @include m('red') { 
+    background-color: $red;
+  }
+  
+  @include m('grey') { 
+    background-color: $grey;
+  }
+
+  @include m('regular') { 
+    font-size: 13px;
+  }
+
+  @include m('small') { 
+    font-size: 10px;
+  }
+
+  @include m('large') { 
+    font-size: 15px;
+  }
+}
+
+.button:hover:enabled{
+  cursor: pointer;
+  filter: brightness(90%);
+}
+
+.button:active,
+.button:focus{
+  outline: none;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

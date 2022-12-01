@@ -1,0 +1,54 @@
+$font-family: 'superstoreregular', sans-serif;
+
+// THEME COLOR
+$white: #ffffff;
+$black-dark: #000000;
+$black: #333333;
+$red: #f70405;
+$red-bright: #f1352f;
+$red-dark: #b0131a;
+$brown: #534741;
+$brown-dark: #483d37;
+$gray-light: #cfcfcf;
+$gray-base: #aaaaaa;
+$gray: #808080;
+$gray-dark: #404040;
+$gray-darker: #222222;
+$green: #007a33;
+$green-dark: #002c13;
+$orange: #e55b25;
+$yellow: #e18a00;
+$green-light: #00ad48;
+$bule-light: #85b7d9;
+$blue: #277dd0;
+
+$text-placeholdered: #cdcdcd;
+
+// BACKGROUND COLOR
+$background-body: #e3e4e3;
+$background-gray: #d5d5d5;
+$background-gray-light: #e2e2e2;
+$background-gray-lighter: #f0f1f1;
+
+// BORDER COLOR
+$border-gray: #dedede;
+$border-gray-dark: #b8b8b8;
+
+// THEME LAYOUT
+$header-height: 90px;
+$header-height-mobile: 50px;
+$header-height-when-top-banner: 130px;
+$header-height-mobile-when-top-banner: 90px;
+
+// THEME LAYOUT MOBILE
+$component-margin: 10px;
+$title-margin-mobile: 15px;
+
+// SHADOW
+$box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+$box-shadow-dark: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+
+// MEDIA QUERIES
+$breakpoint-small: 320px;
+$breakpoint-large: 767px;
+$breakpoint-desktop: 1024px;

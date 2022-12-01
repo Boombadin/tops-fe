@@ -1,0 +1,17 @@
+User-agent: *
+Disallow: /wishlist/
+Disallow: /trending/
+Disallow: /recommended/
+Disallow: /cart/
+Disallow: /shipping/
+Disallow: /checkout/
+Disallow: /profile/
+Disallow: /order-history/
+Disallow: /order-detail/
+
+User-agent: Googlebot
+Disallow:
+User-agent: Googlebot-image
+Disallow:
+
+Sitemap: {domain}/sitemap.xml

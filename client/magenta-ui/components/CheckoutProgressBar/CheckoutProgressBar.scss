@@ -1,0 +1,181 @@
+@import '../../styles/all';
+
+.mt-checkout-progressbar {
+  border: none !important;
+  &.steps {
+    border: 0;
+    .step.mt-step {
+      position: relative;
+      border: 0;
+      background: none !important;     
+      .content .title {
+        position: relative;
+        top: 1.5rem;
+        font-size: 14px;
+        color: $grey;
+      }
+
+      &:first-child {
+        &::before {
+          display: none !important;
+        }
+      }
+
+      &,
+      &:first-child {
+        padding: 2rem 0;
+        
+        @include tablet {
+          position: fixed;
+          z-index: 9999999;
+          top: 0;
+          left: 0;
+        }
+      }
+
+      @include tablet {
+        &.upper-header-banner {
+          top: 35px;
+        }
+      }
+
+      &::before,
+      &::after {
+        content: none;
+      }
+      &.completed::after,
+      &.active::before,
+      &.disabled::before{
+        content: '';
+          position: absolute;
+          top: 50%;
+          left: 0;
+          display: block;
+          width: calc(100% - 15px);
+          height: 12px;
+          background-color: $grey-light-base;
+          border: {
+            top: 4px solid $grey-light-base;
+            bottom: 4px solid $grey-light-base;
+            left: 0;
+            right: 0;
+          }
+          border-radius: 3px;
+          transform: translate(-50%, -50%);
+          z-index: 2;
+          box-shadow: none;
+      }
+      &.active {
+        .mt-step-title {
+          color: $red-bright;
+        }
+      }
+      &.completed {
+        &::after {
+          left: unset;
+          right: 0;
+          transform: translate(50%, -50%);
+        }
+      }
+      .mt-mobile-controls {
+        display: none;
+      }
+      &.active::before,
+      &.completed::after {
+        width: calc(100% - 12px);
+        background-color: $red-bright;
+      }
+      .mt-step-indicator {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: block;
+        width: 1.5rem;
+        height: 1.5rem;
+        margin: 0 auto;
+        border-radius: 50%;
+        background-color: $red-bright;
+        border: 4px solid $grey-light-base;
+        z-index: 1;
+      }
+      &.disabled {
+        .mt-step-indicator {
+          background-color: $grey-light-base;
+        }
+      }
+    }
+  }
+}
+
+@include tablet {
+  .mt-checkout-progressbar {
+    &.steps { 
+      .step.mt-step {
+        width: 100%;
+        background-color: $white !important;
+        border-bottom: 13px solid #e2e2e2;
+        padding: 10px 0;
+        &:not(.active) {
+          display: none;
+        }
+        &::before,
+        &::after {
+          display: none !important;
+        }
+        .mt-step-indicator {
+          display: none;
+        }
+        .content {
+          width: 100%;
+        }
+        .content .title:not(.mt-step-title--mob) {
+          display: none;
+        }
+        .content .title {
+          position: initial;
+          color: #333333;
+          font-size: 14px;
+        }
+        .mt-step-order {
+          font-size: 11px;
+          text-align: center;
+        }
+        .mt-mobile-controls {
+          width: 100%;
+          color: #333333;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          .back {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            overflow: hidden;
+          }
+
+          .text {
+            // overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            margin-bottom: -5px;
+          }
+
+          & > * {
+            flex: 1;
+          }
+
+          .question {
+            text-align: right;
+            color: #333333;
+            font-size: 19px;
+            padding-right: 10px;
+          }
+        }
+      }      
+    }
+  }
+}
+

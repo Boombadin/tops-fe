@@ -1,0 +1,1249 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`features/cart/components/CartMobilePromotion click image to view product detail when promotion bundle buy 2 pay 1 | it should be match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="CartMobilePromotion__RowContainerItem-sc-1e93wxj-0 hqydJY Row__Wrapper-v6uxgu-0 kSLyDU"
+    color="#f7f7f7"
+  >
+    <div
+      class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jtiPwC Col__Column-sc-1619uro-0 jifnjv"
+    >
+      <img
+        class="CartMobilePromotion__ImageProduct-sc-1e93wxj-4 caSzbV Image__Img-sc-1s8ofg8-0 bEmjdg"
+        data-testid="img-viewCartMobilePromotion-onViewProduct-11577330"
+        src="https://uat-mdc.tops.co.th/media/catalog/product/8/8/8801073211216_x2.jpg?imwidth=50"
+        width="40px"
+      />
+    </div>
+    <div
+      class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jtiPwC Col__Column-sc-1619uro-0 drldVy"
+    >
+      <div
+        class="CartMobilePromotion__RowContainerItem-sc-1e93wxj-0 dTlSQg Row__Wrapper-v6uxgu-0 kSLyDU"
+        color="#f7f7f7"
+      >
+        <div
+          class="Col__Column-sc-1619uro-0 bpIQSr"
+        >
+          <div
+            class="Padding-sc-10o2jvk-0 GtPWG"
+          >
+            <div
+              class="Row__Wrapper-v6uxgu-0 kSLyDU"
+            >
+              <div
+                class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jJXAgC Col__Column-sc-1619uro-0 dYSUbG"
+              >
+                <span
+                  class="Text-sc-9p67zt-0 CartMobilePromotion__Text2LineEllipsis-sc-1e93wxj-2 gnuuoF"
+                  color="#666666"
+                  data-testid="btn-viewCartMobilePromotion-onViewProduct-11577330"
+                  display=""
+                  id="txt-product-name"
+                  size="11"
+                  spacing="normal"
+                  style="font-family: sans-serif;"
+                >
+                  promotion.free: Samyang Extreme Hot Chicken Big Bowl 105g.
+                </span>
+              </div>
+              <div
+                class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 kSzlfq Col__Column-sc-1619uro-0 ecpbdq"
+              >
+                <span
+                  class="Text-sc-9p67zt-0 iqhbTf"
+                  color="#666666"
+                  display=""
+                  size="11"
+                  spacing="normal"
+                >
+                  1 pcs
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Col__Column-sc-1619uro-0 bpIQSr"
+        >
+          <div
+            class="Row__Wrapper-v6uxgu-0 kSLyDU"
+          >
+            <div
+              class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 dSStdr Col__Column-sc-1619uro-0 drldVy"
+            >
+              <span
+                class="Text-sc-9p67zt-0 CartMobilePromotion__TextChangeBundle-sc-1e93wxj-5 jpooFB"
+                color="#666666"
+                data-testid="btn-viewCartMobilePromotion-openPromoBundleModal"
+                display=""
+                size="10"
+                spacing="normal"
+              >
+                <img
+                  class="Icon-sc-134752z-0 fCCZuM"
+                  height="0"
+                  opacity="1"
+                  rotate="0"
+                  src="/assets/icons/ic-edit.svg"
+                  style="margin-right: 3px;"
+                  width="10"
+                />
+                <p
+                  class="Text-sc-9p67zt-0 default-font TextGuide__Caption-sc-1wuo3jj-0 khELOm"
+                  color="#666666"
+                  display=""
+                  size="11"
+                  spacing="normal"
+                >
+                  promotion.change_free_items
+                </p>
+              </span>
+            </div>
+            <div
+              class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jzEWsS Col__Column-sc-1619uro-0 fZZAYg"
+            >
+              <div
+                class="Row__Wrapper-v6uxgu-0 kSLyDU"
+              >
+                <div
+                  class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 lbkIwJ Col__Column-sc-1619uro-0 jnKyiD"
+                >
+                  <span
+                    class="Text-sc-9p67zt-0 ipmWsm"
+                    color="#666666"
+                    display=""
+                    size="12"
+                    spacing="normal"
+                  >
+                    promotion.free
+                  </span>
+                </div>
+                <div
+                  class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jKZIkT Col__Column-sc-1619uro-0 dpfeHD"
+                >
+                  <img
+                    class="Icon-sc-134752z-0 CartMobilePromotion__IconImage-sc-1e93wxj-3 dVSXfd"
+                    data-testid="btn-removeCartMobilePromotion-onDeleteItem"
+                    height="15"
+                    opacity="1"
+                    rotate="0"
+                    src="/assets/icons/round-delete-24-px.svg"
+                    width="11.7"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`features/cart/components/CartMobilePromotion click title to view product detail when promotion bundle buy 2 pay 1 | it should be match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="CartMobilePromotion__RowContainerItem-sc-1e93wxj-0 hqydJY Row__Wrapper-v6uxgu-0 kSLyDU"
+    color="#f7f7f7"
+  >
+    <div
+      class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jtiPwC Col__Column-sc-1619uro-0 jifnjv"
+    >
+      <img
+        class="CartMobilePromotion__ImageProduct-sc-1e93wxj-4 caSzbV Image__Img-sc-1s8ofg8-0 bEmjdg"
+        data-testid="img-viewCartMobilePromotion-onViewProduct-11577330"
+        src="https://uat-mdc.tops.co.th/media/catalog/product/8/8/8801073211216_x2.jpg?imwidth=50"
+        width="40px"
+      />
+    </div>
+    <div
+      class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jtiPwC Col__Column-sc-1619uro-0 drldVy"
+    >
+      <div
+        class="CartMobilePromotion__RowContainerItem-sc-1e93wxj-0 dTlSQg Row__Wrapper-v6uxgu-0 kSLyDU"
+        color="#f7f7f7"
+      >
+        <div
+          class="Col__Column-sc-1619uro-0 bpIQSr"
+        >
+          <div
+            class="Padding-sc-10o2jvk-0 GtPWG"
+          >
+            <div
+              class="Row__Wrapper-v6uxgu-0 kSLyDU"
+            >
+              <div
+                class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jJXAgC Col__Column-sc-1619uro-0 dYSUbG"
+              >
+                <span
+                  class="Text-sc-9p67zt-0 CartMobilePromotion__Text2LineEllipsis-sc-1e93wxj-2 gnuuoF"
+                  color="#666666"
+                  data-testid="btn-viewCartMobilePromotion-onViewProduct-11577330"
+                  display=""
+                  id="txt-product-name"
+                  size="11"
+                  spacing="normal"
+                  style="font-family: sans-serif;"
+                >
+                  promotion.free: Samyang Extreme Hot Chicken Big Bowl 105g.
+                </span>
+              </div>
+              <div
+                class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 kSzlfq Col__Column-sc-1619uro-0 ecpbdq"
+              >
+                <span
+                  class="Text-sc-9p67zt-0 iqhbTf"
+                  color="#666666"
+                  display=""
+                  size="11"
+                  spacing="normal"
+                >
+                  1 pcs
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Col__Column-sc-1619uro-0 bpIQSr"
+        >
+          <div
+            class="Row__Wrapper-v6uxgu-0 kSLyDU"
+          >
+            <div
+              class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 dSStdr Col__Column-sc-1619uro-0 drldVy"
+            >
+              <span
+                class="Text-sc-9p67zt-0 CartMobilePromotion__TextChangeBundle-sc-1e93wxj-5 jpooFB"
+                color="#666666"
+                data-testid="btn-viewCartMobilePromotion-openPromoBundleModal"
+                display=""
+                size="10"
+                spacing="normal"
+              >
+                <img
+                  class="Icon-sc-134752z-0 fCCZuM"
+                  height="0"
+                  opacity="1"
+                  rotate="0"
+                  src="/assets/icons/ic-edit.svg"
+                  style="margin-right: 3px;"
+                  width="10"
+                />
+                <p
+                  class="Text-sc-9p67zt-0 default-font TextGuide__Caption-sc-1wuo3jj-0 khELOm"
+                  color="#666666"
+                  display=""
+                  size="11"
+                  spacing="normal"
+                >
+                  promotion.change_free_items
+                </p>
+              </span>
+            </div>
+            <div
+              class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jzEWsS Col__Column-sc-1619uro-0 fZZAYg"
+            >
+              <div
+                class="Row__Wrapper-v6uxgu-0 kSLyDU"
+              >
+                <div
+                  class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 lbkIwJ Col__Column-sc-1619uro-0 jnKyiD"
+                >
+                  <span
+                    class="Text-sc-9p67zt-0 ipmWsm"
+                    color="#666666"
+                    display=""
+                    size="12"
+                    spacing="normal"
+                  >
+                    promotion.free
+                  </span>
+                </div>
+                <div
+                  class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jKZIkT Col__Column-sc-1619uro-0 dpfeHD"
+                >
+                  <img
+                    class="Icon-sc-134752z-0 CartMobilePromotion__IconImage-sc-1e93wxj-3 dVSXfd"
+                    data-testid="btn-removeCartMobilePromotion-onDeleteItem"
+                    height="15"
+                    opacity="1"
+                    rotate="0"
+                    src="/assets/icons/round-delete-24-px.svg"
+                    width="11.7"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`features/cart/components/CartMobilePromotion delete item bundle central_eachn_percent_discount | it should be match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="CartMobilePromotion__RowContainerItem-sc-1e93wxj-0 hqydJY Row__Wrapper-v6uxgu-0 kSLyDU"
+    color="#f7f7f7"
+  >
+    <div
+      class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jtiPwC Col__Column-sc-1619uro-0 jifnjv"
+    >
+      <img
+        class="CartMobilePromotion__ImageProduct-sc-1e93wxj-4 caSzbV Image__Img-sc-1s8ofg8-0 bEmjdg"
+        data-testid="img-viewCartMobilePromotion-onViewProduct-11577330"
+        src="https://uat-mdc.tops.co.th/media/catalog/product/8/8/8801073211216_x2.jpg?imwidth=50"
+        width="40px"
+      />
+    </div>
+    <div
+      class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jtiPwC Col__Column-sc-1619uro-0 drldVy"
+    >
+      <div
+        class="CartMobilePromotion__RowContainerItem-sc-1e93wxj-0 dTlSQg Row__Wrapper-v6uxgu-0 kSLyDU"
+        color="#f7f7f7"
+      >
+        <div
+          class="Col__Column-sc-1619uro-0 bpIQSr"
+        >
+          <div
+            class="Padding-sc-10o2jvk-0 GtPWG"
+          >
+            <div
+              class="Row__Wrapper-v6uxgu-0 kSLyDU"
+            >
+              <div
+                class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jJXAgC Col__Column-sc-1619uro-0 dYSUbG"
+              >
+                <span
+                  class="Text-sc-9p67zt-0 CartMobilePromotion__Text2LineEllipsis-sc-1e93wxj-2 gnuuoF"
+                  color="#666666"
+                  data-testid="btn-viewCartMobilePromotion-onViewProduct-11577330"
+                  display=""
+                  id="txt-product-name"
+                  size="11"
+                  spacing="normal"
+                  style="font-family: sans-serif;"
+                >
+                  promotion.free: Samyang Extreme Hot Chicken Big Bowl 105g.
+                </span>
+              </div>
+              <div
+                class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 kSzlfq Col__Column-sc-1619uro-0 ecpbdq"
+              >
+                <span
+                  class="Text-sc-9p67zt-0 iqhbTf"
+                  color="#666666"
+                  display=""
+                  size="11"
+                  spacing="normal"
+                >
+                  1 pcs
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Col__Column-sc-1619uro-0 bpIQSr"
+        >
+          <div
+            class="Row__Wrapper-v6uxgu-0 kSLyDU"
+          >
+            <div
+              class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 dSStdr Col__Column-sc-1619uro-0 drldVy"
+            >
+              <span
+                class="Text-sc-9p67zt-0 CartMobilePromotion__TextChangeBundle-sc-1e93wxj-5 jpooFB"
+                color="#666666"
+                data-testid="btn-viewCartMobilePromotion-openPromoBundleModal"
+                display=""
+                size="10"
+                spacing="normal"
+              >
+                <img
+                  class="Icon-sc-134752z-0 fCCZuM"
+                  height="0"
+                  opacity="1"
+                  rotate="0"
+                  src="/assets/icons/ic-edit.svg"
+                  style="margin-right: 3px;"
+                  width="10"
+                />
+                <p
+                  class="Text-sc-9p67zt-0 default-font TextGuide__Caption-sc-1wuo3jj-0 khELOm"
+                  color="#666666"
+                  display=""
+                  size="11"
+                  spacing="normal"
+                >
+                  promotion.change_free_items
+                </p>
+              </span>
+            </div>
+            <div
+              class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jzEWsS Col__Column-sc-1619uro-0 fZZAYg"
+            >
+              <div
+                class="Row__Wrapper-v6uxgu-0 kSLyDU"
+              >
+                <div
+                  class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 lbkIwJ Col__Column-sc-1619uro-0 jnKyiD"
+                >
+                  <span
+                    class="Text-sc-9p67zt-0 ipmWsm"
+                    color="#666666"
+                    display=""
+                    size="12"
+                    spacing="normal"
+                  >
+                    promotion.free
+                  </span>
+                </div>
+                <div
+                  class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jKZIkT Col__Column-sc-1619uro-0 dpfeHD"
+                >
+                  <img
+                    class="Icon-sc-134752z-0 CartMobilePromotion__IconImage-sc-1e93wxj-3 dVSXfd"
+                    data-testid="btn-removeCartMobilePromotion-onDeleteItem"
+                    height="15"
+                    opacity="1"
+                    rotate="0"
+                    src="/assets/icons/round-delete-24-px.svg"
+                    width="11.7"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`features/cart/components/CartMobilePromotion delete item bundle groupn_fixdisc | it should be match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="CartMobilePromotion__RowContainerItem-sc-1e93wxj-0 dTlSQg Row__Wrapper-v6uxgu-0 kSLyDU"
+    color="#f7f7f7"
+  >
+    <div
+      class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 dSStdr Col__Column-sc-1619uro-0 drldVy"
+    >
+      <div
+        class="Row__Wrapper-v6uxgu-0 kSLyDU"
+      >
+        <div
+          class="CartMobilePromotion__ColPromotion-sc-1e93wxj-6 fXheif Col__Column-sc-1619uro-0 bpIQSr"
+        >
+          <p
+            class="Text-sc-9p67zt-0 default-font TextGuide__Caption-sc-1wuo3jj-0 fNPGig"
+            color="#666666"
+            display=""
+            size="11"
+            spacing="normal"
+          >
+            promotion.promotion_online
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jzEWsS Col__Column-sc-1619uro-0 fZZAYg"
+    >
+      <div
+        class="Row__Wrapper-v6uxgu-0 kSLyDU"
+      >
+        <div
+          class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 lbkIwJ Col__Column-sc-1619uro-0 jnKyiD"
+        >
+          <p
+            class="Text-sc-9p67zt-0 default-font TextGuide__Caption-sc-1wuo3jj-0 cwWbaV"
+            color="#ec1d24"
+            display=""
+            size="11"
+            spacing="normal"
+          >
+            -20.00฿
+          </p>
+        </div>
+        <div
+          class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jKZIkT Col__Column-sc-1619uro-0 dpfeHD"
+        >
+          <img
+            class="Icon-sc-134752z-0 CartMobilePromotion__IconImage-sc-1e93wxj-3 dVSXfd"
+            data-testid="btn-removeCartMobilePromotion-onDeleteItem"
+            height="15"
+            opacity="1"
+            rotate="0"
+            src="/assets/icons/round-delete-24-px.svg"
+            width="11.7"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`features/cart/components/CartMobilePromotion it action type cart_fixed should match with snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="CartMobilePromotion__RowContainerItem-sc-1e93wxj-0 dTlSQg Row__Wrapper-v6uxgu-0 kSLyDU"
+    color="#f7f7f7"
+  >
+    <div
+      class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 dSStdr Col__Column-sc-1619uro-0 drldVy"
+    >
+      <div
+        class="Row__Wrapper-v6uxgu-0 kSLyDU"
+      >
+        <div
+          class="CartMobilePromotion__ColPromotion-sc-1e93wxj-6 fXheif Col__Column-sc-1619uro-0 bpIQSr"
+        >
+          <p
+            class="Text-sc-9p67zt-0 default-font TextGuide__Caption-sc-1wuo3jj-0 fNPGig"
+            color="#666666"
+            display=""
+            size="11"
+            spacing="normal"
+          >
+            promotion.promotion_online
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jzEWsS Col__Column-sc-1619uro-0 fZZAYg"
+    >
+      <div
+        class="Row__Wrapper-v6uxgu-0 kSLyDU"
+      >
+        <div
+          class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 lbkIwJ Col__Column-sc-1619uro-0 jnKyiD"
+        >
+          <p
+            class="Text-sc-9p67zt-0 default-font TextGuide__Caption-sc-1wuo3jj-0 cwWbaV"
+            color="#ec1d24"
+            display=""
+            size="11"
+            spacing="normal"
+          >
+            -100.00฿
+          </p>
+        </div>
+        <div
+          class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jKZIkT Col__Column-sc-1619uro-0 dpfeHD"
+        >
+          <img
+            class="Icon-sc-134752z-0 CartMobilePromotion__IconImage-sc-1e93wxj-3 dVSXfd"
+            data-testid="btn-removeCartMobilePromotion-onDeleteItem"
+            height="15"
+            opacity="1"
+            rotate="0"
+            src="/assets/icons/round-delete-24-px.svg"
+            width="11.7"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`features/cart/components/CartMobilePromotion it action type central_eachn_percent_discount should match when promotion data empty 1`] = `
+<DocumentFragment>
+  <div
+    class="CartMobilePromotion__RowContainerItem-sc-1e93wxj-0 hqydJY Row__Wrapper-v6uxgu-0 kSLyDU"
+    color="#f7f7f7"
+  >
+    <div
+      class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jtiPwC Col__Column-sc-1619uro-0 jifnjv"
+    >
+      <img
+        class="CartMobilePromotion__ImageProduct-sc-1e93wxj-4 caSzbV Image__Img-sc-1s8ofg8-0 bEmjdg"
+        data-testid="img-viewCartMobilePromotion-onViewProduct-"
+        src="catalog/product?imwidth=50"
+        width="40px"
+      />
+    </div>
+    <div
+      class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jtiPwC Col__Column-sc-1619uro-0 drldVy"
+    >
+      <div
+        class="CartMobilePromotion__RowContainerItem-sc-1e93wxj-0 dTlSQg Row__Wrapper-v6uxgu-0 kSLyDU"
+        color="#f7f7f7"
+      >
+        <div
+          class="Col__Column-sc-1619uro-0 bpIQSr"
+        >
+          <div
+            class="Padding-sc-10o2jvk-0 GtPWG"
+          >
+            <div
+              class="Row__Wrapper-v6uxgu-0 kSLyDU"
+            >
+              <div
+                class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jJXAgC Col__Column-sc-1619uro-0 dYSUbG"
+              >
+                <span
+                  class="Text-sc-9p67zt-0 CartMobilePromotion__Text2LineEllipsis-sc-1e93wxj-2 gnuuoF"
+                  color="#666666"
+                  data-testid="btn-viewCartMobilePromotion-onViewProduct-"
+                  display=""
+                  id="txt-product-name"
+                  size="11"
+                  spacing="normal"
+                  style="font-family: sans-serif;"
+                >
+                  promotion.free: 
+                </span>
+              </div>
+              <div
+                class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 kSzlfq Col__Column-sc-1619uro-0 ecpbdq"
+              >
+                <span
+                  class="Text-sc-9p67zt-0 iqhbTf"
+                  color="#666666"
+                  display=""
+                  size="11"
+                  spacing="normal"
+                >
+                   
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Col__Column-sc-1619uro-0 bpIQSr"
+        >
+          <div
+            class="Row__Wrapper-v6uxgu-0 kSLyDU"
+          >
+            <div
+              class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 dSStdr Col__Column-sc-1619uro-0 drldVy"
+            >
+              <span
+                class="Text-sc-9p67zt-0 CartMobilePromotion__TextChangeBundle-sc-1e93wxj-5 jpooFB"
+                color="#666666"
+                data-testid="btn-viewCartMobilePromotion-openPromoBundleModal"
+                display=""
+                size="10"
+                spacing="normal"
+              >
+                <img
+                  class="Icon-sc-134752z-0 fCCZuM"
+                  height="0"
+                  opacity="1"
+                  rotate="0"
+                  src="/assets/icons/ic-edit.svg"
+                  style="margin-right: 3px;"
+                  width="10"
+                />
+                <p
+                  class="Text-sc-9p67zt-0 default-font TextGuide__Caption-sc-1wuo3jj-0 khELOm"
+                  color="#666666"
+                  display=""
+                  size="11"
+                  spacing="normal"
+                >
+                  promotion.change_free_items
+                </p>
+              </span>
+            </div>
+            <div
+              class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jzEWsS Col__Column-sc-1619uro-0 fZZAYg"
+            >
+              <div
+                class="Row__Wrapper-v6uxgu-0 kSLyDU"
+              >
+                <div
+                  class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 lbkIwJ Col__Column-sc-1619uro-0 jnKyiD"
+                >
+                  <span
+                    class="Text-sc-9p67zt-0 ipmWsm"
+                    color="#666666"
+                    display=""
+                    size="12"
+                    spacing="normal"
+                  >
+                    promotion.free
+                  </span>
+                </div>
+                <div
+                  class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jKZIkT Col__Column-sc-1619uro-0 dpfeHD"
+                >
+                  <img
+                    class="Icon-sc-134752z-0 CartMobilePromotion__IconImage-sc-1e93wxj-3 dVSXfd"
+                    data-testid="btn-removeCartMobilePromotion-onDeleteItem"
+                    height="15"
+                    opacity="1"
+                    rotate="0"
+                    src="/assets/icons/round-delete-24-px.svg"
+                    width="11.7"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`features/cart/components/CartMobilePromotion it action type central_eachn_percent_discount should match with snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="CartMobilePromotion__RowContainerItem-sc-1e93wxj-0 hqydJY Row__Wrapper-v6uxgu-0 kSLyDU"
+    color="#f7f7f7"
+  >
+    <div
+      class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jtiPwC Col__Column-sc-1619uro-0 jifnjv"
+    >
+      <img
+        class="CartMobilePromotion__ImageProduct-sc-1e93wxj-4 caSzbV Image__Img-sc-1s8ofg8-0 bEmjdg"
+        data-testid="img-viewCartMobilePromotion-onViewProduct-11577330"
+        src="https://uat-mdc.tops.co.th/media/catalog/product/8/8/8801073211216_x2.jpg?imwidth=50"
+        width="40px"
+      />
+    </div>
+    <div
+      class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jtiPwC Col__Column-sc-1619uro-0 drldVy"
+    >
+      <div
+        class="CartMobilePromotion__RowContainerItem-sc-1e93wxj-0 dTlSQg Row__Wrapper-v6uxgu-0 kSLyDU"
+        color="#f7f7f7"
+      >
+        <div
+          class="Col__Column-sc-1619uro-0 bpIQSr"
+        >
+          <div
+            class="Padding-sc-10o2jvk-0 GtPWG"
+          >
+            <div
+              class="Row__Wrapper-v6uxgu-0 kSLyDU"
+            >
+              <div
+                class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jJXAgC Col__Column-sc-1619uro-0 dYSUbG"
+              >
+                <span
+                  class="Text-sc-9p67zt-0 CartMobilePromotion__Text2LineEllipsis-sc-1e93wxj-2 gnuuoF"
+                  color="#666666"
+                  data-testid="btn-viewCartMobilePromotion-onViewProduct-11577330"
+                  display=""
+                  id="txt-product-name"
+                  size="11"
+                  spacing="normal"
+                  style="font-family: sans-serif;"
+                >
+                  promotion.free: Samyang Extreme Hot Chicken Big Bowl 105g.
+                </span>
+              </div>
+              <div
+                class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 kSzlfq Col__Column-sc-1619uro-0 ecpbdq"
+              >
+                <span
+                  class="Text-sc-9p67zt-0 iqhbTf"
+                  color="#666666"
+                  display=""
+                  size="11"
+                  spacing="normal"
+                >
+                  1 pcs
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Col__Column-sc-1619uro-0 bpIQSr"
+        >
+          <div
+            class="Row__Wrapper-v6uxgu-0 kSLyDU"
+          >
+            <div
+              class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 dSStdr Col__Column-sc-1619uro-0 drldVy"
+            >
+              <span
+                class="Text-sc-9p67zt-0 CartMobilePromotion__TextChangeBundle-sc-1e93wxj-5 jpooFB"
+                color="#666666"
+                data-testid="btn-viewCartMobilePromotion-openPromoBundleModal"
+                display=""
+                size="10"
+                spacing="normal"
+              >
+                <img
+                  class="Icon-sc-134752z-0 fCCZuM"
+                  height="0"
+                  opacity="1"
+                  rotate="0"
+                  src="/assets/icons/ic-edit.svg"
+                  style="margin-right: 3px;"
+                  width="10"
+                />
+                <p
+                  class="Text-sc-9p67zt-0 default-font TextGuide__Caption-sc-1wuo3jj-0 khELOm"
+                  color="#666666"
+                  display=""
+                  size="11"
+                  spacing="normal"
+                >
+                  promotion.change_free_items
+                </p>
+              </span>
+            </div>
+            <div
+              class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jzEWsS Col__Column-sc-1619uro-0 fZZAYg"
+            >
+              <div
+                class="Row__Wrapper-v6uxgu-0 kSLyDU"
+              >
+                <div
+                  class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 lbkIwJ Col__Column-sc-1619uro-0 jnKyiD"
+                >
+                  <span
+                    class="Text-sc-9p67zt-0 ipmWsm"
+                    color="#666666"
+                    display=""
+                    size="12"
+                    spacing="normal"
+                  >
+                    promotion.free
+                  </span>
+                </div>
+                <div
+                  class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jKZIkT Col__Column-sc-1619uro-0 dpfeHD"
+                >
+                  <img
+                    class="Icon-sc-134752z-0 CartMobilePromotion__IconImage-sc-1e93wxj-3 dVSXfd"
+                    data-testid="btn-removeCartMobilePromotion-onDeleteItem"
+                    height="15"
+                    opacity="1"
+                    rotate="0"
+                    src="/assets/icons/round-delete-24-px.svg"
+                    width="11.7"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`features/cart/components/CartMobilePromotion it action type groupn should match with snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="CartMobilePromotion__RowContainerItem-sc-1e93wxj-0 dTlSQg Row__Wrapper-v6uxgu-0 kSLyDU"
+    color="#f7f7f7"
+  >
+    <div
+      class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 dSStdr Col__Column-sc-1619uro-0 drldVy"
+    >
+      <div
+        class="Row__Wrapper-v6uxgu-0 kSLyDU"
+      >
+        <div
+          class="CartMobilePromotion__ColPromotion-sc-1e93wxj-6 fXheif Col__Column-sc-1619uro-0 bpIQSr"
+        >
+          <p
+            class="Text-sc-9p67zt-0 default-font TextGuide__Caption-sc-1wuo3jj-0 fNPGig"
+            color="#666666"
+            display=""
+            size="11"
+            spacing="normal"
+          >
+            promotion.promotion_discount
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jzEWsS Col__Column-sc-1619uro-0 fZZAYg"
+    >
+      <div
+        class="Row__Wrapper-v6uxgu-0 kSLyDU"
+      >
+        <div
+          class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 lbkIwJ Col__Column-sc-1619uro-0 jnKyiD"
+        >
+          <p
+            class="Text-sc-9p67zt-0 default-font TextGuide__Caption-sc-1wuo3jj-0 cwWbaV"
+            color="#ec1d24"
+            display=""
+            size="11"
+            spacing="normal"
+          >
+            -10.00฿
+          </p>
+        </div>
+        <div
+          class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jKZIkT Col__Column-sc-1619uro-0 dpfeHD"
+        >
+          <img
+            class="Icon-sc-134752z-0 CartMobilePromotion__IconImage-sc-1e93wxj-3 dVSXfd"
+            data-testid="btn-removeCartMobilePromotion-onDeleteItem"
+            height="15"
+            opacity="1"
+            rotate="0"
+            src="/assets/icons/round-delete-24-px.svg"
+            width="11.7"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`features/cart/components/CartMobilePromotion it action type groupn_fixdisc should match when promotion data empty 1`] = `
+<DocumentFragment>
+  <div
+    class="CartMobilePromotion__RowContainerItem-sc-1e93wxj-0 dTlSQg Row__Wrapper-v6uxgu-0 kSLyDU"
+    color="#f7f7f7"
+  >
+    <div
+      class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 dSStdr Col__Column-sc-1619uro-0 drldVy"
+    >
+      <div
+        class="Row__Wrapper-v6uxgu-0 kSLyDU"
+      >
+        <div
+          class="CartMobilePromotion__ColPromotion-sc-1e93wxj-6 fXheif Col__Column-sc-1619uro-0 bpIQSr"
+        >
+          <p
+            class="Text-sc-9p67zt-0 default-font TextGuide__Caption-sc-1wuo3jj-0 fNPGig"
+            color="#666666"
+            display=""
+            size="11"
+            spacing="normal"
+          >
+            promotion.promotion_online
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jzEWsS Col__Column-sc-1619uro-0 fZZAYg"
+    >
+      <div
+        class="Row__Wrapper-v6uxgu-0 kSLyDU"
+      >
+        <div
+          class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 lbkIwJ Col__Column-sc-1619uro-0 jnKyiD"
+        >
+          <p
+            class="Text-sc-9p67zt-0 default-font TextGuide__Caption-sc-1wuo3jj-0 cwWbaV"
+            color="#ec1d24"
+            display=""
+            size="11"
+            spacing="normal"
+          >
+            -
+          </p>
+        </div>
+        <div
+          class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jKZIkT Col__Column-sc-1619uro-0 dpfeHD"
+        >
+          <img
+            class="Icon-sc-134752z-0 CartMobilePromotion__IconImage-sc-1e93wxj-3 dVSXfd"
+            data-testid="btn-removeCartMobilePromotion-onDeleteItem"
+            height="15"
+            opacity="1"
+            rotate="0"
+            src="/assets/icons/round-delete-24-px.svg"
+            width="11.7"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`features/cart/components/CartMobilePromotion it action type groupn_fixdisc should match when promotion data empty 2`] = `
+<DocumentFragment>
+  <div
+    class="CartMobilePromotion__RowContainerItem-sc-1e93wxj-0 dTlSQg Row__Wrapper-v6uxgu-0 kSLyDU"
+    color="#f7f7f7"
+  >
+    <div
+      class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 dSStdr Col__Column-sc-1619uro-0 drldVy"
+    >
+      <div
+        class="Row__Wrapper-v6uxgu-0 kSLyDU"
+      >
+        <div
+          class="CartMobilePromotion__ColPromotion-sc-1e93wxj-6 fXheif Col__Column-sc-1619uro-0 bpIQSr"
+        >
+          <p
+            class="Text-sc-9p67zt-0 default-font TextGuide__Caption-sc-1wuo3jj-0 fNPGig"
+            color="#666666"
+            display=""
+            size="11"
+            spacing="normal"
+          >
+            promotion.promotion_online
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jzEWsS Col__Column-sc-1619uro-0 fZZAYg"
+    >
+      <div
+        class="Row__Wrapper-v6uxgu-0 kSLyDU"
+      >
+        <div
+          class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 lbkIwJ Col__Column-sc-1619uro-0 jnKyiD"
+        >
+          <p
+            class="Text-sc-9p67zt-0 default-font TextGuide__Caption-sc-1wuo3jj-0 cwWbaV"
+            color="#ec1d24"
+            display=""
+            size="11"
+            spacing="normal"
+          >
+            -
+          </p>
+        </div>
+        <div
+          class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jKZIkT Col__Column-sc-1619uro-0 dpfeHD"
+        >
+          <img
+            class="Icon-sc-134752z-0 CartMobilePromotion__IconImage-sc-1e93wxj-3 dVSXfd"
+            data-testid="btn-removeCartMobilePromotion-onDeleteItem"
+            height="15"
+            opacity="1"
+            rotate="0"
+            src="/assets/icons/round-delete-24-px.svg"
+            width="11.7"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`features/cart/components/CartMobilePromotion it action type groupn_fixdisc should match with snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="CartMobilePromotion__RowContainerItem-sc-1e93wxj-0 dTlSQg Row__Wrapper-v6uxgu-0 kSLyDU"
+    color="#f7f7f7"
+  >
+    <div
+      class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 dSStdr Col__Column-sc-1619uro-0 drldVy"
+    >
+      <div
+        class="Row__Wrapper-v6uxgu-0 kSLyDU"
+      >
+        <div
+          class="CartMobilePromotion__ColPromotion-sc-1e93wxj-6 fXheif Col__Column-sc-1619uro-0 bpIQSr"
+        >
+          <p
+            class="Text-sc-9p67zt-0 default-font TextGuide__Caption-sc-1wuo3jj-0 fNPGig"
+            color="#666666"
+            display=""
+            size="11"
+            spacing="normal"
+          >
+            promotion.promotion_online
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jzEWsS Col__Column-sc-1619uro-0 fZZAYg"
+    >
+      <div
+        class="Row__Wrapper-v6uxgu-0 kSLyDU"
+      >
+        <div
+          class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 lbkIwJ Col__Column-sc-1619uro-0 jnKyiD"
+        >
+          <p
+            class="Text-sc-9p67zt-0 default-font TextGuide__Caption-sc-1wuo3jj-0 cwWbaV"
+            color="#ec1d24"
+            display=""
+            size="11"
+            spacing="normal"
+          >
+            -20.00฿
+          </p>
+        </div>
+        <div
+          class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jKZIkT Col__Column-sc-1619uro-0 dpfeHD"
+        >
+          <img
+            class="Icon-sc-134752z-0 CartMobilePromotion__IconImage-sc-1e93wxj-3 dVSXfd"
+            data-testid="btn-removeCartMobilePromotion-onDeleteItem"
+            height="15"
+            opacity="1"
+            rotate="0"
+            src="/assets/icons/round-delete-24-px.svg"
+            width="11.7"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`features/cart/components/CartMobilePromotion open modal item promotion bundle groupn_fixdisc | it should be match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="CartMobilePromotion__RowContainerItem-sc-1e93wxj-0 hqydJY Row__Wrapper-v6uxgu-0 kSLyDU"
+    color="#f7f7f7"
+  >
+    <div
+      class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jtiPwC Col__Column-sc-1619uro-0 jifnjv"
+    >
+      <img
+        class="CartMobilePromotion__ImageProduct-sc-1e93wxj-4 caSzbV Image__Img-sc-1s8ofg8-0 bEmjdg"
+        data-testid="img-viewCartMobilePromotion-onViewProduct-11577330"
+        src="https://uat-mdc.tops.co.th/media/catalog/product/8/8/8801073211216_x2.jpg?imwidth=50"
+        width="40px"
+      />
+    </div>
+    <div
+      class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jtiPwC Col__Column-sc-1619uro-0 drldVy"
+    >
+      <div
+        class="CartMobilePromotion__RowContainerItem-sc-1e93wxj-0 dTlSQg Row__Wrapper-v6uxgu-0 kSLyDU"
+        color="#f7f7f7"
+      >
+        <div
+          class="Col__Column-sc-1619uro-0 bpIQSr"
+        >
+          <div
+            class="Padding-sc-10o2jvk-0 GtPWG"
+          >
+            <div
+              class="Row__Wrapper-v6uxgu-0 kSLyDU"
+            >
+              <div
+                class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jJXAgC Col__Column-sc-1619uro-0 dYSUbG"
+              >
+                <span
+                  class="Text-sc-9p67zt-0 CartMobilePromotion__Text2LineEllipsis-sc-1e93wxj-2 gnuuoF"
+                  color="#666666"
+                  data-testid="btn-viewCartMobilePromotion-onViewProduct-11577330"
+                  display=""
+                  id="txt-product-name"
+                  size="11"
+                  spacing="normal"
+                  style="font-family: sans-serif;"
+                >
+                  promotion.free: Samyang Extreme Hot Chicken Big Bowl 105g.
+                </span>
+              </div>
+              <div
+                class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 kSzlfq Col__Column-sc-1619uro-0 ecpbdq"
+              >
+                <span
+                  class="Text-sc-9p67zt-0 iqhbTf"
+                  color="#666666"
+                  display=""
+                  size="11"
+                  spacing="normal"
+                >
+                  1 pcs
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Col__Column-sc-1619uro-0 bpIQSr"
+        >
+          <div
+            class="Row__Wrapper-v6uxgu-0 kSLyDU"
+          >
+            <div
+              class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 dSStdr Col__Column-sc-1619uro-0 drldVy"
+            >
+              <span
+                class="Text-sc-9p67zt-0 CartMobilePromotion__TextChangeBundle-sc-1e93wxj-5 jpooFB"
+                color="#666666"
+                data-testid="btn-viewCartMobilePromotion-openPromoBundleModal"
+                display=""
+                size="10"
+                spacing="normal"
+              >
+                <img
+                  class="Icon-sc-134752z-0 fCCZuM"
+                  height="0"
+                  opacity="1"
+                  rotate="0"
+                  src="/assets/icons/ic-edit.svg"
+                  style="margin-right: 3px;"
+                  width="10"
+                />
+                <p
+                  class="Text-sc-9p67zt-0 default-font TextGuide__Caption-sc-1wuo3jj-0 khELOm"
+                  color="#666666"
+                  display=""
+                  size="11"
+                  spacing="normal"
+                >
+                  promotion.change_free_items
+                </p>
+              </span>
+            </div>
+            <div
+              class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jzEWsS Col__Column-sc-1619uro-0 fZZAYg"
+            >
+              <div
+                class="Row__Wrapper-v6uxgu-0 kSLyDU"
+              >
+                <div
+                  class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 lbkIwJ Col__Column-sc-1619uro-0 jnKyiD"
+                >
+                  <span
+                    class="Text-sc-9p67zt-0 ipmWsm"
+                    color="#666666"
+                    display=""
+                    size="12"
+                    spacing="normal"
+                  >
+                    promotion.free
+                  </span>
+                </div>
+                <div
+                  class="CartMobilePromotion__ColumnItem-sc-1e93wxj-1 jKZIkT Col__Column-sc-1619uro-0 dpfeHD"
+                >
+                  <img
+                    class="Icon-sc-134752z-0 CartMobilePromotion__IconImage-sc-1e93wxj-3 dVSXfd"
+                    data-testid="btn-removeCartMobilePromotion-onDeleteItem"
+                    height="15"
+                    opacity="1"
+                    rotate="0"
+                    src="/assets/icons/round-delete-24-px.svg"
+                    width="11.7"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

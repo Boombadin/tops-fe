@@ -1,0 +1,5 @@
+query cards($sort: CardSort){
+  cards(sort: $sort){
+    ...cardFragment
+  }
+}

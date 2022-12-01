@@ -1,0 +1,173 @@
+#filter-bar {
+  background: $white;
+  box-shadow: $box-shadow;
+  @include tablet {
+    display: none;
+  }
+}
+
+.mobile-top-filter-bar {
+  @include clearfix;
+  display: none;
+  border-bottom: 1px solid $border-gray;
+  border-top: 1px solid $border-gray;
+  margin-bottom: 12px;
+  position: relative;
+
+  .column {
+    width: 50%;
+    line-height: 35px;
+    height: 35px;
+    background: $white;
+    float: left;
+    text-align: center;
+    position: relative;
+
+    &:first-child {
+      border-right: 1px solid $border-gray;
+    }
+
+    button {
+      display: block;
+      background: none;
+      border: 0;
+      width: 100%;
+      line-height: inherit;
+      outline: none;
+      &:active {
+        opacity: 0.5;
+      }
+    }
+
+    span {
+      font-size: 14px;
+      text-align: center;
+      line-height: 140%;
+      padding-top: 2px;
+      vertical-align: middle;
+      display: inline-block;
+      margin: 0 4px;
+    }
+
+    &.sorting {
+      .loader {
+        position: absolute;
+        right: 24px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+  }
+
+  .mobile-sorting-box {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+
+    .sort-wrapper {
+      width: 100%;
+      overflow: hidden;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 100%;
+    }
+
+    .sort-containers {
+      width: 100%;
+    }
+
+    .sort-label {
+      display: none;
+    }
+
+    .sort-list {
+      width: 100%;
+      z-index: 99;
+      background: transparent;
+
+      .dropdown {
+        top: 1px;
+        border: 0;
+        padding: 0;
+        display: block;
+        border-bottom: 1px solid $border-gray;
+
+        > .text {
+          display: none;
+        }
+
+        .icon {
+          display: none;
+        }
+      }
+      
+      .menu {
+        position: static;
+      }
+    }
+  }  
+}
+
+.mobile-pusher-filter {
+  > .pusher-continer {
+    > .pusher-header {
+      background: $white;
+      line-height: 55px;
+      height: 55px !important;
+      border-bottom: 1px solid $border-gray;
+      text-align: center;
+      font-size: 16px;
+      
+      span {
+        line-height: normal;
+        vertical-align: middle;
+        display: inline-block;
+        
+        img {
+          display: block;
+          margin: 0 4px;
+        }
+      }
+    }
+
+    > .pusher-body {
+      padding: 55px 0 68px;
+      height: 100vh;
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+
+    > .pusher-footer {
+      line-height: 68px;
+      height: 68px !important;
+      text-align: center;
+      padding: 0 8px;
+      span {
+        width: 50%;
+        display: inline-block;
+        margin: 0;
+        padding: 0 8px;
+      }
+
+      button {
+        width: 100%;
+        margin: 0;
+      }
+    }
+  }
+  
+  .pusher-continer {
+    background: $background-gray-light;
+  }
+}
+
+.level-4, .mobile-filterable {
+  .mobile-top-filter-bar {
+    @include tablet {
+      display: block;
+    }
+  }
+}
+

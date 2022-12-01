@@ -1,0 +1,15 @@
+version: '3.5'
+
+services:
+
+  magenta:
+    container_name: magenta
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '~/magenta/logs:/usr/src/magenta/logs'      
+    ports:
+      - '3000:3000'
+    env_file:
+      - .env

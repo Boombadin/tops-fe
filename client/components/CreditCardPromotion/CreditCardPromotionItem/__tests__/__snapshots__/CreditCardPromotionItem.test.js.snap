@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/CreditCardPromotion/CreditCardPromotionItem it should match with snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="CreditCardPromotionItem__CardBox-c1d72l-0 jdQUvJ"
+    data-testid="inf-viewCreditCardPromotionItem-Container"
+  >
+    <div
+      class="CreditCardPromotionItem__CardBoxInside-c1d72l-1 ctcRFb"
+      data-testid="btn-editCreditCardPromotionItem-OnSetSelectCard"
+    >
+      <div
+        class="CreditCardPromotionItem__CardInfo-c1d72l-2 gnvklv"
+      >
+        <div
+          class="CreditCardPromotionItem__CardInfoBank-c1d72l-3 dgayTT"
+        >
+          <div
+            class="CreditCardPromotionItem__CardDefault-c1d72l-4 kAoDCj"
+            data-testid="img-viewCreditCardPromotionItem-DefaultCard"
+          >
+            <img
+              class="CreditCardPromotionItem__CardDefaultIcon-c1d72l-5 ldyXby"
+              src="/assets/icons/none-checked.svg"
+            />
+          </div>
+          <div
+            class="CreditCardPromotionItem__CardTypeIcon-c1d72l-6 hmsxrY"
+          >
+            <img
+              width="100%"
+            />
+          </div>
+          <p
+            class="CreditCardPromotionItem__BankName-c1d72l-7 gfNFKP Text-sc-9p67zt-0 jDYcup"
+            color="default"
+            display=""
+            size="13"
+            spacing="-0.4px"
+          />
+        </div>
+        <div
+          class="CreditCardPromotionItem__CardDesc-c1d72l-8 kQLqCd"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

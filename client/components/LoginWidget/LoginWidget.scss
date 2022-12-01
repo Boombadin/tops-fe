@@ -1,0 +1,100 @@
+@import '../../styles/variable';
+@import '../../styles/mixin';
+
+.login-Widget-wrap {
+  width: 40%;
+  max-width: 290px;
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;       
+
+  @include desktop-small {
+    width: 96%;
+    max-width: none;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @include tablet {
+    width: 96%;
+    max-width: none;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .login-widget {
+    margin-bottom: 20px;
+
+    &:last-child{
+      margin-bottom: 0;
+    }
+
+    @include desktop-small {
+      width: 100%;
+      margin-bottom: 0;
+      margin-right: 5px;
+
+      &:last-child{
+        margin-bottom: 0;
+        margin-left: 6px;
+      }
+    }
+
+    @include tablet {
+      width: 100%;
+      margin-bottom: 0;
+      margin-right: 5px;
+
+      &:last-child{
+        margin-bottom: 0;
+        margin-left: 6px;
+      }
+    }
+  }
+
+  .login-title {
+    font-size: 20px;
+    color:#404040;
+    font-weight: bold;
+    margin-bottom: 14px;
+     
+    @include desktop-small {
+      display: none;
+    }
+    @include tablet {
+      display: none;
+    }
+  }
+
+  .head-title {
+    @include desktop-small {
+      display: none;
+    }
+
+    @include tablet {
+      display: none;
+    }
+
+    .mt-title {
+      background: #fff;
+      font-size: 12px;
+    }
+  }
+
+  .ui.button {
+    color: #fff;
+    width: 100%;
+
+    &.regis-button {
+      background: #f70405;
+      
+    }
+    &.signup-button {
+      background: #534741;
+    }
+  }
+  
+}

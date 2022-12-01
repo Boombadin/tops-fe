@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <g fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g stroke="#CCC" stroke-width="1.5">
+            <g>
+                <g>
+                    <g>
+                        <path d="M7.26.3l5.333 2.667c.453.225.74.687.74 1.193v6.353c0 .506-.287.969-.74 1.194L7.26 14.373c-.376.188-.818.188-1.193 0L.733 11.707c-.452-.228-.737-.693-.733-1.2V4.16c0-.506.287-.968.74-1.193L6.073.3c.374-.186.813-.186 1.187 0z" transform="translate(-551 -440) translate(551 438) translate(0 2) translate(1.333 .667)"/>
+                        <path d="M.213 3.44L6.667 6.667 13.12 3.44M6.667 14.507L6.667 6.667M3.333 1.667L10 5" transform="translate(-551 -440) translate(551 438) translate(0 2) translate(1.333 .667)"/>
+                    </g>
+                    <g>
+                        <path d="M7.26.3l5.333 2.667c.453.225.74.687.74 1.193v6.353c0 .506-.287.969-.74 1.194L7.26 14.373c-.376.188-.818.188-1.193 0L.733 11.707c-.452-.228-.737-.693-.733-1.2V4.16c0-.506.287-.968.74-1.193L6.073.3c.374-.186.813-.186 1.187 0z" transform="translate(-551 -440) translate(551 438) translate(0 2) translate(1.333 .667)"/>
+                        <path d="M.213 3.44L6.667 6.667 13.12 3.44M6.667 14.507L6.667 6.667M3.333 1.667L10 5" transform="translate(-551 -440) translate(551 438) translate(0 2) translate(1.333 .667)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

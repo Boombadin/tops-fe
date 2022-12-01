@@ -1,0 +1,133 @@
+#product-mini {
+  display: flex;
+  width: 100%;
+  border: 0;
+  border-top: 2px solid $border-gray;
+  margin: auto;
+  
+  .counter-root {
+     .sign {
+       flex: 1 !important;
+     }
+     .qty {
+       flex: 2 !important;
+     }
+  }
+
+  .product-item--loader {
+    height: 22px;
+
+    .loader {
+      width: 15px;
+      height: 15px;
+      position: relative;
+      left: 5px;
+      margin-left: 5px;
+    }
+
+    .ui.loader:after {
+      border-color: #767676 transparent transparent;
+      width: 15px;
+      height: 15px;
+    }
+
+    .ui.loader:before {
+      border-color: rgba(0, 0, 0, 0.1);
+      width: 15px;
+      height: 15px;
+    }
+  }
+
+  .mt-product-mini {
+    width: 100% !important;
+    border: 0;
+    border-bottom: 2px solid $border-gray;
+
+    @include tablet {
+      height: 86px;
+    }
+  }
+
+  .product-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    @include tablet {
+      justify-content: space-between;
+    }
+  }
+
+  .product-detail-container {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 8px;
+
+    @include tablet {
+      flex: 2;
+    }
+  }
+
+  .product-item--image {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin: 0 8px;
+    padding: 0;
+    align-self: center;
+
+    @include tablet {
+      flex: 0 0 50px;
+    }
+  }
+
+  .product-item--title {
+    width: 106px;
+    font-size: 13px;
+    height: 36px;
+    overflow: hidden;
+    margin: 0 0 4px 0;
+    
+    > * {
+      font-size: 13px;
+    }
+
+    @include tablet {
+      width: auto;
+    }
+  }
+
+  .product-item--price {
+    margin: 0;
+
+    .mt-price-number {
+      font-size: 13px;
+    }
+  }
+
+  .product-item--button {
+    height: 20px;
+    width: 80px;
+    margin: 0 8px;
+
+    @include tablet {
+      flex: 1;
+    }
+
+    .mt-add-to-cart {
+      height: 22px;
+      line-height: 22px;
+      font-size: 12px;
+    }
+
+    .counter {
+      height: 22px;
+    }
+
+    .qty {
+      font-size: 12px;
+      line-height: normal;
+    }
+  }
+}

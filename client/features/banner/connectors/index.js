@@ -1,0 +1,1 @@
+export { withBannerByName } from './withBannerByName'

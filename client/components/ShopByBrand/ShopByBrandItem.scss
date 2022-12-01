@@ -1,0 +1,74 @@
+.shop-by-brand-item-wrap.brand-item {
+  width: calc(16.66% - 14px);
+  height: 140px;
+  border-radius: 8px;
+  border: solid 1px #bfbfbf;
+  background-color: #ffffff;
+  margin: 0 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .brand-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333333;
+    width: fill-available ;
+    width: webkit-fill-available;
+    width: 100%;
+    
+  }
+
+  @include desktop-small {
+    width: calc(25% - 14px);
+  }
+
+  @include tablet {
+    width: calc(33.33% - 14px);
+  }
+
+  @include mobile {
+    width: calc(50% - 14px);
+  }
+
+  .brand-detail, .brand-name  {
+    white-space: nowrap;
+    overflow: hidden ; 
+    text-overflow: ellipsis;
+    width: 80%;
+    text-align: center;
+  }
+
+  .brand-name {
+    color: #231f20;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 10px;
+  }
+
+  .brand-detail {
+    line-height: 23px;
+  }
+
+  .brand-img {
+    margin: 10px ;
+    height: 50px;
+
+    img {
+      height: 50px;
+      max-width: 100%;
+    }
+  }
+}
+
+.main-content.active {
+  .shop-by-brand-item-wrap.brand-item { 
+    width: calc(25% - 14px);
+
+    @include desktop-small {
+      width: calc(33.33% - 14px);
+    }
+  }
+}

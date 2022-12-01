@@ -1,0 +1,117 @@
+@import '../../styles/mixin';
+@import '../../styles/variable';
+.regis-progress-bar {
+  .container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px 0;
+
+    @include tablet {
+      width: 80%
+    };
+  }
+  .progressbar {
+    margin: 0;
+    padding: 0;
+    counter-reset: step;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .progressbar li.circle {
+    list-style-type: none;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 1px solid #999999;
+    font-size: 14px;
+    background: transparent;
+    //border: 1px solid transparent;
+    position: relative;
+
+    &.complete {
+      background: #000000;
+      border-color: #000000;
+
+      &:before {
+        background: #000000;
+      }
+
+      .number {
+        background-image: url('/assets/icons/step-checked.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        
+        span{
+          visibility: hidden
+        }
+      }
+    }
+
+    &.active {
+      border-color: #007a33;
+      background: #007a33;
+
+      .number {
+        color: #ffffff;
+      }
+    }
+
+    .text {
+      margin: 8px 0 0 0;
+      position: absolute;
+      top: 100%;
+      display: flex;
+      white-space: nowrap;
+      color: #999999;
+      right: 50%;
+      transform: translateX(50%);
+
+      &.active {
+        color: #007a33;
+      }
+
+      &.complete {
+        color: #333333;
+      }
+
+      @include mobile {
+        font-size: 10px;
+      }
+    }
+
+    .number {
+      position: relative;
+      line-height: 34px;
+      width: 100%;
+      color: #999999;
+      font-size: 18px;
+      z-index: 2;
+      text-align: center;
+    }
+  }
+
+  .progressbar li.line {
+    display: flex;
+    flex: 1;
+    list-style: none;
+    height: 2px;
+    background: #999999;
+    align-self: center;
+    flex-direction: column;
+    transition: background 0.3s ease-in-out;
+
+    &.complete {
+      background: linear-gradient(to right, #000000 , #007a33);
+    }
+
+    &.completed {
+      background: #000000;
+    }
+
+    &.active {
+      background: linear-gradient(to right, #007a33 , #999999);
+    }
+  }
+
+}

@@ -1,0 +1,51 @@
+@import '../../styles/mixin';
+@import '../../styles/variable';
+
+.product-replacement-wrap {
+  @include tablet {
+    margin-bottom: $component-margin;
+    border: solid 1px $gray-light;
+    box-shadow: $box-shadow;
+    background: $white;
+    padding: 15px 10px;
+  }
+  
+  .substutitions-form {
+    @include desktop {
+      margin-left: 19px;
+    }
+  }
+
+  .product-replacement-title {
+    margin-left: 25px;
+    display: block;
+    font-size: 13px;
+  }
+
+  .ui.radio.checkbox {
+    position: absolute;
+    top: 5px;
+  }
+
+  .ui.form {
+    .field {
+      margin-bottom: 0 !important;
+      padding-bottom: 0 !important;
+    }
+
+    label.label-radio {
+      display: block;
+      position: relative;
+      margin-bottom: 12px;
+    }
+
+    .ui.radio.checkbox input:checked ~ .box:after, 
+    .ui.radio.checkbox input:checked ~ label:after {
+      background-color: $green;
+    }
+
+    .active {
+      color: $green;
+    }
+  }
+}

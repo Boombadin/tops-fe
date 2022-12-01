@@ -1,0 +1,310 @@
+.click-collect-tab {
+  position: relative;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+
+  .click-collect-header {
+    height: 60px;
+    background-color: #ffffff;
+    // padding: 11px 0 0 20px;
+    padding: 10px 12px 10px 18px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    z-index: 1;
+    font-size: 17px;
+    color: #333333;
+    line-height: 20px;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.2);
+
+    .text-warning {
+      font-size: 12px;
+      color: #f70405;
+    }
+
+    @include tablet {
+      display: none;
+    }
+  }
+  .body {
+    .address-store  {
+      // width: 220px;
+      // padding-top: 20px;
+      padding: 20px 18px;
+      border-bottom: 1px solid #bdbdbd;
+      margin-bottom: 17px;
+      width: 100%;
+    }
+    .collector-form {
+      width: 100%;
+      padding: 0 20px;
+    }
+
+    .title {
+      font-size: 14px;
+      color: #2a2a2a;
+      font-weight: normal;
+      margin-bottom: 10px;
+    }
+
+    @include tablet {
+      .address-store, .collector-form {
+        width: 100%;
+      }
+    }
+  }
+
+  .click-collect-store-section {
+    border: 1px solid #acacac;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    // margin-bottom: 20px;
+
+      &.active {
+        border: 2px solid #39a04a;
+      }
+
+    .click-collect-store-body {
+      width: 100%;
+      height: 64px;
+      border-radius: 5px 5px 0 0;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background: #ffffff;
+
+      @include tablet {
+        height: 54px;
+      }
+    }
+    .click-collect-store-bottom {
+      background: #f2f2f2;
+      padding: 10px;
+      border-radius: 0 0 4px 4px;
+      max-height: 60px;
+      border-top: solid 1px #cccccc;
+      display: flex;
+      flex-direction: column;
+      font-size: 10px;
+      line-height: 15px;
+
+      @include tablet {
+        width: 100%;
+        display: block;
+      }
+
+      & span {
+        @include tablet {
+         display: inline-block;
+         padding-right: 3px;
+        }
+      }
+    }
+
+    
+  }// end click-collect-store-section 
+
+  .click-collect-form-section {
+    width: 100%;
+    margin: 10px 0 110px;
+
+
+//Form field
+    .field {
+      display: flex;
+      flex-flow: column-reverse;
+      margin-bottom: 20px;
+      position: relative;
+  
+      label.label-wrap {
+        color: $black;
+        font-weight: normal;
+      }
+      
+      .error {
+        color:$red;
+        position: absolute;
+        bottom: -22px;
+        font-size: 12px;
+      }
+  
+      &.hidden {
+        display: none;
+      }
+  
+      label, input {
+        transition: all 0.2s;
+        touch-action: manipulation;
+      }
+  
+      .input-wrap {
+        font-size: 13px;
+        font-family: inherit;
+        -webkit-appearance: none;
+        color: $black;
+        cursor: text;
+        padding:1.5em 1em 0.22em 1em;
+        background: #fff;
+        border: 1px solid #cfcfcf;
+        border-radius: 4px;
+        height: 40px;
+  
+        &.input-error{
+          border: 1px solid $red;
+        }
+      }
+      .input-wrap:focus {
+        outline: 0;
+        color: $black;
+      }
+  
+      .add-bill-btn {
+        color: $gray;
+        margin-left: -11px;
+        border: none;
+        background: none;
+        cursor: pointer;
+  
+        i.icon { 
+          transform: rotate(45deg);
+        }
+      }
+  
+      .lb-error {
+        color: $red;
+      }
+      
+      .input-wrap+label {
+        text-transform: uppercase;
+        letter-spacing: .05em;
+        font-size: 9px;
+        color: gray;
+        font-family: superstoreregular,sans-serif!important;
+        position: absolute;
+        top: -21px;
+        pointer-events: none;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      
+      .input-wrap:placeholder-shown + label {
+      cursor: text;
+      max-width: 59%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      transform-origin: left bottom;
+      transform: translate(1rem, 2.7rem) scale(1.5);
+      pointer-events: none;
+    }
+  
+    .input-wrap::-webkit-input-placeholder {
+      opacity: 0;
+      transition: inherit;
+    }
+  
+    .input-wrap::-moz-placeholder {
+      opacity: 0;
+      transition: inherit;
+    }
+  
+    .input-wrap:focus::-webkit-input-placeholder {
+      opacity: 0;
+      font-size: 9px;
+    }
+  
+      .input-wrap:not(:placeholder-shown) + label,
+      .input-wrap:focus + label {
+        transform: translate(1rem, 1.7rem) scale(1);
+        max-width: 66.66%;
+        cursor: pointer;
+      }
+    }
+
+    .bottom {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      background-color: $white;
+      color: $white;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 80px;
+  
+      @include tablet {
+        flex: 0 0 68px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 16px 0;
+      }
+  
+      .back {
+        user-select: none;
+        height: 40px;
+        width: 85px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 6px 0 0 6px !important;
+        background-color: #808080 !important;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        color: white !important;
+        cursor: pointer;
+        font-size: 12px !important;
+        margin-right: 0 !important;
+        vertical-align: middle;
+
+        .text {
+          width: 100%;
+          font-size: 12px;
+          line-height: 1.5;
+          text-align: left;
+        }
+        @include tablet {
+          display: block;
+          width: 45%;
+          text-align: left;
+          padding-left: 15px;
+        }
+      }
+  
+      .verify {
+        height: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 0 6px 6px 0;
+        background-color: #534741 !important;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        color: white !important;
+        cursor: pointer;
+        font-size: 12px !important;
+        border-top-left-radius: 0 !important;
+        border-bottom-left-radius: 0 !important;
+        width: 116px;
+  
+        @include tablet {
+          width: 45%;
+        }
+  
+        .text {
+          font-size: 12px;    
+          width: 100%;
+          text-align: right;
+          line-height: 1.5
+        }
+      }
+    }
+  }
+}// end click-and-collect-tab

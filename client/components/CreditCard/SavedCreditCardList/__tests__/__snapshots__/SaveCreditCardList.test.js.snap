@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/CreditCard/SavedCreditCardList Render card list | it should match with snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="SavedCreditCardList__CardWithCvvFormWrap-sc-13xmdt6-0 kQxAJa"
+    >
+      <div
+        class="SavedCreditCardList__CardWithCvvFormInside-sc-13xmdt6-1 jXJzZk"
+      >
+        <mock-creditcarditem
+          card="[object Object]"
+          data-testid="inf-viewSavedCreditCardListItem-Container"
+          iscanbedelete="false"
+          iscanbeselect="true"
+          selectedcard="[object Object]"
+        />
+      </div>
+      <div
+        class="SavedCreditCardList__CardWithCvvFormInside-sc-13xmdt6-1 jXJzZk"
+      >
+        <mock-creditcarditem
+          bankname="KCC"
+          card="[object Object]"
+          data-testid="inf-viewSavedCreditCardListItem-Container"
+          iscanbedelete="false"
+          iscanbeselect="true"
+          selectedcard="[object Object]"
+        />
+      </div>
+      <div
+        class="SavedCreditCardList__AddNewCardWrap-sc-13xmdt6-6 bZZsWh"
+        data-testid="btn-addSavedCreditCardList-AddNewCard"
+      >
+        <div
+          class="SavedCreditCardList__AddNewCardInside-sc-13xmdt6-7 eRkAj"
+        >
+          <div
+            class="SavedCreditCardList__AddNewCardIcon-sc-13xmdt6-8 fynLKy"
+          >
+            +
+          </div>
+          <p
+            class="Text-sc-9p67zt-0 fIdxrL"
+            color="#171722"
+            display=""
+            size="13"
+            spacing="normal"
+          >
+            payment.credit_card.add-new-card
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`components/CreditCard/SavedCreditCardList cart total more than 10000 | it should show Cvv form 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="SavedCreditCardList__CardWithCvvFormWrap-sc-13xmdt6-0 kQxAJa"
+    >
+      <div
+        class="SavedCreditCardList__CardWithCvvFormInside-sc-13xmdt6-1 jXJzZk"
+      >
+        <mock-creditcarditem
+          card="[object Object]"
+          data-testid="inf-viewSavedCreditCardListItem-Container"
+          iscanbedelete="false"
+          iscanbeselect="true"
+          selectedcard="[object Object]"
+        />
+        <div
+          data-testid="frm-viewSavedCreditCardList-CvvFormContainer"
+        >
+          <form
+            data-testid="frm-viewSavedCreditCardList-CvvForm"
+            id="2c2p-payment-form-cvv"
+          >
+            <div
+              class="SavedCreditCardList__CardCvvWrap-sc-13xmdt6-2 dVOBKN"
+            >
+              <div
+                class="SavedCreditCardList__CardCvvInside-sc-13xmdt6-3 bOFszE"
+              >
+                <div
+                  class="SavedCreditCardList__CardInputCVV-sc-13xmdt6-4 hcdOjb"
+                >
+                  <input
+                    autocomplete="off"
+                    class="SavedCreditCardList__CardInput-sc-13xmdt6-5 gMhUuk"
+                    data-encrypt="cvv"
+                    data-testid="inp-formSavedCreditCardList-CardCVV"
+                    id="cardCVV"
+                    maxlength="3"
+                    name="cardCVV"
+                    placeholder="payment.credit_card.form.card_cvv_placeholder"
+                    type="tel"
+                    value=""
+                  />
+                </div>
+                <mock-tooltipcvv />
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div
+        class="SavedCreditCardList__CardWithCvvFormInside-sc-13xmdt6-1 jXJzZk"
+      >
+        <mock-creditcarditem
+          bankname="KCC"
+          card="[object Object]"
+          data-testid="inf-viewSavedCreditCardListItem-Container"
+          iscanbedelete="false"
+          iscanbeselect="true"
+          selectedcard="[object Object]"
+        />
+      </div>
+      <div
+        class="SavedCreditCardList__AddNewCardWrap-sc-13xmdt6-6 bZZsWh"
+        data-testid="btn-addSavedCreditCardList-AddNewCard"
+      >
+        <div
+          class="SavedCreditCardList__AddNewCardInside-sc-13xmdt6-7 eRkAj"
+        >
+          <div
+            class="SavedCreditCardList__AddNewCardIcon-sc-13xmdt6-8 fynLKy"
+          >
+            +
+          </div>
+          <p
+            class="Text-sc-9p67zt-0 fIdxrL"
+            color="#171722"
+            display=""
+            size="13"
+            spacing="normal"
+          >
+            payment.credit_card.add-new-card
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

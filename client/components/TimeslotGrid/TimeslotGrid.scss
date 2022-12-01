@@ -1,0 +1,282 @@
+@import "../../styles/mixin.scss";
+@import "../../styles/variable";
+
+.timeslot {
+  overflow: hidden;
+  @include tablet {
+    margin-bottom: 100px;
+  }
+}
+
+.timeslot-head {
+  background-color: #d9d9d9;
+  display: flex;
+}
+
+.timeslot-interval {
+  display: flex;
+}
+
+.timeslot-interval__name {
+  background-color: #808080;
+  color: $white;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 11px;
+  letter-spacing: normal;
+  border-bottom: 1px solid rgba(201,201,201,1);
+}
+
+.timeslot-header__cell,
+.timeslot-interval__name,
+.timeslot-interval-cell {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50px;
+  max-width: 25%;
+}
+
+.timeslot-header__cell {
+  height: 60px;
+}
+
+.timeslot-interval-cell {
+  background-color: $white;
+  border-bottom: 1px solid rgba(201,201,201,1);
+  border-right: 1px solid rgba(201,201,201,1);
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  position: relative;
+  box-sizing: border-box;
+  cursor: pointer;
+
+  &.disabled {
+    cursor: default;    
+    background-color: #e2e2e2;
+    color: rgba(130, 130, 130, 1);
+  }
+
+  &.drawInterval {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-family: Superstore;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 11px;
+    letter-spacing: normal;
+  }
+}
+
+.timeslot-interval-cell__active {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border: 2px solid #39a04a;
+}
+
+.timeslot-header__cell {
+  flex-direction: column;
+}
+
+.timeslot-header__cell-fat,
+.timeslot-header__cell-normal {
+  font-size: 15px;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  line-height: 0.95;
+}
+
+.timeslot-header__cell-fat {
+  font-size: 13px;  
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.timeslot-header__cell-normal {
+  font-weight: normal;
+  font-size: 13px;
+}
+
+.timeslot-interval-cell__check-mark {
+  background-color: #39a04a;
+  color: $white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 11px;
+  height: 11px;
+  font-size: 10px;
+  line-height: 9px;
+}
+
+.timeslot-footer__margin {
+  margin-bottom: 80px;
+}
+
+
+// custom style
+.custom-timeslot-head {
+  // background-color: #d9d9d9;
+  display: flex;
+  color: #199000;
+}
+
+.custom-timeslot-interval {
+  display: flex;
+}
+
+
+.custom-timeslot-interval__name {
+  background-color: #2a2a2a;
+  color: $white;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 11px;
+  
+  &.wide {
+    flex-basis: 40px;
+    margin-right: 20px;
+  }
+}
+
+.custom-timeslot-interval__name br {
+  display: none;
+}
+
+.custom-timeslot-header__cell,
+.custom-timeslot-interval__name,
+.custom-timeslot-interval-cell {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 40px;
+  max-width: 25%;
+  margin: 5px;
+  flex-wrap: wrap;
+}
+
+.custom-timeslot-header__cell {
+  height: 40px;
+  border-radius: 4px;
+
+  &.wide {
+    flex-basis: 40px;
+    margin-right: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #2a2a2a;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+.custom-timeslot-interval-cell {
+  background-color: $white;
+  // border-bottom: 1px solid rgba(201,201,201,1);
+  // border-right: 1px solid rgba(201,201,201,1);
+  font-size: 14px;
+  // font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  position: relative;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-radius: 4px;
+  border: solid 1px #979797;
+  color: #373a3c;
+  font-family: Thonburi, sans-serif;
+
+  &.active {
+    color: #199000;
+    border: solid 1px #80bd00;
+    display: block;
+  }
+
+  &.disabled {
+    cursor: default;    
+    background-color: #FDFDFD;
+    color: #9B9B9B;
+    border: solid 1px  #EEE;
+  }
+
+  &.drawInterval {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-family: Superstore;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 11px;
+    letter-spacing: normal;
+  }
+}
+
+.custom-timeslot-interval-cell__active {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  // border: 2px solid #39a04a;
+  // border: solid 1px #80bd00;
+  background-color:rgba(128, 189, 0, 0.1);
+}
+
+.custom-timeslot-header__cell-fat,
+.custom-timeslot-header__cell-normal {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 0.95;
+  width: 100%;
+}
+
+.custom-timeslot-header__cell-fat {
+  font-size: 12px;
+  margin-right: 4px;
+}
+
+.custom-timeslot-header__cell-normal {
+  font-size: 12px;
+}
+
+.custom-timeslot-interval-cell__check-mark {
+  // background-color: #39a04a;
+  // color: $white;
+  position: absolute;
+  top: 20px;
+  right: 0;
+  width: 100%;
+  // height: 12px;
+  font-size: 14px;
+  // line-height: 9px;
+}
+
+.timeslot-footer__margin {
+  margin-bottom: 80px;
+}

@@ -1,0 +1,10 @@
+#sorting-bar {
+   background-color: $white;
+   border: 1px solid $border-gray;
+   border-bottom: 0;
+   padding: 0;
+
+   @include tablet {
+      display: none;
+   }
+ }

@@ -1,0 +1,1 @@
+export { bannerReducer } from './bannerReducer'

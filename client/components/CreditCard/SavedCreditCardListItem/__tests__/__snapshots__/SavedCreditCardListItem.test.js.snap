@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/CreditCard/SavedCreditCardListItem it should match with snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="SavedCreditCardListItem__CardBox-uqaej7-0 hxMYXb"
+    data-testid="inf-viewSavedCreditCardListItem-Container"
+  >
+    <div
+      class="SavedCreditCardListItem__CardBoxInside-uqaej7-1 dfbfSl"
+      data-testid="btn-editSavedCreditCardListItem-OnSetSelectCard"
+    >
+      <div
+        class="SavedCreditCardListItem__CardInfo-uqaej7-2 iGSYTl"
+      >
+        <div
+          class="SavedCreditCardListItem__CardInfoBank-uqaej7-3 jLUkqG"
+        >
+          <div
+            class="SavedCreditCardListItem__CardDefault-uqaej7-4 cZSUIs"
+          />
+          <div
+            class="SavedCreditCardListItem__CardTypeIcon-uqaej7-6 bybrOI"
+          >
+            <img
+              src="/icons/types-credit-card/master-no-border.svg"
+            />
+          </div>
+          <p
+            class="SavedCreditCardListItem__BankName-uqaej7-7 eTIArD Text-sc-9p67zt-0 gbahPG"
+            color="default"
+            data-testid="inf-viewSavedCreditCardListItem-BankName"
+            display=""
+            size="13"
+            spacing="normal"
+          />
+          <p
+            class="SavedCreditCardListItem__DefaultText-uqaej7-8 hxxdLp Text-sc-9p67zt-0 RCJvp"
+            color="#b4b8c1"
+            display=""
+            size="13"
+            spacing="normal"
+          >
+            payment.credit_card.card_list_default
+          </p>
+        </div>
+        <div
+          class="SavedCreditCardListItem__CardNumber-uqaej7-9 UHWxw"
+        >
+          * 4444
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

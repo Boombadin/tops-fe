@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`features/orderDetail/components/ReorderButton click reorder process | it should be match snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="ReorderButton__Reorder-sc-1een2x9-0 liOase"
+    color="#544943"
+    data-testid="btn-addReorder-reorder-621636"
+    radius="5"
+  >
+    order_history.table.repeat
+  </button>
+</DocumentFragment>
+`;
+
+exports[`features/orderDetail/components/ReorderButton it should be match snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="ReorderButton__Reorder-sc-1een2x9-0 liOase"
+    color="#544943"
+    data-testid="btn-addReorder-reorder-621636"
+    radius="5"
+  >
+    order_history.table.repeat
+  </button>
+</DocumentFragment>
+`;

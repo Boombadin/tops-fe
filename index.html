@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html version="{version}" lang="{language}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/png" href="/assets/icons/favicon.png" />
+    <link rel="apple-touch-icon" href="/assets/icons/apple-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+      originalLocation: document.location.protocol + '//' +
+                    document.location.hostname +
+                    document.location.pathname +
+                    document.location.search
+      });
+    </script>
+
+    <!-- Google Optimize  -->
+    <script src="https://www.googleoptimize.com/optimize.js?id={google_opt_code}"></script>
+    <!-- End Google Optimize -->
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','{gtm_code}');</script>
+      
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','{gtm_code360}');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Event Tracker SDK -->
+    <!-- <script type="text/javascript">
+      (function () {
+          var t = document.createElement('script');
+          t.type = 'text/javascript';
+          t.async = true;
+          t.src = 'https://dho7wblt5wicm.cloudfront.net/analytic-tracker.pack.js';
+          t.onload = function () {
+              window.AnalyticTracker.initialize({
+                  bu: 'TOPS',
+                  appKey: 'NGtqbWEwYmtlYTB0dGJvOXBvaXRwNmZ0dDc6MWQ2cjNyZm4yMmhjdjk4Zmc4ZWVncWtvOXZhYWliNXEydm43ZjFic2t0Zzc4c3ZmdWZjMA=='
+              }).then(function (ins) {
+                  window.analytic_tracker = ins
+              }).catch(console.error);
+          }
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(t, s);
+      })();
+    </script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+    
+    {title}
+    {meta} 
+    {og_title} 
+    {og_meta} 
+    {og_image} 
+    {fb_appid} 
+    {og_type} 
+    {og_url} 
+    {link}
+    {microData}
+    {metaBranchProduct}
+    {metaBranchCategory}
+  </head>
+  <body>
+    <!-- Saleforce -->
+    <style type="text/css">
+      .embeddedServiceSidebar.layout-docked .dockableContainer,
+      .embeddedServiceHelpButton .helpButton,
+      .embeddedServiceSidebarMinimizedDefaultUI,
+      .embeddedServiceSidebarMinimizedDefaultUI.helpButton {
+        left: 12px;
+      }
+      .embeddedServiceHelpButton .helpButton .uiButton {
+        background-color: #9c988d;
+        font-family: 'Salesforce Sans', sans-serif;
+      }
+      .embeddedServiceSidebarButton .label{
+        overflow: inherit;
+      }
+      .embeddedServiceHelpButton .helpButton .uiButton:focus {
+        outline: 1px solid #9c988d;
+      }
+      .embeddedServiceSidebarHeader .headerText {
+        margin: auto;
+      }
+      
+      @font-face {
+        font-family: 'Salesforce Sans';
+        src: url('https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Regular.woff') format('woff'),
+        url('https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Regular.ttf') format('truetype');
+      }
+
+      .helpButton {
+        width: 220px;
+      }
+      .embeddedServiceHelpButton {
+        z-index: 1;
+      }
+      .embeddedServiceHelpButton .uiButton {
+        width: 200px;
+        max-width: 200px;
+      }
+      .message {
+        background-color: transparent;
+        color: #eeedec;
+        border-style: none;
+      }
+      @media only screen and (max-width: 991px) {
+        .embeddedServiceHelpButton {
+          display: none !important;
+        }
+        .embeddedServiceSidebar.layout-docked .dockableContainer {
+          left: auto;
+        }
+      }
+    </style>
+
+    <script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
+    <script type="text/javascript">
+      var lang = '{saleforce_lang}';
+      var initESW = function(gslbBaseURL) {
+        if (lang == 'th') {
+          embedded_svc.settings.displayHelpButton = true; //Or false
+          embedded_svc.settings.language = 'th'; //For example, enter 'en' or 'en-US'
+
+          embedded_svc.settings.defaultMinimizedText = 'แชทกับทีมงาน'; //(Defaults to Chat with an Expert)
+          //embedded_svc.settings.disabledMinimizedText = '...'; //(Defaults to Agent Offline)
+
+          //embedded_svc.settings.loadingText = ''; //(Defaults to Loading)
+          //embedded_svc.settings.storageDomain = 'yourdomain.com'; //(Sets the domain for your deployment so that visitors can navigate subdomains during a chat session)
+
+          // Settings for Live Agent
+          //embedded_svc.settings.directToButtonRouting = function(prechatFormData) {
+          // Dynamically changes the button ID based on what the visitor enters in the pre-chat form.
+          // Returns a valid button ID.
+          //};
+          //embedded_svc.settings.prepopulatedPrechatFields = {}; //Sets the auto-population of pre-chat form fields
+          //embedded_svc.settings.fallbackRouting = []; //An array of button IDs, user IDs, or userId_buttonId
+          embedded_svc.settings.offlineSupportMinimizedText = 'ให้ทีมงานติดต่อกลับ'; //(Defaults to Contact Us)
+          embedded_svc.settings.autoOpenPostChat = true;
+          embedded_svc.settings.enabledFeatures = ['LiveAgent'];
+          embedded_svc.settings.entryFeature = 'LiveAgent';
+          embedded_svc.settings.prepopulatedPrechatFields = {
+            FirstName: '{saleforce_firstname}',
+            LastName: '{saleforce_lastname}',
+            Email: '{saleforce_email}',
+            Phone: '{saleforce_phone}',
+          };
+          embedded_svc.init(
+            '{liveChat_UrlBase}',
+            '{liveChat_UrlService}',
+            gslbBaseURL,
+            '{liveChat_SlgId}',
+            'TOPS_Live_Chat_TH',
+            {
+              baseLiveAgentContentURL: '{liveChat_ContentUrl}',
+              deploymentId: '{liveChat_DeploymentId}',
+              buttonId: '{liveChat_ButtonId_th}',
+              baseLiveAgentURL: '{liveChat_AgentUrl}',
+              eswLiveAgentDevName: '{liveChat_DevName_th}',
+              isOfflineSupportEnabled: true,
+            },
+          );
+        } else {
+          embedded_svc.settings.displayHelpButton = true; //Or false
+          embedded_svc.settings.language = 'en'; //For example, enter 'en' or 'en-US'
+
+          embedded_svc.settings.defaultMinimizedText = 'Chat with our staff'; //(Defaults to Chat with an Expert)
+          //embedded_svc.settings.disabledMinimizedText = '...'; //(Defaults to Agent Offline)
+
+          //embedded_svc.settings.loadingText = ''; //(Defaults to Loading)
+          //embedded_svc.settings.storageDomain = 'yourdomain.com'; //(Sets the domain for your deployment so that visitors can navigate subdomains during a chat session)
+
+          // Settings for Live Agent
+          //embedded_svc.settings.directToButtonRouting = function(prechatFormData) {
+          // Dynamically changes the button ID based on what the visitor enters in the pre-chat form.
+          // Returns a valid button ID.
+          //};
+          //embedded_svc.settings.prepopulatedPrechatFields = {}; //Sets the auto-population of pre-chat form fields
+          //embedded_svc.settings.fallbackRouting = []; //An array of button IDs, user IDs, or userId_buttonId
+          embedded_svc.settings.offlineSupportMinimizedText = 'Leave a message'; //(Defaults to Contact Us)
+          embedded_svc.settings.autoOpenPostChat = true;
+          embedded_svc.settings.enabledFeatures = ['LiveAgent'];
+          embedded_svc.settings.entryFeature = 'LiveAgent';
+          embedded_svc.settings.prepopulatedPrechatFields = {
+            FirstName: '{saleforce_firstname}',
+            LastName: '{saleforce_lastname}',
+            Email: '{saleforce_email}',
+            Phone: '{saleforce_phone}',
+          };
+          embedded_svc.init(
+            '{liveChat_UrlBase}',
+            '{liveChat_UrlService}',
+            gslbBaseURL,
+            '{liveChat_SlgId}',
+            'TOPS_Live_Chat_EN',
+            {
+              baseLiveAgentContentURL: '{liveChat_ContentUrl}',
+              deploymentId: '{liveChat_DeploymentId}',
+              buttonId: '{liveChat_ButtonId_en}',
+              baseLiveAgentURL: '{liveChat_AgentUrl}',
+              eswLiveAgentDevName: '{liveChat_DevName_en}',
+              isOfflineSupportEnabled: true,
+            },
+          );
+        }
+      };
+      if (!window.embedded_svc) {
+        var s = document.createElement('script');
+        s.setAttribute('src', '{liveChat_SetAttribute}');
+        s.onload = function() {
+          initESW(null);
+        };
+        document.body.appendChild(s);
+      } else {
+        initESW('https://service.force.com');
+      }
+    </script>
+
+    <script type="text/javascript" src="{liveChat_ScriptUrl}"></script>
+    <script type="text/javascript">
+      liveagent.init('{liveChat_AgentUrl}', '{liveChat_DeploymentId}', '{liveChat_SlgId}');
+    </script>
+
+    <!-- English -->
+    <div id="{liveChat_Online_en}" style="display: none;"></div>
+    <div id="{liveChat_Offline_en}" style="display: none;"></div>
+    <script type="text/javascript">
+      if (!window._laq) {
+        window._laq = [];
+      }
+      window._laq.push(function() {
+        liveagent.showWhenOnline(
+          '{liveChat_ButtonId_en}',
+          document.getElementById('{liveChat_Online_en}'),
+        );
+        liveagent.showWhenOffline(
+          '{liveChat_ButtonId_en}',
+          document.getElementById('{liveChat_Offline_en}'),
+        );
+      });
+    </script>
+
+    <!-- Thai -->
+    <div id="{liveChat_Online_th}" style="display: none;"></div>
+    <div id="{liveChat_Offline_th}" style="display: none;"></div>
+    <script type="text/javascript">
+      if (!window._laq) {
+        window._laq = [];
+      }
+      window._laq.push(function() {
+        liveagent.showWhenOnline(
+          '{liveChat_ButtonId_th}',
+          document.getElementById('{liveChat_Online_th}'),
+        );
+        liveagent.showWhenOffline(
+          '{liveChat_ButtonId_th}',
+          document.getElementById('{liveChat_Offline_th}'),
+        );
+      });
+    </script>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id={gtm_code}"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id={gtm_code360}"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+    <div id="root">{app}</div>
+    <script charset="UTF-8">
+      window.App = {app_state};
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Branch IO -->
+    <script>
+      // load Branch
+      (function(b, r, a, n, c, h, _, s, d, k) {
+        if (!b[n] || !b[n]._q) {
+          for (; s < _.length; ) c(h, _[s++]);
+          d = r.createElement(a);
+          d.async = 1;
+          d.src = 'https://cdn.branch.io/branch-latest.min.js';
+          k = r.getElementsByTagName(a)[0];
+          k.parentNode.insertBefore(d, k);
+          b[n] = h;
+        }
+      })(
+        window,
+        document,
+        'script',
+        'branch',
+        function(b, r) {
+          b[r] = function() {
+            b._q.push([r, arguments]);
+          };
+        },
+        { _q: [], _v: 1 },
+        'addListener applyCode autoAppIndex banner closeBanner closeJourney creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setBranchViewData setIdentity track validateCode trackCommerceEvent logEvent disableTracking'.split(
+          ' ',
+        ),
+        0,
+      );
+      // init Branch
+      branch.init('{branch_key}');
+    </script>
+    <!-- End Branch IO -->
+    <script src="https://www.google.com/recaptcha/api.js?render=explicit" async></script>
+  </body>
+</html>

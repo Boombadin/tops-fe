@@ -1,0 +1,53 @@
+@import '../../styles/variable';
+@import '../../styles/mixin';
+
+.cwbr-modal {
+  @include e('content') {
+    padding-top: 90px;
+  }
+
+  @include e('title') {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+  }
+
+  @include e('text') {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+  }
+
+  @include e('text') {
+    margin-top: 40px;
+    margin-bottom: 80px;
+  }
+  @include e('address-name') {
+    color: $red;
+  }
+
+  @include e('buttons-container') {
+    display: flex;
+  }
+
+  @include e('button') {
+    @include m('secondary') {
+      height: 40px;
+    }
+
+    @include m('primary') {
+      height: 40px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+
+}

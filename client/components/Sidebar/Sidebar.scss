@@ -1,0 +1,96 @@
+.sidebar {
+  padding-left: 24px;
+  padding-top: 8px;
+  width: 240px;
+  float: left;
+  
+  @include tablet {
+    padding: 0 !important;
+    display: none;
+  }
+  
+  .sidebar-item.item,
+  .sidebar-item.item > a {
+    color: #333333 !important;
+  }
+  .sidebar-item.active,
+  .sidebar-item.active > a {
+    color: $red !important;
+  }
+  .sidebar-item {
+    display: flex !important;
+    justify-content: space-between;
+    overflow: hidden;
+    margin: 6px 0 !important;
+    padding: 0 !important;
+    
+    > .sidebar-icon {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      i {
+        display: block;
+        background: url('/assets/icons/arrow-icon.svg') center center no-repeat;
+        overflow: hidden;
+        width: 7px;
+        height: 11px;
+        background-size: 100%;
+        margin-bottom: 2px;
+      }
+    }
+  }
+
+  .sidebar-link {
+    padding-left: 8px;
+    font-size: 14px;
+    line-height: 25px !important;
+    position: relative;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+}
+
+.ui.vertical.text.menu .header.item {
+  margin-bottom: 16px;
+}
+
+.pc-sideber {
+  width: 235px !important;
+  float: left;
+  // position: fixed;
+  // top: 90px;
+  bottom: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: 1;
+  padding-right: 10px;
+  
+  & .ui.vertical.menu {
+    width: 100%;
+  }
+}
+.category-icon {
+  width: 17px;
+  display: inline-block !important;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.pusher-left {
+  background: #e2e1e1 !important;
+  display: block !important;
+  overflow: hidden !important;
+  border: 0;
+}
+
+.ui.visible.push.sidebar {
+  overflow: hidden !important;
+}
+
+.sp-sidebar-container {
+  max-height: auto !important;
+  height: auto !important;
+  border: 0 !important;
+}
+

@@ -1,0 +1,44 @@
+.shop-by-brand-list-wrap {
+  padding-bottom: 60px;
+  position: relative;
+
+  .swiper-container {
+    margin: 0 -7px;
+  }
+
+  .swiper-scrollbar {
+    display: none;
+  }
+
+  .swiper-button-next.swiper-button-next-brand {
+    right: -27px;
+    transform: rotate(180deg);
+    background: url(/assets/icons/next-icon.svg) center center no-repeat;
+    outline: none;
+  }
+  
+  .swiper-button-prev.swiper-button-prev-brand {
+    left: -27px;
+    background: url(/assets/icons/prev-icon.svg) center center no-repeat;
+    outline: none;
+  }
+}
+
+@include tablet {
+  .shop-by-brand-list-wrap {
+    padding: 0 16px 30px;
+
+    .swiper-container {
+      padding-bottom: 20px;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+      display: none;
+    }
+  
+    .swiper-scrollbar {
+      display: block;
+      width: 100%;
+    }
+  }
+}

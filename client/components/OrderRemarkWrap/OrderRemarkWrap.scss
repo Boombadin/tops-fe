@@ -1,0 +1,22 @@
+
+@import '../../styles/variable';
+@import '../../styles/mixin';
+
+.order-remark-wrap {
+  background: $white;
+  padding: 29px 39px;
+  box-shadow: $box-shadow;
+  border: solid 1px $gray-light;
+  @include mobile {
+    margin-bottom: $component-margin;
+  }
+  @include tablet {
+    margin-bottom: $component-margin;
+    padding: 15px 10px;
+  }
+  .tax-title {
+    color: $red-bright;
+    font-size: 16px;
+    font-weight: bold;
+  }
+}

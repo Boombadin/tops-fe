@@ -1,0 +1,13 @@
+<html>
+  <body onload="myFunction()">
+    <form action="<%= url %>" method='POST' name='paymentRequestForm'>
+      Processing payment request, Do not close the browser, press back or refresh the page.
+      <input type='hidden' name='paymentRequest' value="<%= payload %>">
+    </form>
+    <script type="text/javascript">
+      function myFunction() {
+        document.paymentRequestForm.submit();
+      }
+    </script>
+  </body>
+</html>

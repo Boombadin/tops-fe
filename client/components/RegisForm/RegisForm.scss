@@ -1,0 +1,340 @@
+.regis-form {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 20px 100px;
+  text-align: left;
+
+  @include mobile {
+    padding: 0;
+  }
+
+  .title {
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 32px;
+  }
+  .sub-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .input-wrap {
+    &.input-error {
+      border: 1px solid $red !important;
+    }
+  }
+
+  .register-error {
+    color: $red;
+    font-size: 12px;
+    font-weight: 200;
+  }
+
+  .ui.form {
+    .fields {
+      margin-bottom: 0;
+    }
+    .field {
+      margin-bottom: 31px;
+
+      &.group-password {
+        margin-bottom: 15px;
+      }
+
+      &.group-confirm-password {
+        margin-bottom: 3px;
+      }
+    }
+
+    @include mobile {
+      .fields {
+        margin-bottom: 0;
+        .field {
+          margin-bottom: 23px !important;
+        }
+      }
+      .field {
+        margin-bottom: 31px;
+  
+        &.group-password {
+          margin-bottom: 15px;
+        }
+  
+        &.group-confirm-password {
+          margin-bottom: 3px;
+        }
+      }
+    }
+
+    select.input-wrap {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      background: url('/assets/icons/drop-arrow-dark.svg') no-repeat center right 10px;
+      font-family: 'superstoreregular', sans-serif !important;
+      // padding: 0 15px;
+      line-height: 23px;
+
+      &.placeholdered {
+        color: #cdcdcd;
+      }
+    }
+
+    .input-textarea {
+      font-family: 'superstoreregular', sans-serif !important;
+    }
+
+    input.input-wrap {
+      padding: 0 15px;
+      line-height: 40px;
+      border: 1px solid #cfcfcf;
+
+      &:disabled {
+        background: #ebebeb;
+      }
+    }
+
+    label.label-radio {
+      display: block;
+      position: relative;
+      margin-bottom: 12px;
+
+      .t1c-title {
+        margin-left: 25px;
+        display: block;
+        font-size: 13px;
+        position: absolute;
+        top: 0;
+      }
+
+      .field.Radio {
+        margin-bottom: 0;
+        padding-bottom: 0;
+      }
+    }
+  }
+
+  .field {
+    text-align: left;
+    position: relative;
+
+    label.label-wrap {
+      color: $black;
+      font-weight: normal;
+      font-size: 16px;
+    }
+    &.ui.checkbox {
+      label {
+        &::after {
+          color: $white !important;
+          background: $blue;
+        }
+        span {
+          font-weight: normal;
+        }
+      }
+    }
+    .input-section {
+      position: relative;
+      .error {
+        color: $red;
+        position: absolute;
+        top: -20px;
+        right: 0;
+        font-size: 12px;
+      }
+    }
+    .icon {
+      position: absolute;
+      top: 38px;
+      right: 5px;
+      cursor: pointer;
+    }
+    .lb-error {
+      color: $red;
+    }
+  }
+
+  .ui.button {
+    &.next-step {
+      color: $white;
+      background: $red;
+      width: 100%;
+      height: 43px;
+      font-weight: normal;
+      font-size: 18px;
+      padding-top: 14px;
+
+      &.disable {
+        color: #9a9a9a;
+        background: #d3d3d3;
+      }
+    }
+  }
+  p.notice {
+    font-size: 12px;
+    color: #808080;
+    margin-bottom: 20px;
+    margin-top: 0px;
+
+    &.text-acc-t1c {
+      color: $black;
+      font-size: 14px;
+    }
+
+    @include mobile {
+      &.notice_pass {
+        text-align: center;
+      }
+    }
+  }
+  .center {
+    text-align: center;
+  }
+
+  #location-finder {
+    .location-finder-submit {
+      &.location-finder {
+        width: 100%;
+        background: #524841;
+        text-align: center;
+        border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+        margin-bottom: 23px;
+      }
+    }
+    .location-finder-support {
+      align-self: center;
+
+      @include mobile {
+        font-size: 11px;
+      }
+    }
+  }
+  .login-panel, .terms-con-panel {
+    text-align: center;
+    margin-top: 10px;
+    color: #333333;
+    font-size: 12px;
+    .login-link {
+      color: #333333;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  }
+  .terms-con-panel {
+    text-align: left;
+    font-size: 10px;
+    .login-link {
+      color: #333333;
+      cursor: pointer;
+      font-weight: normal;
+      text-decoration: underline;
+    }
+  }
+
+  .horizontal-line-middle {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #979797;
+    line-height: 0.1em;
+    margin: 41px 0;
+
+    .horizontal-line-middle-text {
+      background: #fff;
+      padding: 0 10px;
+    }
+  }
+}
+
+#store-modal {
+  .close-icon {
+    position: absolute;
+    right: 20px;
+    width: 16px;
+    top: 20px;
+    z-index: 1;
+  }
+  .modal-content {
+    padding: 60px 0 0;
+
+    @include mobile {
+      padding: 4px 0 0 !important;
+    }
+
+    .box-panel {
+      @include mobile {
+        padding: 15px;
+        border-bottom: 1px solid #999999;
+      }
+    }
+
+    .border-raius {
+      height: 30px;
+      margin-top: 30px;
+      background-image: linear-gradient(to bottom, rgba(226, 226, 226, 0), #b1b1b1);
+
+      @include mobile {
+        height: 0;
+        margin-top: 0;
+      }
+    }
+
+    .desc {
+      font-family: 'superstoreregular', sans-serif !important;
+      font-size: 21px;
+    }
+    .title {
+      color: $red !important;
+      font-family: 'superstoreregular', sans-serif !important;
+      font-size: 22px;
+
+      @include mobile {
+        border-bottom: 1px solid #999999;
+        padding-bottom: 15px;
+      }
+    }
+    .remark {
+      color: $red;
+      font-size: 14px;
+    }
+  }
+  .modal-action {
+    background: #fff;
+    border-top: none;
+    margin: 10px;
+
+    @include mobile {
+      padding: 0 !important;
+      margin: 0 0 15px 0;
+    }
+
+    .modal-btn {
+      background: #047732;
+      color: #fff;
+      max-width: 230px;
+      width: 100%;
+    }
+  }
+}
+
+.btn-login-facebook {
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+  background-color: #4267b2;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .btn-login-facebook-icon {
+    font-size: 25px;
+    margin-right: 6px;
+  }
+
+  .btn-login-facebook-text {
+    padding-top: 4px;
+  }
+}

@@ -1,0 +1,255 @@
+@import '../../styles/mixin';
+
+.checkout-detail-wrapper {
+  padding: 0 40px 118px 40px;
+  width: 100%;
+
+  @include tablet {
+    padding: 19px 0 0;
+  }
+
+  .checkout-detail-content {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.checkout-shipping-wrap {
+  margin-top: 30px;
+
+  @include tablet {
+    padding: 0 !important;
+    margin-top: 0;
+  }
+
+  .checkout-complete-wrap {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 35px;
+
+    @include tablet {
+      align-items: center;
+      flex-direction: column;
+      padding: 30px 20px;
+    }
+    .checkout-complete-content-wrap {
+      display: flex;
+      border-bottom: 1px dashed #e9e9e9;
+      @include tablet {
+        align-items: center;
+        flex-direction: column;
+      }
+    }
+    .checkout-complete-message {
+      @include tablet {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+      .checkout-complete-order-detail {
+        margin: 15px 41px 10px;
+
+        @include tablet {
+          margin: 28px 0 10px;
+          display: flex;
+          flex-direction: column;
+          // align-items: center;
+        }
+      }
+
+      .txt-color-green {
+        color: #199000;
+        font-size: 15px;
+        
+        line-height: 28px;
+        @include tablet {
+          text-align: center;
+        }
+      }
+
+      .order-info-wrapper {
+        display: flex;
+        margin-bottom: 7px;
+
+        .txt-title {
+          min-width: 120px;
+          font-weight: bold;
+          color: #2a2a2a;
+          margin: 0 !important;
+          font-size: 13px;
+          line-height: 22px;
+
+          @include tablet {
+            min-width: 100px;
+          }
+        }
+        
+        .txt-val {
+          color: #2a2a2a;
+          font-size: 13px;
+          line-height: 22px;
+          font-weight: 400px;
+          margin: 0; // display: flex;
+          // flex-direction: column;
+
+          .tel-contact {
+            display: inline-flex;
+          }
+
+          @include tablet {
+            margin: 0 0 0 9px;
+          }
+        }
+
+        .order-info-remark {
+          font-size: 14px;
+          color: #808080;
+
+          // @include tablet {
+          //   display: none;
+          // }
+        }
+      }
+      
+    }
+    .checkout-complete-button-wrap {
+      display: flex;
+      justify-content: center;
+      padding-top: 10px;
+      @include tablet {
+        width: 100%;
+      }
+      &.hide-mobile {
+        @include mobile {
+          display: none;
+        }
+        @include tablet {
+          display: none;
+        }
+      }
+      &.hide-desktop {
+        @include desktop {
+          display: none;
+        }
+      }
+
+      @include mobile {
+        width: 100%;
+        padding-top: 15px;
+        flex-direction: column;
+      }
+
+      .checkout-complete-button {
+        margin: 10px 5px;
+
+        // @include tablet {
+        //   margin: 20px 5px;
+        // }
+        @include mobile {
+          margin: 0;
+        }
+
+        .btn-back {
+          width: 214px;
+          height: 40px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 4px;
+          border-bottom: 0;
+          font-family: superstoreregular, sans-serif;
+          color: #ffffff;
+          border: solid 1px #199000;
+          background-color: #199000;
+          font-size: 13px;
+
+          @include tablet {
+            width: 170px;
+            height: 40px;
+            border-radius: 5px;
+            margin: 0 auto;
+          }
+          @include mobile {
+            width: 100%;
+            margin-bottom: 10px;
+          }
+          .angle-icon {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 0 !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            @include tablet {
+              display: none;
+            }
+          }
+        }
+        .btn-check-order-status {
+          width: 214px;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 4px;
+          border-bottom: 0;
+          font-family: superstoreregular, sans-serif;
+          color: #808080;
+          background: #fff;
+          border: 1px solid #cccccc;
+          font-size: 13px;
+
+          @include tablet {
+            width: 170px;
+            height: 40px;
+            border-radius: 5px;
+            margin: 0 auto;
+          }
+          @include mobile {
+            width: 100%;
+          }
+        }
+      }
+    }
+    .checkout-complete-content {
+      // display: flex;
+      // align-self: center;
+
+      .checkout-complete-image {
+        width: 180px;
+        height: 180px;
+
+        @include tablet {
+          width: 120px;
+          height: 120px;
+        }
+      }
+    }
+  }
+  
+}
+
+.link {
+  color: #808080;
+}
+
+.button-contact-us {
+  width: 100%;
+  height: 40px;
+  border-radius: 4px;
+  border: solid 1px #808080;
+  background-color: #ffffff;
+  color: #808080;
+}
+
+.button-re-order {
+  width: 100%;
+  height: 40px;
+  border-radius: 4px;
+  border: solid 1px #e10f16;
+  background-color: #ec1d24;
+  color: white;
+}

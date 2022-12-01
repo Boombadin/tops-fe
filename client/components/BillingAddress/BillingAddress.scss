@@ -1,0 +1,105 @@
+@import '../../styles/variable';
+@import '../../styles/mixin';
+
+.checkbox-billing-form {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  background-color: $white;
+  border: solid 1px $gray-light;
+  margin-right: 0.3rem;
+}
+
+.radio-billing-form {
+  width: 15px;
+  height: 15px;
+  object-fit: contain;
+  margin-right: 0.3rem;
+}
+
+.form-billing {
+  padding: 0.5rem 1.5rem;
+
+  .billing-address-radio-btn {
+    padding-left: 11px !important;
+  }
+}
+
+.billing-address {
+  .form {
+    .billing-address-radio-btn {
+      padding-left: 33px;
+
+      @include desktop {
+        margin-bottom: 10px !important;
+      }
+
+      .field {
+        .checkbox {
+          label {
+            &::after {
+              background-color: $green !important;
+            }
+          }
+        }
+      }
+
+      .add-bill-btn{
+        .ui.mini.image{
+          width: 15px;
+          margin-right: 11px;
+          margin-left: 4px;
+        }
+
+        &.active{
+          color: $green;
+        }
+      }
+    }
+
+    .field {
+      position: relative;
+
+      .billing-address-label {
+        position: absolute;
+        top: 8px;
+        left: 22px;
+        color: $gray-light !important;
+        font-size: 10px;
+        line-height: 1;
+        opacity: 0;
+        z-index: 1;
+        transition: opacity 0.3s ease-in;
+      }
+
+      input {
+        // height: 3rem;
+        padding: 0 0 0 15px;
+      }
+
+      &.filled {
+        .billing-address-label {
+          opacity: 1;
+        }
+
+        input {
+          padding-top: 22px;
+        }
+      }
+
+      .checkbox {
+        label {
+          &::after {
+            color: $green !important;
+          }
+        }
+      }
+    }
+
+    .storeBilling {
+      .ui.radio.checkbox.checked label {
+        color: $green !important;
+      }
+    }
+  }
+}

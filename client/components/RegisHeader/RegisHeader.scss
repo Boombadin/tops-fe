@@ -1,0 +1,167 @@
+
+@import '../../styles/mixin';
+@import '../../styles/variable';
+
+.regis-header {
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  width: 100%;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+
+  .header-container {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // background-image: linear-gradient(to right, #ffffff, #e2e2e2);
+    background: #ffffff;
+    border-bottom: 1px solid #bababa;
+
+    @include mobile {
+      padding: 5px;
+    }
+  }
+
+  .promo-top-banner {
+    @include desktop {
+      margin-top: 5px;
+    }
+  }
+
+  .header-button {
+    flex: 1;
+
+    .back-button {
+      @include tablet {
+        display: none;
+      }
+
+      .back-icon {
+        line-height: 0.9;
+        // vertical-align: unset;
+      }
+    }
+
+    .burger-button {
+      @include desktop {
+        display: none;
+      }
+
+      .burger-icon {
+        margin-left: 10px;
+        background: none;
+        border: 0;
+      }
+    }
+
+    .back-home {
+      color: #808080;
+    }
+    .mobile-only {
+      display: none;
+    }
+    @include mobile {
+      .hide-mobile {
+        display: none;
+      }
+      .mobile-only {
+        display: inherit;
+      }
+    }
+  }
+
+  .header-logo {
+    //height: $header-height;
+    text-align: center;
+    flex: 1;
+
+    img {
+      margin: auto;
+      height: auto;
+
+      @include mobile {
+        height: 40px;
+      }
+    }
+  }
+
+  .header-content {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+
+    .lang {
+      cursor: pointer;
+      @include mobile {
+        margin-right: 0;
+      }
+
+      .language-switch {
+        ul {
+          padding: 0;
+          text-align: center;
+          li {
+            display: inline-block;
+            line-height: normal;
+    
+            button {
+              background: none;
+              border: 0;
+              font-size: 14px;
+              padding: 0 4px;
+              cursor: pointer;
+              opacity: 0.5;
+              outline: none;
+              line-height: 1.5;
+              color: #333333;
+              
+              &:focus {
+                color: #333333;
+              }
+            }
+    
+            &.active {
+              button {
+                opacity: 1;
+                color: #333333;
+              }
+            }
+          }
+    
+          li:first-child {
+            border-right: 1px solid $border-gray-dark;
+          }
+        }
+      }
+    }
+
+    .link {
+      color: #333333;
+      cursor: pointer;
+      margin-right: 21px;
+      align-self: center;
+
+      @include tablet {
+        margin-right: 10px;
+        margin-top: -3px;
+      }
+    }
+
+    @include tablet {
+      span {
+        display: none;
+      }
+    }
+  }
+
+  .header-shadow {
+    width: 100%;
+    height: 40px;
+    opacity: 0.5;
+    margin: 0;
+    position: absolute;
+    background-image: linear-gradient(to top, rgba(226, 226, 226, 0), #b1b1b1);
+  }
+}

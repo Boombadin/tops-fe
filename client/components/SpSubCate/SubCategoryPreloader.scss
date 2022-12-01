@@ -1,0 +1,14 @@
+.sub-cat-preloader {
+  display: flex;
+  flex-direction: row;
+  .animated-background {
+    width: 115px;
+    height: 40px;
+    margin: 15px;
+    margin-right: 0px;
+    margin-bottom: 17px;
+    background: linear-gradient(to right, #e3e4e3 8%, #ffffff 18%, #e3e4e3 33%);
+    background-size: 900px 104px;
+    border-radius: 5px;
+  }
+}

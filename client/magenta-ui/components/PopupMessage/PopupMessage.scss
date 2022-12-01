@@ -1,0 +1,44 @@
+.mt-popup-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: fixed;
+  width: 500px;
+  height: 139px;
+  left: calc(50% - 250px);
+  top: 23px;
+  background-color: #ffffff;
+  z-index: 10000;
+  padding: 0 20px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+
+  @media (max-width: 990px) {
+    width: 90vw !important;
+    left: 5% !important;
+  }
+}
+
+.mt-popup-message-hide {
+  display: none;
+}
+
+.mt-popup-message-input {
+  height: 23px;
+}
+
+.mt-popup-message-text {
+  font-weight: bold;
+}
+
+.mt-popup-message-controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  .button {
+  }
+
+  .ok {
+    font-weight: bold !important;
+  }
+}

@@ -1,0 +1,208 @@
+#help-page {
+  .special-banner-help-page {
+    border-bottom: 1px solid $border-gray;
+    img {
+      width: 100%;
+      display: block;
+      height: auto;
+      @include mobile {
+        padding: 0;
+      }
+    }
+  }
+}
+
+.topic-selectors-wrap {
+  background-color: $white;
+  padding: 20px 40px;
+
+  @include tablet {
+    padding: 0px;
+    overflow: hidden;
+  }
+
+  .help-viewer-container {
+    border: 1px solid $gray;
+    padding: 24px;
+
+    @include tablet {
+      border: 0;
+      padding: 15px 0;
+    }
+
+    iframe {
+      max-width: 100%;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    #help-link {
+      a {
+        display: block;
+        color: $gray-darker;
+        text-decoration: underline;
+      }
+    }
+
+    #help-viewer {
+      position: relative;
+      padding: 0 24px;
+      max-height: 100vh;
+      overflow-y: scroll;
+      margin-top: 2rem;
+      border-top: 1px solid $gray-light;
+      box-shadow: inset 0px 6px 30px 5px rgba(0, 0, 0, 0.1);
+      .help-viewer-title {
+        margin-top: 20px;
+        font-weight: bold;
+      }
+
+      @include tablet {
+        max-height: 500px;
+        padding: 0 10px;
+      }
+    }
+
+    .help-link-title {
+      color: $red;
+    }
+  }
+
+  .topic-selectors {
+    display: flex;
+    list-style-type: none;
+    margin: 0 0 2rem 0;
+    padding: 0;
+
+
+    @include mobile {
+      margin-bottom: 0;
+    }
+
+    @include tablet {
+      overflow-y: visible;
+      overflow-x: auto;
+      padding: 10px 16px;
+      -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
+    }
+
+    .topic-selector {
+      position: relative;
+      background-color: $white;
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid transparent;
+      box-shadow: 0 0 5px $gray;
+      margin: 0 5px;
+      border-radius: 5px;
+
+      @include tablet {
+        flex: 0 0 100px;
+        text-align: center;
+      }
+
+      &[data-active='true'] {
+        &::before,
+        &::after {
+          content: '';
+          display: block;
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          border: {
+            top: 10px solid $white;
+            bottom: 0;
+            left: 10px solid transparent;
+            right: 10px solid transparent;
+          }
+        }
+
+        &::before {
+          bottom: -9px;
+          z-index: 1;
+        }
+
+        &::after {
+          bottom: -11px;
+          border-top-color: $green;
+          z-index: 0;
+        }
+      }
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      .topic-selector-icon {
+        height: 25px;
+        width: auto;
+        margin-top: 10px;
+      }
+
+      .topic-selector-title {
+        color: $gray-darker;
+        margin: 10px;
+        font-size: 12px;
+      }
+    }
+
+    [data-active='true'] {
+      border: 1px solid $green;
+    }
+  }
+}
+
+.help-static-content {
+  background-color: $white;
+
+  .help-link-static {
+    padding: 0 40px;
+
+    @include tablet {
+      padding: 0 15px;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+
+      a {
+        color: $gray-darker;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .help-link-static-title {
+    color: $red;
+  }
+
+  .contact-us-button {
+    color: $white;
+    background-color: $brown;
+    padding: 9px 40px;
+    margin-bottom: 20px;
+
+    &:hover {
+      color: $white;
+      background-color: $brown-dark;
+      transition: 0.3s;
+    }
+  }
+}
+
+.help_hero_banner.tops-hero-banner {
+  margin-bottom: 0;
+  padding: 0;
+}

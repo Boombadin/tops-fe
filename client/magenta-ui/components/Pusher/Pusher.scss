@@ -1,0 +1,70 @@
+#mt-pusher {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: auto;
+  z-index: 999;
+  visibility: hidden;
+  pointer-events: none;
+  
+  &.active {
+    visibility: visible;
+    pointer-events: auto;
+    z-index: 99999;
+    
+    .pusher-continer {
+      transform: translateX(0);
+    }
+    .pusher-backdrop {
+      opacity: 1;
+    }
+  }
+
+  .pusher-continer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #ffffff;
+    z-index: 9;
+    transition: all 0.2s ease;
+    transform: translateX(-100%);
+  }
+
+  .pusher-backdrop {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+  }
+
+  .pusher-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    width: 100%;
+    background: #ffffff;
+  }
+
+  .pusher-body {
+  }
+
+  .pusher-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #ffffff;
+  }
+}

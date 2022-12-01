@@ -1,0 +1,24 @@
+.subscribe-cover {
+  padding-top: 15px;
+  .subscribe-input-section {
+    margin-bottom: 15px !important;
+    .ui.button{
+      background: $brown;
+      color: $white;
+    }
+    .ui.input {
+      width: 50%;
+    }
+  }
+  .text-danger {
+    display: block;
+    color: $red;
+  }
+  .recaptcha-size {
+    display: block;
+    width: 100%;
+    transform: scale(0.8);
+    float: left;
+    transform-origin: left top;
+  }
+}

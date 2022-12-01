@@ -1,0 +1,448 @@
+@import '../../styles/variable';
+@import '../../styles/mixin';
+
+.accounttab-userdetails {
+  flex-grow: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  @include tablet {
+    height: calc(100vh - 50px);
+  }
+
+  .accounttab-userdetails-gradient {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 20px;
+    background-image: linear-gradient(to right, rgba(184, 184, 184, 0.2), rgba(184, 184, 184, 0));
+  }
+}
+
+.accounttab-userdetails-upperpanel {
+  min-height: 60px;
+  background-color: #ffffff;
+  border-bottom: 1px solid rgba(188, 181, 185, 1);
+  display: flex;
+  flex-direction: column;
+  padding: 10px 12px 10px 18px !important;
+
+  @include tablet {
+    display: none;
+  }
+
+  &.center {
+    justify-content: center;
+  }
+
+  .accounttab-userdetails-upperpanel__header {
+    display: flex;
+  }
+
+  .accounttab-userdetails-upperpanel__name {
+    font-size: 17.5px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: 0.7px;
+    text-align: left;
+  }
+
+  .accounttab-userdetails-upperpanel__edit {
+    font-size: 14px;
+    color: #808080;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  .accounttab-userdetails-upperpanel__id-text {
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+
+    .accounttab-userdetails-upperpanel__id {
+      color: $green;
+    }
+  }
+}
+
+.accounttab-userdetails-menu {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  .accounttab-userdetails-menu__gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 11px;
+    background-image: linear-gradient(to bottom, rgba(184, 184, 184, 0.2), rgba(184, 184, 184, 0));
+  }
+
+  .accounttab-userdetails-menu__order-history,
+  .accounttab-userdetails-menu__personal-info,
+  .accounttab-userdetails-menu__invoice-info,
+  .accounttab-userdetails-menu__pi-surname,
+  .accounttab-userdetails-menu__pi-card,
+  .accounttab-userdetails-menu__pi-number,
+  .accounttab-userdetails-menu__pi-email,
+  .accounttab-userdetails-menu__reward {
+    height: 60px;
+    background-color: #ffffff;
+    border-bottom: 1px solid rgba(188, 181, 185, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 15px;
+  }
+}
+
+.accounttab-userdetails-menu__reward {
+  justify-content: flex-start !important;
+}
+
+.at-ud-menu__t1c-icon {
+  margin-right: 5px;
+  > img {
+    width: 20px;
+  }
+}
+
+.at-ud-menu__t1c-text-light {
+  font-weight: lighter;
+}
+
+.accounttab-userdetails-menu__sign-out {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-color: #ffffff;
+  border-bottom: 1px solid rgba(188, 181, 185, 1);
+  padding-left: 25px;
+
+  .accounttab-userdetails-menu__sign-out-text {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: $red;
+    cursor: pointer;
+  }
+}
+
+.accounttab-userdetails-menu__link {
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  cursor: pointer;
+  color: black;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: black;
+  }
+}
+
+.accounttab-userdetails-menu__arrow {
+  cursor: pointer;
+}
+
+.at-ud-menu__prop-value-pair {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.at-ud-menu__fieldName {
+  font-size: 11px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgb(119, 119, 119);
+}
+
+.at-ud-menu__fieldValue {
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.3;
+  letter-spacing: 0.5px;
+}
+
+.at-ud-billing__main-panel-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
+
+  @include tablet {
+    width: 90vw;
+    margin-bottom: 15px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+}
+
+.at-ud-billing__title {
+  margin-top: 10px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 17px;
+}
+
+.at-ud-billing__billing {
+  display: flex;
+  flex-direction: column;
+
+  .selected-address {
+    border: 1px solid #39a04a;
+    box-shadow: 0 2px 4px 0 #39a04a;
+  }
+}
+
+.at-ud-billing__address-new,
+.at-ud-billing__address {
+  width: 218px;
+  height: 80px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  border: solid 1px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+
+  @include tablet {
+    width: 90vw;
+  }
+
+  &.active {
+    border: solid 1px #39a04a;
+  }
+}
+
+.at-ud-billing__address-new {
+  flex: 0 0 80px;
+  display: flex;
+  cursor: pointer;
+}
+
+.at-ud-billing__address-name {
+  display: flex;
+  height: calc(100% - 25px);
+  padding-top: 15px;
+  padding-left: 15px;
+  font-weight: 700;
+}
+
+.at-ud-billing__address-new__plus {
+  flex: 0 0 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #cfcfcf;
+
+  .plus {
+    margin: 0;
+    font-size: 40px;
+    height: auto;
+    margin-right: -2px;
+  }
+}
+
+.at-ud-billing__address-new__title {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  @include tablet {
+    justify-content: flex-start;
+    padding-left: 20px;
+  }
+}
+
+.at-ud-billing__controls {
+  cursor: pointer;
+  display: flex;
+  height: 25px;
+  justify-content: flex-end;
+  padding-right: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.at-ud-billing__edit {
+  margin-right: 3px;
+  text-decoration: underline;
+  font-size: 12px;
+}
+
+.at-ud-billing__delete-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.at-ud-billing__delete {
+  margin-left: 3px;
+  text-decoration: underline;
+  font-size: 12px;
+}
+
+.at-ud-billing__main-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.at-ud-billing__bottom {
+  width: 100%;
+  flex: 0 0 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  color: #ffffff;
+
+  @include tablet {
+    flex: 0 0 68px;
+  }
+
+  .back {
+    width: 82px;
+    height: 40px;
+    font-size: 11px;
+    border-radius: 6px 0 0 6px;
+    color: #ffffff;
+    background-color: #808080;
+    margin: 0;
+    padding: 0;
+
+    @include tablet {
+      display: none;
+    }
+  }
+
+  .verify {
+    min-width: 114px;
+    height: 40px;
+    border-radius: 0 6px 6px 0;
+    color: #ffffff;
+    background-color: #534741;
+    margin: 0;
+    padding: 0 2px 0 0;
+    position: relative;
+    display: flex;
+
+    @include tablet {
+      width: 90%;
+      border-radius: 6px;
+
+      .icon-next {
+        display: none;
+      }
+    }
+
+    .text {
+      margin: 0 15px;
+    }
+
+    span {
+      position: absolute;
+      font-size: 11px;
+      align-self: center;
+      left: 3px;
+
+      @include tablet {
+        position: relative;
+        left: 0;
+        font-size: 14px;
+        margin: 0 auto !important;
+      }
+    }
+
+    img {
+      width: 12px;
+      height: 12px;
+      position: absolute;
+      right: 5px;
+      align-self: center;
+
+      @include tablet {
+        display: none;
+      }
+    }
+  }
+
+  .icon-next {
+    margin: 0 !important;
+    width: 10px;
+  }
+}
+
+.personal-info__greedy-container {
+  flex: 1;
+}
+
+.personal-info__button-row {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+}
+
+.personal-info__button {
+  position: relative;
+  color: white;
+}
+
+.personal-info__arrow-left {
+  position: absolute;
+  width: 18px;
+  left: 6px;
+}
+
+.shipping-options-popup-delete-address {
+  @include tablet {
+    width: 90vw !important;
+    left: 5% !important;
+    top: 100px;
+  }
+}

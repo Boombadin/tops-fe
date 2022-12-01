@@ -1,0 +1,45 @@
+.remark-from-wrap {
+  .remark-from {
+    position: relative;
+
+    textarea.input-textarea {
+      background: #fff;
+      border: 1px solid $gray-light;
+      border-radius: .28571429rem;
+      box-shadow: 0 0 0 0 transparent inset;
+      width: 100%;
+      font-family: $font-family;
+      padding: 1em;
+      margin-bottom: 15px;
+    }
+
+    .count-char-wrap {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      bottom: 37px;
+      right: 0;
+
+      .count-char {
+        position: absolute;
+        bottom: -1px;
+        font-size: 11px;
+        right: 2px;
+        color: $gray;
+      }
+
+      .line {
+        border-top: 1px solid  $gray-light;
+        transform: rotate(-45deg);
+        position: absolute;
+        width: 100%;
+        right: -7px;
+        bottom: 17px;
+      }
+    }
+  }
+  .ui.checkbox input:checked ~ .box:after, 
+  .ui.checkbox input:checked ~ label:after {
+    color: $green;
+  }
+}

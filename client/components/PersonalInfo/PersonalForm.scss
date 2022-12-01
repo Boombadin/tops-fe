@@ -1,0 +1,175 @@
+.personalForm {
+		width: 100%;
+    margin: 10px 0 110px;
+	
+	.personal_detail, .t1c_detail {
+		padding: 0 20px;
+		border-bottom: solid 1px #bdbdbd;
+		margin-bottom: 17px;
+
+		.title {
+			font-weight: bold;
+		}
+	}
+
+	.t1c_detail {
+		border-bottom: none;
+		@include tablet {
+			padding-bottom: 10px;
+			border-bottom: solid 1px #bdbdbd;
+		}
+	}
+
+	.field {
+		display: flex;
+		flex-flow: column-reverse;
+		margin-bottom: 1.5em;
+		position: relative;
+
+		label.label-wrap {
+      color: $black;
+      font-weight: normal;
+		}
+		
+		.error {
+			color:$red;
+			position: absolute;
+			bottom: -22px;
+			font-size: 12px;
+		}
+
+		&.hidden {
+			display: none;
+		}
+
+		label, input {
+      transition: all 0.2s;
+      touch-action: manipulation;
+		}
+
+		.input-wrap {
+      font-size: 13px;
+      font-family: inherit;
+      -webkit-appearance: none;
+      color: $black;
+      cursor: text;
+			padding:1.5em 1em 0.22em 1em;
+			background: #fff;
+			border: 1px solid #cfcfcf;
+			border-radius: 4px;
+			height: 40px;
+
+      &.input-error{
+        border: 1px solid $red;
+      }
+    }
+		.input-wrap:focus {
+      outline: 0;
+      color: $black;
+		}
+
+		.add-bill-btn {
+      color: $gray;
+      margin-left: -11px;
+      border: none;
+      background: none;
+      cursor: pointer;
+
+      i.icon { 
+        transform: rotate(45deg);
+      }
+    }
+
+    .lb-error {
+      color: $red;
+		}
+		
+		.input-wrap+label {
+			text-transform: uppercase;
+			letter-spacing: .05em;
+			font-size: 9px;
+			color: gray;
+			font-family: superstoreregular,sans-serif!important;
+			position: absolute;
+			top: -21px;
+			pointer-events: none;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+		
+		.input-wrap:placeholder-shown + label {
+    cursor: text;
+    max-width: 59%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transform-origin: left bottom;
+    transform: translate(1rem, 2.7rem) scale(1.5);
+    pointer-events: none;
+  }
+
+  .input-wrap::-webkit-input-placeholder {
+    opacity: 0;
+    transition: inherit;
+  }
+
+  .input-wrap::-moz-placeholder {
+    opacity: 0;
+    transition: inherit;
+  }
+
+  .input-wrap:focus::-webkit-input-placeholder {
+    opacity: 0;
+    font-size: 9px;
+  }
+
+		.input-wrap:not(:placeholder-shown) + label,
+		.input-wrap:focus + label {
+			transform: translate(1rem, 1.7rem) scale(1);
+			max-width: 66.66%;
+			cursor: pointer;
+		}
+	}
+
+	.input-radio {
+		display: block;
+		position: relative;
+		padding-bottom: 10px;
+		font-size: 13px;
+		
+		input {
+			opacity: 0;
+			z-index: -1;
+			position: absolute;
+
+			&:checked + span::after {
+				background-color: #007a33;
+				transform: scale(0.46667);
+				border: 1px solid #007a33;
+				display: block;
+			}
+		}
+
+		span {
+			display: block;
+			position: relative;
+			padding-left: 20px;
+
+			&::before, &::after{
+				position: absolute;
+				content: '';
+				width: 15px;
+				height: 15px;
+				border-radius: 500rem;
+				top: 1px;
+				left: 0px;
+				background: #FFFFFF;
+				border: 1px solid #D4D4D5;
+			}
+			&::after {
+				display: none;
+			}
+		}
+	}
+}

@@ -1,0 +1,90 @@
+.notify-tooltip {
+  &--root {
+    position: absolute;
+    background: $black;
+    text-align: center;
+    padding: 10px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    
+    &.show {
+      pointer-events: auto;
+      opacity: 1;
+    }  
+    
+    &.mini {
+      padding: 6px;
+    }
+    
+    &.top {
+      bottom: 100%;
+      width: 100%;
+      left: 0;
+      margin-bottom: 3px;
+      
+      &:after {
+        content: "";
+        width: 0; 
+        height: 0; 
+        border-left: 9px solid transparent;
+        border-right: 9px solid transparent;
+        border-top: 7px solid $black;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -10px;
+      }
+    }
+    
+    &.left {
+      right: 100%;
+      top: 0;
+      margin-right: 13px;
+      
+      &:after {
+        position: absolute;
+        content: "";
+        width: 0; 
+        height: 0; 
+        border-top: 9px solid transparent;
+        border-bottom: 9px solid transparent;
+        border-left: 7px solid $black;
+        top: 50%;
+        left: 100%;
+        margin-top: -10px;
+      }    
+    }
+    
+    &.bottom {
+      top: 100%;
+      margin-top: 23px;
+      
+      &:after {
+        position: absolute;
+        content: "";
+        width: 0; 
+        height: 0; 
+        border-left: 9px solid transparent;
+        border-right: 9px solid transparent;
+        border-bottom: 7px solid $black;
+        left: 50%;
+        bottom: 100%;
+        margin-left: -10px;
+      }    
+    }
+  }
+  
+  &--text {
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+    color: $white;
+    line-height: 1.4;
+    
+    .mini & {
+      font-size: 11px;
+      line-height: 1;
+    }
+  }
+}

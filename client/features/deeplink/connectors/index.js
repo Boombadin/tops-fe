@@ -1,0 +1,1 @@
+export { withDeeplink } from './withDeeplink'

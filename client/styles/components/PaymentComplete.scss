@@ -1,0 +1,130 @@
+.payment-complete-wrap {
+  background: $white;
+  display: flex;
+  justify-content: flex-start;
+  padding: 40px;
+  .payment-complete__image {
+    img {
+      max-width: 257px;
+      width: 100%;
+    }
+  }
+  .payment-complete__message {
+    @include desktop {
+      width: 45%;
+      margin-left: 45px;
+    }
+    @include desktop-small {
+      width: 34%;
+      margin-left: 24px;
+    }
+    .header-error {
+      text-align: left;
+      margin: 0;
+      padding: 0;
+      @include desktop{
+        @include vertical-align;
+      }
+      h2 {
+        color: $green;
+        &.err_msg {
+          color: #f60403;
+        }
+      }
+      a {
+        color: $gray-darker;
+        cursor: pointer;
+        text-decoration: underline;
+      }
+      .txt-color-green {
+        color: $green;
+        font-weight: bold;
+      }
+    }
+  }
+  .payment-complete__button {
+    position: relative;
+    white-space: nowrap;
+    .ui.button {
+      @include vertical-align;
+      width: 100%;
+      background: $brown;
+      color: $white;
+      font-family: $font-family;
+      padding: 10px;
+      height: 40px;
+      font-size: 13px;
+    }
+  }
+
+  .payment-fail__button {
+    width: 20%;
+    position: relative;
+    @include desktop-small {
+      width: 25%;
+    }
+    .ui.button {
+      @include vertical-align;
+      width: 100%;
+      background: #808080;
+      color: $white;
+      font-family: $font-family;
+      padding: 13px;
+      height: 40px;
+      font-size: 13px;
+    }
+    .ui.labeled.icon.button>.icon {
+      background: #808080 !important;
+    }
+  }
+}
+
+@include tablet {
+  .payment-complete-wrap{
+    display: block;
+    padding: 19px 21px 39px;
+    .payment-complete__image {
+      width: 248px;
+      max-width: 248px;
+      border-radius: 200px;
+      margin: 20px auto;
+      overflow: hidden;
+      img {
+        width: 100% !important;
+        transform: scale(1.25) translateY(15px);
+      }
+      img.payment-fail {
+        width: 100% !important;
+        transform: scale(1.25) translateY(3px);
+      }
+    }
+    .payment-complete__message {
+      width: 100%;
+      margin: 0;
+      .header-error {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+    }
+    .payment-complete__button {
+      margin-top: 45px;
+      width: 100%;
+      .ui.button {
+        i.icon{
+          display: none;
+        }
+      }
+    }
+    .payment-fail__button {
+      margin-top: 45px;
+      width: 100%;
+      .ui.button {
+        i.icon{
+          width: 37%;
+          padding-left: 15%;
+        }
+      }
+    }
+  }
+}

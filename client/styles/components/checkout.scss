@@ -1,0 +1,384 @@
+.checkout-content {
+  .checkout-wrap {
+    padding: 118px 40px 118px 97px;
+    width: 100%;
+
+    @include tablet {
+      padding: 0;
+    }
+
+    @include desktop-small {
+      padding: 118px 40px 118px 40px;
+    };
+
+    .ui.grid > .column:not(.row) {
+      padding: 0;
+    }
+
+    .checkout-page-title {
+      color: $red-bright !important;
+      font-size: 15px !important;
+      font-weight: 700;
+      display: block;
+
+      @include desktop {
+        margin-bottom: 11px;
+      }
+    }
+
+    .grid {
+      .checkout-page-accordion {
+        .checkout-page-title {
+          @include e('icon') {
+            display: none;
+          }
+        }
+      }
+    }
+
+    .step-progress-bar {
+      padding-bottom: 2.5rem !important;
+
+      @include tablet {
+        padding-bottom: 0 !important;
+      }
+    }
+
+    .steps-checkout-wrap {
+      padding-bottom: 3rem !important;
+    }
+
+    .shipping-details-wrap {
+      padding: 20px 0 2.5rem 0 !important;
+    }
+
+    .mt-step {
+      padding: 0.5rem 0 !important;
+    }
+
+    .mt-step-title {
+      top: 2rem !important;
+    }
+
+    .shipping-details-grid {
+      .shipping-details-data-pane {
+        max-width: 25rem !important;
+      }
+    }
+  }
+
+  @include desktop {
+    .ui.grid>[class*="twelve wide computer"].column.section-checkout {
+      padding-right: 20px;
+
+      .section-billing-payment {
+        margin-top: 19px !important;
+
+        .section-billing-address {
+          padding-right: 10px !important;
+
+          @include mobile {
+            padding-right: 0 !important;
+          }
+        }
+
+        .payment-box {
+          padding-left: 10px !important;
+
+          @include mobile {
+            padding-left: 0 !important;
+          }
+        }
+      }
+    }
+  }
+
+  .ui.primary.button:hover,
+  .ui.primary.button:focus {
+    background: $green !important;
+    box-shadow: 0 3px 3px 0 $green-dark !important;
+  }
+
+  .ui.grid>.column:not(.row).payment-box, .ui.grid>.row>.column.payment-box {
+    @include tablet {
+      padding: 20px 0 ;
+    }
+  }
+
+  .ui.checkbox input.hidden+label {
+    font-size: 1em;
+  }
+
+  .ui.form {
+    .field {
+      display: flex;
+      flex-flow: column-reverse;
+      margin-bottom: 1.5em;
+      position: relative;
+
+      .error {
+        color:$red;
+        position: absolute;
+        bottom: -22px;
+        font-size: 12px;
+      }
+
+      &.hidden {
+        display: none;
+      }
+    }
+
+    .fields {
+      @include desktop {
+        margin: 0 -.5em 1.5em;
+      }
+
+      @include tablet {
+        margin: 0 -.5em 1.5em;
+      }
+
+      @include mobile {
+        margin: 0;
+      }
+    }
+
+    .fields>.field {
+      margin: 0 ;
+      @include mobile {
+        margin: 0 0 1.5em !important;
+      }
+    }
+
+    .field.CheckBox {
+      margin: 0;
+      padding-bottom: 0 !important;
+    }
+
+    label, input {
+      transition: all 0.2s;
+      touch-action: manipulation;
+    }
+
+    .input-wrap, select.input-wrap {
+      font-size: 13px;
+      font-family: inherit;
+      -webkit-appearance: none;
+      color: $black;
+      cursor: text;
+      padding:1.5em 1em 0.22em 1em;
+      &.input-error{
+        border: 1px solid $red;
+      }
+    }
+
+    select.input-wrap {
+      background-image:
+        linear-gradient(45deg, transparent 50%, $brown-dark 50%),
+        linear-gradient(135deg, $brown-dark 50%, transparent 50%),
+        linear-gradient(to right, $white, $white);
+      background-position:
+        calc(100% - 20px) calc(1em + 2px),
+        calc(100% - 15px) calc(1em + 2px),
+        100% 0;
+      background-size:
+        5px 5px,
+        5px 5px,
+        2.5em 2.5em;
+      background-repeat: no-repeat;
+    }
+
+    select.input-wrap {
+      cursor: pointer;
+      -moz-appearance: none;
+    }
+
+    .input-wrap:focus {
+      outline: 0;
+      color: $black;
+    }
+
+    .input-wrap + label {
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-size: 9px;
+      color: #808080;
+      font-family: "superstoreregular", sans-serif !important;
+      position: absolute;
+      top: -21px;
+      pointer-events: none;
+      @include ellipsis;
+    }
+
+    .add-bill-btn {
+      color: $gray;
+      margin-left: -11px;
+      border: none;
+      background: none;
+      cursor: pointer;
+
+      i.icon { 
+        transform: rotate(45deg);
+      }
+    }
+
+    .lb-error {
+      color: $red;
+    }
+  }
+
+  .input-wrap:placeholder-shown + label,
+  select.input-wrap.placeholdered + label {
+    cursor: text;
+    max-width: 45%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transform-origin: left bottom;
+    transform: translate(1rem, 2.7rem) scale(1.5);
+    pointer-events: none;
+  }
+
+  .input-wrap::-webkit-input-placeholder {
+    opacity: 0;
+    transition: inherit;
+  }
+
+  .input-wrap::-moz-placeholder {
+    opacity: 0;
+    transition: inherit;
+  }
+
+  .input-wrap:focus::-webkit-input-placeholder {
+    opacity: 0;
+    font-size: 9px;
+  }
+
+  .input-wrap:not(:placeholder-shown) + label,
+  .input-wrap:focus + label {
+    transform: translate(1rem, 1.7rem) scale(1);
+    max-width: 66.66%;
+    cursor: pointer;
+  }
+
+  .bl-type {
+    display: inline-block !important;
+    margin: 0 20px 0 1px!important;
+  }
+
+  .ui.accordion .title~.content {
+    @include desktop {
+      display: block;
+    }
+  }
+
+  .ui.accordion .title:not(.ui) {
+    @include desktop {
+      padding: 0;
+    }
+  }
+
+  .order-remark-mobile {
+    @include tablet {
+      display: block
+    }
+
+    @include desktop {
+      display: none !important;
+    }
+  }
+}
+
+@include tablet {
+  .checkout-content {
+    .checkout-wrap {
+      .shipping-details-wrap {
+        padding: 15px !important;
+
+        @include tablet{
+          padding: 15px 10px !important;
+        }
+      }
+
+      .ui.grid > .column:not(.row) {
+        padding: 0;
+      }
+
+      .ui.grid+.grid {
+        margin-top: 0;
+      }
+
+      .grid {
+        .checkout-page-accordion {
+          .checkout-page-title {
+            text-align: left;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            padding: 0;
+          }
+
+          .title {
+            padding: 0 5px !important;
+
+            &.active {
+              .checkout-page-title__icon {
+                transform: rotate(180deg);
+              }
+            }
+
+            .checkout-page-title {
+              @include e('icon') {
+                color: $gray-light;
+                display: block;
+              }
+            }
+
+            .dropdown.icon {
+              display: none !important;
+            }
+
+            &.active::before {
+              display: none;
+            }
+          }
+        }
+
+        .checkout-page-content {
+          padding-left: 10px !important;
+          padding-right: 10px !important;
+        }
+      }
+
+      .billing-address {
+        .form-billing {
+          padding: 0;
+
+          .ui.form .fields {
+            flex-wrap: nowrap !important;
+          }
+        }
+
+        .storeBilling {
+          .field.Radio {
+            padding: 0;
+            margin: 0 !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include tablet {
+  .checkout-grid {
+    height: auto;
+  }
+
+  .checkout-mobile-controls {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 -1px 2px rgba(0,0,0,0.1);
+  }
+}

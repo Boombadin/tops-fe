@@ -1,0 +1,41 @@
+@import '../../styles/variable';
+@import '../../styles/mixin';
+
+.breadcrumb-background {
+  width: 100%;
+  height: 35px;
+  line-height: 35px !important;
+  background-color: white;
+  box-shadow: $box-shadow;
+  margin-bottom: 20px;
+
+  @include tablet {
+    display: none;
+  }
+
+  .ui.breadcrumb a {
+    color: #333333;
+    font-size: 13px;
+  }
+
+  .ui.breadcrumb a:hover {
+    filter: brightness(0.8);
+    color: $red;
+  }
+
+  .ui.breadcrumb {
+    margin-left: 25px;
+  }
+
+  .ui.breadcrumb .section, .ui.breadcrumb .section > h1 {
+    max-width: 350px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    font-size: 13px;
+    font-weight: normal;
+    color: $red;
+    overflow: hidden;
+    line-height: 1.5;
+  }
+}

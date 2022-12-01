@@ -1,0 +1,34 @@
+@import '../../styles/variable';
+@import '../../styles/mixin';
+
+#location-selector {
+  .location-selector--input {
+    line-height: 40px;
+    padding: 0 16px;
+    border: 1px solid $border-gray-dark;
+    cursor: pointer;
+    margin-bottom: 16px;
+    
+    &:hover:not(.disabled) {
+      color: $red;
+      border-color: $red;
+    }
+    
+    @include mobile {
+      input {
+        font-size: 16px !important;
+      }
+    };
+  }
+  
+  .ui.selection.active.dropdown,
+  .ui.selection.active.dropdown .menu,
+  .ui.selection.active.dropdown:hover .menu {
+    border-color: $red;
+    
+    @include desktop {
+      max-height: 15rem !important;
+    }
+  }
+  
+}

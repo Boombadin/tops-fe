@@ -1,0 +1,42 @@
+.mt-promotion-indicator-root {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    height: 60px;
+    display: none;
+}
+
+.mt-promotion-indicator-track-image {
+    width: 32.1px;
+    height: 21.8px;
+}
+
+.mt-promotion-indicator-scale {
+    height: 8.7px;
+    background-color: #b9b9b9;
+}
+
+.mt-promotion-indicator-filled {
+    height: 100%;
+    background-color: #007a33 !important;
+}
+
+.mt-promotion-indicator-wrapper {
+    width: 100%;
+    margin-left: 10px;
+    margin-bottom: 6px;
+}
+
+.mt-promotion-indicator-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90% !important;
+}
+
+.mt-promotion-indicator-text {
+    height: 25px;
+    font-size: 12px;
+}

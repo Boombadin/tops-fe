@@ -1,0 +1,49 @@
+@import "../../styles/all";
+
+.mt-why-us-banner-wrap {
+  background-color: $white;
+  color: $grey-dark;
+  @include e('link') {
+    color: $grey-dark;
+    &:hover {
+      color: $black;
+    }
+  }
+  
+  .mt-why-us-banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+    border-left: 6px solid;
+    @include e('image') {
+      max-width: 40px;
+      max-height: 40px;
+      margin-right: 20px;
+      object-fit: contain;
+    }
+    @include e('caption') {
+      margin: 0;
+    }
+  }
+}
+
+@media screen and (max-width: $breakpoint-desktop) {
+  .mt-why-us-banner-wrap {
+    margin: 0 -15px;
+    height: 100%;
+    .mt-why-us-banner {
+      padding: 10px 0;
+      height: 100%;
+      flex-direction: column;
+      text-align: center;
+      @include e('image') {
+        max-width: 30px;
+        max-height: 30px;
+        margin-bottom: 10px;
+        margin-right: 0;
+      }
+    }
+  }
+}

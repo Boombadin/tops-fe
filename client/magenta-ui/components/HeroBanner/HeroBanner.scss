@@ -1,0 +1,61 @@
+@import "../../styles/all";
+
+
+.mt-hero-banner {
+  &.slick-slider {
+    padding: 25px;
+    background-color: $white;
+  }
+  .slick-dots {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: -14px;
+    @extend %flex--row;
+    li {
+      flex: 0;
+      button {
+        display: block;
+        line-height: 0;
+        font-size: 0;
+        width: 15px;
+        height: 15px;
+        padding: 0;
+        border-radius: 50%;
+        margin: 0 10px;
+        border: 0;
+        background: $grey;
+        cursor: pointer;
+        &:focus {
+          outline: none;
+        }
+      }
+      &.slick-active {
+        button {
+          background: $black;
+        }
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+  @include e("itemWrapper") {
+    width: 100%;
+    .mt-hero-banner__link {
+      display: block;
+      height: 100%;
+    }
+    .mt-hero-banner__img {
+      object-position: top center;
+      object-fit: contain;
+      height: auto;
+      width: 100%;
+      display: block;
+    }
+  }
+}

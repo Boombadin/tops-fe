@@ -1,0 +1,67 @@
+$desktop-width: 1240px;
+$tablet-width: 991px;
+$mobile-width: 460px;
+
+@mixin desktop-small {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: #{$mobile-width}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+// Block Element
+// @access public
+// @param {String} $element - Element’s name
+@mixin e($element) {
+ &__#{$element} {
+   @content;
+ }
+}
+
+// Block Modifier
+// @access public
+// @param {String} $modifier - Modifier’s name
+@mixin m($modifier) {
+ &--#{$modifier} {
+   @content;
+ }
+}
+
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}

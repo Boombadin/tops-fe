@@ -1,0 +1,5 @@
+query storeConfigs {
+  storeConfigs {
+    code
+  }
+}

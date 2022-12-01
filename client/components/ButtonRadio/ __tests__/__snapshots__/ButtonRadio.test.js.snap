@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component : ButtonRadio Render radio button 1`] = `
+<DocumentFragment>
+  <label
+    class="radio-container ButtonRadio__ButtonRadioWrapper-sc-1c2fqmv-0 jmXno"
+  >
+    textRadio
+    <input
+      name="radio"
+      type="radio"
+    />
+    <div
+      class="radio-checkmark ButtonRadio__RadioCheckMark-sc-1c2fqmv-1 dRrEo"
+    />
+  </label>
+</DocumentFragment>
+`;
+
+exports[`Component : ButtonRadio Render radio button 2`] = `
+<DocumentFragment>
+  <label
+    class="radio-container ButtonRadio__ButtonRadioWrapper-sc-1c2fqmv-0 jmXno"
+  >
+    textRadio
+    <input
+      name="radio"
+      type="radio"
+    />
+    <div
+      class="radio-checkmark ButtonRadio__RadioCheckMark-sc-1c2fqmv-1 dRrEo"
+    />
+  </label>
+</DocumentFragment>
+`;

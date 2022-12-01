@@ -1,0 +1,41 @@
+export const mockShippingMethodSelected = [
+  {
+    date: '2020-11-17',
+    isAllow: undefined,
+    slot: [
+      {
+        available: 200,
+        cost: 80,
+        enabled: false,
+        id: 20,
+        isAllow: false,
+        quota: 200,
+        round: undefined,
+        timeFrom: '10:00',
+        timeTo: '11:00',
+      },
+      {
+        available: 200,
+        cost: 80,
+        enabled: false,
+        id: 21,
+        isAllow: false,
+        quota: 200,
+        round: undefined,
+        timeFrom: '11:00',
+        timeTo: '12:00',
+      },
+      {
+        available: 199,
+        cost: 100,
+        enabled: true,
+        id: 22,
+        isAllow: true,
+        quota: 200,
+        round: undefined,
+        timeFrom: '12:00',
+        timeTo: '13:00',
+      },
+    ],
+  },
+];

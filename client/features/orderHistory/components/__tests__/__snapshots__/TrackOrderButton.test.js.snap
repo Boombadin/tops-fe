@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`features/orderDetail/components/TrackOrderButton click open tracking process from grap | it should be match snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="TrackOrderButton__OrderTracking-sziof4-0 jpGFYg"
+    color="#544943"
+    data-testid="btn-viewTrackOrderButton-handleTrackClick-621636"
+    radius="5"
+  >
+    order_history.table.track_order
+  </button>
+</DocumentFragment>
+`;
+
+exports[`features/orderDetail/components/TrackOrderButton it should be match snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="TrackOrderButton__OrderTracking-sziof4-0 jpGFYg"
+    color="#544943"
+    data-testid="btn-viewTrackOrderButton-handleTrackClick-621636"
+    radius="5"
+  >
+    order_history.table.track_order
+  </button>
+</DocumentFragment>
+`;

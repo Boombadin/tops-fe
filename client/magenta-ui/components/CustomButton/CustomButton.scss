@@ -1,0 +1,88 @@
+@import '../../styles/all';
+
+.custom-button {
+  border: none;
+  border-radius: 2px;
+  padding: 0.75em 1em;
+  transition: filter 100ms linear;
+  color: $black;
+  font-weight: bold;
+  cursor: pointer;
+
+  @include m('blue') {
+    background-color: $blue;
+  }
+
+  @include m('green') {
+    background-color: $green;
+  }
+
+  @include m('red') {
+    background-color: $red;
+  }
+
+  @include m('grey') {
+    background-color: $grey;
+  }
+
+  @include m('brown') {
+    background-color: #544943;
+    color: white;    
+  }
+
+  @include m('regular') {
+    font-size: 13px;
+  }
+
+  @include m('small') {
+    font-size: 10px;
+  }
+
+  @include m('large') {
+    font-size: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+
+  @include m('left') {
+    margin-right: 0;
+    border-radius: 6px 0 0 6px;
+  }
+
+  @include m('right') {
+    margin-right: 0;
+    border-radius: 0 6px 6px 0;
+  }
+
+  @include m('default') {
+    margin-right: 0;
+    border-radius: 6px;
+  }
+
+  @include m('primary') {
+    background-color: #007a33;
+    color: white;
+  }
+
+  @include m('secondary') {
+    background-color: #808080;
+    color: white;
+  }
+}
+
+.button:hover:enabled {
+  cursor: pointer;
+  filter: brightness(90%);
+}
+
+.button:active,
+.button:focus {
+  outline: none;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

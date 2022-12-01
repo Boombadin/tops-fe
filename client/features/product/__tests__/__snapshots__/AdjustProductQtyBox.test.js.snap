@@ -1,0 +1,331 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`features/product/components/AdjustProductQtyBox it should render default qty label from prop 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="AdjustProductQtyBox__IncrementInputBoxStyled-sc-15n8obw-0 cACVcL IncrementInputBox__Wrapper-sc-1o57gb-0 XRdDS"
+        data-testid="adjust-product-qty-box"
+        type="default"
+      >
+        <div
+          class="IncrementInputBox__Element-sc-1o57gb-1 hKTCrY"
+        >
+          <div
+            class="IncrementInputBox__IncButton-sc-1o57gb-4 bLReEN"
+          >
+            <button
+              class="AdjustProductQtyBox__ButtonStyled-sc-15n8obw-1 cBQqxu"
+              data-testid="adjust-product-qty-box-decrease-btn"
+              type="default"
+            >
+              -
+            </button>
+          </div>
+        </div>
+        <div
+          class="IncrementInputBox__Element-sc-1o57gb-1 hKTCrY"
+        >
+          <div
+            class="IncrementInputBox__InputWrapper-sc-1o57gb-2 ieBGjh"
+          >
+            <input
+              class="inputBox IncrementInputBox__InputBox-sc-1o57gb-3 bLAQDR"
+              id="inputBox"
+              readonly=""
+              type="number"
+              value="10"
+            />
+          </div>
+        </div>
+        <div
+          class="IncrementInputBox__Element-sc-1o57gb-1 hKTCrY"
+        >
+          <div
+            class="IncrementInputBox__IncButton-sc-1o57gb-4 bLReEN"
+          >
+            <button
+              class="AdjustProductQtyBox__ButtonStyled-sc-15n8obw-1 cBQqxu"
+              data-testid="adjust-product-qty-box-increase-btn"
+              type="default"
+            >
+              +
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="AdjustProductQtyBox__IncrementInputBoxStyled-sc-15n8obw-0 cACVcL IncrementInputBox__Wrapper-sc-1o57gb-0 XRdDS"
+      data-testid="adjust-product-qty-box"
+      type="default"
+    >
+      <div
+        class="IncrementInputBox__Element-sc-1o57gb-1 hKTCrY"
+      >
+        <div
+          class="IncrementInputBox__IncButton-sc-1o57gb-4 bLReEN"
+        >
+          <button
+            class="AdjustProductQtyBox__ButtonStyled-sc-15n8obw-1 cBQqxu"
+            data-testid="adjust-product-qty-box-decrease-btn"
+            type="default"
+          >
+            -
+          </button>
+        </div>
+      </div>
+      <div
+        class="IncrementInputBox__Element-sc-1o57gb-1 hKTCrY"
+      >
+        <div
+          class="IncrementInputBox__InputWrapper-sc-1o57gb-2 ieBGjh"
+        >
+          <input
+            class="inputBox IncrementInputBox__InputBox-sc-1o57gb-3 bLAQDR"
+            id="inputBox"
+            readonly=""
+            type="number"
+            value="10"
+          />
+        </div>
+      </div>
+      <div
+        class="IncrementInputBox__Element-sc-1o57gb-1 hKTCrY"
+      >
+        <div
+          class="IncrementInputBox__IncButton-sc-1o57gb-4 bLReEN"
+        >
+          <button
+            class="AdjustProductQtyBox__ButtonStyled-sc-15n8obw-1 cBQqxu"
+            data-testid="adjust-product-qty-box-increase-btn"
+            type="default"
+          >
+            +
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`features/product/components/AdjustProductQtyBox it should render readonly input 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="AdjustProductQtyBox__IncrementInputBoxStyled-sc-15n8obw-0 cACVcL IncrementInputBox__Wrapper-sc-1o57gb-0 XRdDS"
+        data-testid="adjust-product-qty-box"
+        type="default"
+      >
+        <div
+          class="IncrementInputBox__Element-sc-1o57gb-1 hKTCrY"
+        >
+          <div
+            class="IncrementInputBox__IncButton-sc-1o57gb-4 bLReEN"
+          >
+            <button
+              class="AdjustProductQtyBox__ButtonStyled-sc-15n8obw-1 cBQqxu"
+              data-testid="adjust-product-qty-box-decrease-btn"
+              type="default"
+            >
+              -
+            </button>
+          </div>
+        </div>
+        <div
+          class="IncrementInputBox__Element-sc-1o57gb-1 hKTCrY"
+        >
+          <div
+            class="IncrementInputBox__InputWrapper-sc-1o57gb-2 ieBGjh"
+          >
+            <input
+              class="inputBox IncrementInputBox__InputBox-sc-1o57gb-3 bLAQDR"
+              id="inputBox"
+              readonly=""
+              type="number"
+              value="1"
+            />
+          </div>
+        </div>
+        <div
+          class="IncrementInputBox__Element-sc-1o57gb-1 hKTCrY"
+        >
+          <div
+            class="IncrementInputBox__IncButton-sc-1o57gb-4 bLReEN"
+          >
+            <button
+              class="AdjustProductQtyBox__ButtonStyled-sc-15n8obw-1 cBQqxu"
+              data-testid="adjust-product-qty-box-increase-btn"
+              type="default"
+            >
+              +
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="AdjustProductQtyBox__IncrementInputBoxStyled-sc-15n8obw-0 cACVcL IncrementInputBox__Wrapper-sc-1o57gb-0 XRdDS"
+      data-testid="adjust-product-qty-box"
+      type="default"
+    >
+      <div
+        class="IncrementInputBox__Element-sc-1o57gb-1 hKTCrY"
+      >
+        <div
+          class="IncrementInputBox__IncButton-sc-1o57gb-4 bLReEN"
+        >
+          <button
+            class="AdjustProductQtyBox__ButtonStyled-sc-15n8obw-1 cBQqxu"
+            data-testid="adjust-product-qty-box-decrease-btn"
+            type="default"
+          >
+            -
+          </button>
+        </div>
+      </div>
+      <div
+        class="IncrementInputBox__Element-sc-1o57gb-1 hKTCrY"
+      >
+        <div
+          class="IncrementInputBox__InputWrapper-sc-1o57gb-2 ieBGjh"
+        >
+          <input
+            class="inputBox IncrementInputBox__InputBox-sc-1o57gb-3 bLAQDR"
+            id="inputBox"
+            readonly=""
+            type="number"
+            value="1"
+          />
+        </div>
+      </div>
+      <div
+        class="IncrementInputBox__Element-sc-1o57gb-1 hKTCrY"
+      >
+        <div
+          class="IncrementInputBox__IncButton-sc-1o57gb-4 bLReEN"
+        >
+          <button
+            class="AdjustProductQtyBox__ButtonStyled-sc-15n8obw-1 cBQqxu"
+            data-testid="adjust-product-qty-box-increase-btn"
+            type="default"
+          >
+            +
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

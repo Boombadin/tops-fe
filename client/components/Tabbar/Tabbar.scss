@@ -1,0 +1,90 @@
+.navigation-bar {
+  border-bottom: 3px solid $red;
+  width: 100%;
+  margin-bottom: 0 !important;
+  height: 45px;
+  overflow: hidden;
+  padding-left: 22px;
+  display: flex;
+
+  @include tablet {
+    display: none !important;
+  }
+  
+  .navigation-item {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .navigation-link {
+    color: $black !important;
+    font-weight: 300;
+    line-height: 47px;
+    padding: 0 25px;
+    height: 45px;
+    width: 100%;
+    font-size: 14.5px;
+    white-space: nowrap;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+    span {
+      z-index: 1;
+      position: relative;
+    }
+  }
+
+  .navigation-link.active:before {
+    content: '';
+    position: absolute;
+    right: 100%;
+    top: 0;
+    bottom: 0;
+    width: 40px;
+    margin-right: -30px;
+    background-color: $red;
+    transform: skewX(-30deg);
+    border-top-left-radius: 10px;
+    z-index: -1;
+  }
+
+  .navigation-link.active:after {
+    content: '';
+    position: absolute;
+    left: 100%;
+    top: 0;
+    bottom: 0;
+    width: 40px;
+    margin-left: -30px;
+    background-color: $red;
+    transform: skewX(30deg);
+    border-top-right-radius: 10px;
+    z-index: -1;
+  }
+
+  .navigation-link > img,
+  .navigation-link > svg {
+    margin-right: 10px;
+    margin-bottom: 3px;
+  }
+
+  .navigation-link.active {
+    color: $white !important;
+    background-color: $red;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+    z-index: 1;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .pagination-wrapper {
+    margin-top: 0 !important;
+    border-radius: 0 0 4px 4px !important;
+  }
+}

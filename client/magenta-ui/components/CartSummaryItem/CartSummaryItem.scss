@@ -1,0 +1,7 @@
+@import '../../styles/all';
+
+.mt-cart-summary-item {
+  &.ui.grid>.column:not(.row) {
+    width: auto !important;
+  }
+}

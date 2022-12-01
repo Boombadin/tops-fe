@@ -1,0 +1,30 @@
+@import "../../styles/all";
+
+  .mt-promo-banner-wrap {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    background-color: $beige;
+    .mt-promo-banner {
+      @include e('image') {
+        object-position: top center;
+        object-fit: contain;
+      }
+      @include e('caption') {
+        margin-top: 0;
+        a {
+          color: $grey-dark;
+          &:hover {
+            color: darken( $grey-dark, 10%);
+          }
+        }
+      }
+    }
+  }
+
+@media screen and (max-width: $breakpoint-large) {
+  .mt-promo-banner-wrap {
+    margin: 0;
+  }
+}
+
